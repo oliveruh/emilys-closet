@@ -23,13 +23,11 @@ body {
 ::-webkit-scrollbar-track {
     background: rgba(245, 229, 195, 0.5);
     border: none;
-    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgba(139, 69, 19, 0.6);
     border: none;
-    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

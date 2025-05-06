@@ -44,7 +44,6 @@
     transition: transform 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out, box-shadow 0.2s ease-out;
     border: 2px solid #cd853f;
     background-color: #faf0e6;
-    border-radius: 6px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -81,7 +80,6 @@
     image-rendering: pixelated;
     margin-bottom: 4px;
     flex-shrink: 0;
-    border-radius: 3px;
 }
 
 .grid-item .favorite-button {
@@ -150,7 +148,6 @@ select.subtle-input {
     position: relative;
     padding: 14px 18px;
     border: 3px solid #773c21;
-    border-radius: 6px 6px 0 0;
     margin-right: -3px;
     margin-bottom: -3px;
     font-family: 'Press Start 2P', cursive;
@@ -194,7 +191,6 @@ select.subtle-input {
         padding: 14px 12px;
         margin-right: 0;
         margin-bottom: 2px;
-        border-radius: 6px;
         transform: translateY(0);
         white-space: normal;
         text-align: left;
@@ -264,7 +260,6 @@ select.subtle-input {
     font-weight: bold;
     cursor: pointer;
     padding: 3px 6px;
-    border-radius: 4px;
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
     line-height: 1;
 }
@@ -283,7 +278,6 @@ select.subtle-input {
     background-color: #fdf5e6;
     border: 1px solid #cd853f;
     border-left: 5px solid #a0522d;
-    border-radius: 4px;
     padding: 10px 14px;
     margin-top: 8px;
     text-align: left;
@@ -339,7 +333,6 @@ select.subtle-input {
     background-color: #faf0e6;
     padding: 5px 5px;
     border: 1px solid #cd853f;
-    border-radius: 5px;
     font-size: 0.9rem;
     transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
