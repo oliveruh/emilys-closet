@@ -1,0 +1,49 @@
+/* --- Main Game Card Container --- */
+.game-card {
+    background-color: #f5f5dc;
+    border: 4px solid #8b4513;
+    box-shadow: 0 0 0 4px #4a2a12, 6px 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+/* --- Panels within the Card --- */
+.panel {
+    background-color: #fff8dc;
+    border: 2px solid #a0522d;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+/* --- Grid Containers --- */
+.grid-container {
+    max-height: 240px;
+    overflow-y: auto;
+    border: 1px solid #cd853f;
+    padding: 12px;
+    margin-top: 8px;
+    background-color: rgba(245, 245, 220, 0.5);
+    border-radius: 6px;
+}
+
+#clothing-grid-container.grid-container {
+    max-height: 165px;
+}
+
+/* --- Filter/Sort Controls Layout --- */
+.filter-sort-controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.filter-sort-controls>div {
+    flex-grow: 1;
+    min-width: 130px;
+}

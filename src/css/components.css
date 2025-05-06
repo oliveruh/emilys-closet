@@ -1,0 +1,402 @@
+/* --- Grid Items (Items & Clothing) --- */
+.wiki-link-grid-clothing svg {
+    position: absolute;
+    fill: #cd853f;
+    height: 1.20rem;
+    top: 1.85rem;
+    right: .35rem;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 35%;
+    line-height: 1;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: scale(0.95);
+}
+
+.wiki-link-grid-clothing svg:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.wiki-link-grid-item svg {
+    position: absolute;
+    fill: #cd853f;
+    height: 1.05rem;
+    top: .5rem;
+    right: .11rem;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+    line-height: 1;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: scale(0.95);
+}
+
+.wiki-link-grid-item svg:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.grid-item {
+    cursor: pointer;
+    transition: transform 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    border: 2px solid #cd853f;
+    background-color: #faf0e6;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 10px 5px;
+    min-height: 85px;
+    min-width: 80px;
+}
+
+.grid-item:hover {
+    transform: translateY(-3px) scale(1.04);
+    background-color: #fdf5e6;
+    border-color: #8b4513;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.grid-item.selected {
+    border-color: #228b22;
+    background-color: #f0fff0;
+    transform: scale(1.02);
+    box-shadow: 0 0 0 3px rgba(34, 139, 34, 0.5);
+}
+
+.grid-item img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    background-color: rgba(255, 250, 205, 0.6);
+    border: 1px solid #eee8aa;
+    image-rendering: pixelated;
+    image-rendering: -moz-pixelated;
+    image-rendering: pixelated;
+    margin-bottom: 4px;
+    flex-shrink: 0;
+    border-radius: 3px;
+}
+
+.grid-item .favorite-button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    line-height: 1;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: scale(0.9);
+}
+
+.grid-item:hover .favorite-button,
+.grid-item .favorite-button.is-favorite {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* --- Inputs & Selects --- */
+input[type="text"].subtle-input,
+select.subtle-input {
+    border: none;
+    border-bottom: 2px solid #cd853f;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 8px 4px;
+    color: #6b3e23;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    font-size: 0.9rem;
+    box-shadow: none;
+    margin-top: 0;
+}
+
+input[type="text"].subtle-input:focus,
+select.subtle-input:focus {
+    outline: none;
+    border-bottom-color: #8b4513;
+    box-shadow: 0 1px 0 0 #8b4513;
+}
+
+input.subtle-input::placeholder {
+    color: #a0522d;
+    opacity: 0.7;
+}
+
+select.subtle-input {
+    padding-right: 24px;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%238b4513%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    background-size: 10px auto;
+}
+
+/* --- Tab Buttons --- */
+.tab-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    position: relative;
+    padding: 14px 18px;
+    border: 3px solid #773c21;
+    border-radius: 6px 6px 0 0;
+    margin-right: -3px;
+    margin-bottom: -3px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.65rem;
+    color: #f5f5dc;
+    font-weight: normal;
+    background-color: #cd853f;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    transform: translateY(3px);
+    z-index: 1;
+}
+
+.tab-button svg {
+    height: 2em;
+    fill: currentColor;
+}
+
+.tab-button.active {
+    background-color: #fff8dc;
+    color: #6b3e23;
+    transform: translateY(0);
+}
+
+.tab-button:not(.active):hover {
+    background-color: #a0522d;
+    color: #fff;
+    transform: translateY(1px);
+    z-index: 2;
+}
+
+/* --- Responsive Tab Adjustments --- */
+@media (max-width: 639.98px) {
+    .mb-0.flex.flex-wrap {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .tab-button {
+        font-size: 0.7rem;
+        padding: 14px 12px;
+        margin-right: 0;
+        margin-bottom: 2px;
+        border-radius: 6px;
+        transform: translateY(0);
+        white-space: normal;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .tab-button.active {
+        border-bottom-color: #773c21;
+    }
+
+    .tab-button:not(.active):hover {
+        transform: translateY(0);
+    }
+
+    .tab-button svg {
+        height: 1.5em;
+    }
+}
+
+/* --- Favorite Button (Star) --- */
+.favorite-button {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #cd853f;
+    transition: color 0.2s ease, transform 0.15s ease;
+    padding: 0;
+    line-height: 1;
+}
+
+.favorite-button:hover {
+    transform: scale(1.15);
+    color: #a0522d;
+}
+
+.favorite-button.is-favorite {
+    color: #ffb700;
+    transform: scale(1.1);
+}
+
+.favorite-button.is-favorite:hover {
+    color: #ffa500;
+}
+
+/* --- Wiki Link Button --- */
+.wiki-link-button svg {
+    height: 1.2rem;
+    fill: #CD853F;
+    opacity: 0.8;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: scale(0.95);
+}
+
+.wiki-link-button svg:hover {
+    fill: #CD853F;
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* --- Remove Favorite Button --- */
+.remove-favorite-button {
+    background: none;
+    border: none;
+    color: #dc3545;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    line-height: 1;
+}
+
+.remove-favorite-button:hover {
+    background-color: #dc3545;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* --- Info Boxes (Dyeable, Description, Notes) --- */
+.info-box {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #4a2a12;
+    background-color: #fdf5e6;
+    border: 1px solid #cd853f;
+    border-left: 5px solid #a0522d;
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin-top: 8px;
+    text-align: left;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-box strong {
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.info-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.info-dyeable-yes {
+    border: 1px solid #228b22;
+    border-left: 5px solid #228b22;
+    color: #228b22;
+}
+
+/* Icon Colors */
+.dye-icon {
+    margin-top: .5rem;
+    fill: #8b4513;
+}
+
+/* Default grey */
+.dye-icon.dyeable-yes {
+    fill: #228b22;
+}
+
+/* ForestGreen for dyeable */
+.desc-icon {
+    fill: #8b4513;
+}
+
+/* SaddleBrown for description */
+.note-icon {
+    fill: #4682b4;
+}
+
+/* --- Featured Combinations Items --- */
+.featured-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #faf0e6;
+    padding: 5px 5px;
+    border: 1px solid #cd853f;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.featured-item:hover {
+    background-color: #fdf5e6;
+    border-color: #a0522d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-item img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: none;
+    image-rendering: pixelated;
+    image-rendering: -moz-pixelated;
+    image-rendering: pixelated;
+}
+
+.featured-item .arrow {
+    color: #8b4513;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Larger arrow */
+.featured-item .cloth-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 3px;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    image-rendering: -moz-pixelated;
+    image-rendering: pixelated;
+}
+
+.cloth-icon-inline {
+    width: 24px;
+    height: 24px;
+    margin: 0 3px;
+    vertical-align: middle;
+    display: inline-block;
+    image-rendering: pixelated;
+    image-rendering: -moz-pixelated;
+    image-rendering: pixelated;
+}
+
+/* --- Spinner --- */
+.spinner {
+    border: 4px solid rgba(74, 42, 18, 0.2);
+    border-left-color: #4a2a12;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-top: 15px;
+}

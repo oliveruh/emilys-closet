@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Emily's Closet | Stardew Valley Tailoring Tool</title>
+  <meta name="description"
+    content="Emily's Closet is a fan-made tool for Stardew Valley players to preview tailoring combinations, find item + cloth results, and plan their outfits with ease." />
+  <meta name="keywords"
+    content="Stardew Valley, tailoring, Emily's Closet, tailoring guide, sewing machine, clothing combinations, cloth, item, fan-made tool" />
+  <meta name="author" content="oliveruh" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Emily's Closet | Stardew Valley Tailoring Tool" />
+  <meta property="og:description"
+    content="Preview tailoring combinations and find the perfect outfit in Stardew Valley using this cozy, fan-made guide." />
+  <meta property="og:image" content="https://emilys-closet.neocities.org/public/og-image.png" />
+  <meta property="og:url" content="https://emilys-closet.neocities.org" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Emily's Closet | Stardew Valley Tailoring Tool" />
+  <meta name="twitter:description"
+    content="Explore outfit results, find item + cloth combos, and plan your Stardew Valley fashion with Emily's Closet." />
+  <meta name="twitter:image" content="https://emilys-closet.neocities.org/public/og-image.png" />
+
+  <link rel="icon" type="image/x-icon" href="public/favicon/favicon.ico" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&family=Press+Start+2P&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/typography.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/specific_areas.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+
+<body class="flex items-center justify-center p-4 md:p-6">
+
+  <div id="loading-indicator">
+    <span>Loading tailoring data...</span>
+    <div class="spinner"></div>
+  </div>
+
+  <div class="game-card pt-10 p-5 sm:p-6 lg:p-8 w-full hidden">
+
+    <div class="header-container text-center">
+      <img id="website-logo" src="public/website_logo.png" style="max-width: 85%;" alt="Website Logo"
+        onerror="handleImageError(this)">
+    </div>
+
+    <div class="mb-6 panel">
+      <h2>Featured Combinations</h2>
+      <div id="featured-combinations" class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3 mt-2">
+        <p class="empty-state-message col-span-full">Loading featured items...</p>
+      </div>
+    </div>
+
+    <div class="mb-0 flex flex-wrap">
+      <button id="tab-spool-to-result" class="tab-button active" data-mode="spoolToResult">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 7L7 16H9L16 7V5L13 1H3L0 5V7ZM8 14H8.02183L13.4663 7H10.625L8 14ZM10.25 5H13.5L12 3H8.75L10.25 5Z" />
+        </svg>
+        What does this make?
+      </button>
+      <button id="tab-result-to-spool" class="tab-button" data-mode="resultToSpool">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M5 4.5C5 2.567 6.567 1 8.5 1C10.433 1 12 2.567 12 4.5V4.55376C12 5.82905 11.3167 7.00657 10.2094 7.63929L10.0156 7.75005L16 11.1697V15.0001H0V11.1697L9.21712 5.9028C9.70123 5.62617 10 5.11134 10 4.55376V4.5C10 3.67157 9.32843 3 8.5 3C7.67157 3 7 3.67157 7 4.5V5H5V4.5ZM8 8.9018L2 12.3304V13.0001H14V12.3304L8 8.9018Z" />
+        </svg>
+        How do I make this?
+      </button>
+      <button id="tab-favorites" class="tab-button" data-mode="favorites">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="m12 17.27l4.15 2.51c.76.46 1.68-.21 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.19.86.73 1.54 1.49 1.08L12 17.27z" />
+        </svg>
+        Favorites
+      </button>
+    </div>
+
+    <div class="panel p-4 pt-6">
+      <div id="main-content-area">
+
+        <div id="tailoring-simulator-content">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+
+            <div id="right-column" class="lg:col-span-1 flex flex-col gap-6 lg:order-3">
+              <div id="right-col-mode1">
+                <div id="spool-grid-panel" class="flex-grow flex flex-col">
+                  <label for="spool-search-bar" class="filter-sort-label">Search Items:</label>
+                  <input type="text" id="spool-search-bar" placeholder="E.g., Wool, Diamond..."
+                    class="subtle-input mb-3">
+                  <div id="spool-item-grid-container" class="grid-container w-full flex-grow">
+                    <div id="spool-item-grid"
+                      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                      <p class="empty-state-message col-span-full">Loading items...</p>
+                    </div>
+                  </div>
+                  <p class="italic-note">* Click an item image to see what it makes. 
+                    </br>* The ⓘ symbol will redirect you to the item's wiki page.
+                  </p>
+                </div>
+              </div>
+              <div id="right-col-mode2" class="hidden">
+                <div id="input-clothing-item" class="flex-grow flex flex-col">
+                  <label for="clothing-search-bar" class="filter-sort-label">Search Desired Clothing:</label>
+                  <input type="text" id="clothing-search-bar" placeholder="E.g., Sailor Shirt..."
+                    class="subtle-input mb-2">
+                  <div class="filter-sort-controls mt-2">
+                    <div>
+                      <label for="clothing-filter-type" class="filter-sort-label">Filter by Type:</label>
+                      <select id="clothing-filter-type" class="subtle-input">
+                        <option value="all">All Types</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label for="clothing-sort-order" class="filter-sort-label">Sort:</label>
+                      <select id="clothing-sort-order" class="subtle-input">
+                        <option value="az">A-Z</option>
+                        <option value="za">Z-A</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="clothing-grid-container" class="grid-container mt-1 flex-grow">
+                    <div id="clothing-item-grid" class="grid grid-cols-3 gap-2">
+                      <p class="empty-state-message col-span-full">Loading clothing...</p>
+                    </div>
+                  </div>
+                  <p class="italic-note">* The ☆ symbol will save a clothing item to your favorites.
+                    </br>* The ⓘ symbol will redirect you to the item's wiki page.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-1 flex items-center justify-center lg:order-2">
+              <div id="result-display"
+                class="panel p-5 shadow-md w-full min-h-[320px] flex flex-col items-center justify-center text-center transition-all duration-300 ease-in-out">
+                <p class="empty-state-message">Select an item to see the result or requirements.</p>
+              </div>
+            </div>
+
+            <div id="left-column" class="lg:col-span-1 flex flex-col gap-6 lg:order-1">
+              <div id="left-col-mode1">
+                <div
+                  class="flex flex-col items-center text-center p-4 bg-amber-100/60 border border-amber-300 rounded-md h-full justify-center min-h-[130px] shadow-sm">
+                  <img src="assets/Cloth.png" alt="Cloth Icon" class="w-14 h-14 mb-2"
+                    style="image-rendering: pixelated;" onerror="handleImageError(this)">
+                  <span class="font-semibold text-[#8b4513] text-lg">Cloth</span>
+                  <span class="text-sm text-gray-600">(Required Base Item)</span>
+                </div>
+                <div class="text-center text-4xl font-semibold text-gray-400 my-3">+</div>
+                <div id="selected-spool-display">
+                  <span class="placeholder-text">Select item from right grid</span>
+                </div>
+              </div>
+              <div id="left-col-mode2" class="hidden">
+                <div id="required-spool-display-panel" class="panel p-4 flex-grow flex flex-col">
+                  <label>Required Item(s)</label>
+                  <p class="italic-note">Use <img src="assets/Cloth.png" alt="Cloth" title="Cloth"
+                      class="cloth-icon-inline" style="image-rendering: pixelated;" onerror="handleImageError(this)"
+                      data-original-src="assets/Cloth.png"> + <span class="font-semibold">any one</span> of these:</p>
+                  <div class="flex-grow overflow-hidden">
+                    <ul id="required-spool-list" class="h-full">
+                      <li class="empty-state-message">Select desired clothing first...</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="favorites-content" class="hidden">
+          <h2>My Favorites ★</h2>
+          <div id="favorites-panel" class="panel p-4 mt-4">
+            <p class="empty-state-message">No favorites saved yet. Click the star (☆) on an item to save it!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-center mt-10 text-[.65rem] pt-4 footer-text border-t border-[#a0522d]/50">
+      <p><b>Original idea from my beloved wife <span class="wife-signature">RalyQueen</span>.</b> Data scrapped from the
+        <a href="https://stardewvalleywiki.com/" target="_blank" title="Stardew Valley Wiki">STARDEW VALLEY WIKI</a>.
+      </p>
+      <p>This is a fan-made website and is not affiliated with ConcernedApe in any way.</p>
+    </div>
+
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,4155 @@
+{
+  "cloth_001": {
+    "id": "cloth_001",
+    "name": "Classic Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt000.png",
+    "description": "A farming classic.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_001"
+    ]
+  },
+  "cloth_002": {
+    "id": "cloth_002",
+    "name": "Shirt (v18)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt001.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_002"
+    ]
+  },
+  "cloth_003": {
+    "id": "cloth_003",
+    "name": "Mint Blouse",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt002.png",
+    "description": "A cute, light green blouse.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_003"
+    ]
+  },
+  "cloth_004": {
+    "id": "cloth_004",
+    "name": "Dark Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt003.png",
+    "description": "A dark colored shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_004"
+    ]
+  },
+  "cloth_005": {
+    "id": "cloth_005",
+    "name": "Skull Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt004.png",
+    "description": "A shirt with a menacing skull printed on it.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation. Can be dropped by Haunted Skulls .",
+    "requiredSpoolIds": [
+      "spool_005"
+    ]
+  },
+  "cloth_006": {
+    "id": "cloth_006",
+    "name": "Light Blue Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt005.png",
+    "description": "A light blue shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_006"
+    ]
+  },
+  "cloth_007": {
+    "id": "cloth_007",
+    "name": "Tan Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt006.png",
+    "description": "A tan shirt with a white stripe going through the middle of it.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_007"
+    ]
+  },
+  "cloth_008": {
+    "id": "cloth_008",
+    "name": "Green Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt007.png",
+    "description": "A slightly less popular farming classic.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_008"
+    ]
+  },
+  "cloth_009": {
+    "id": "cloth_009",
+    "name": "\"Good Grief\" Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt008.png",
+    "description": "A good ol' shirt...",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_009"
+    ]
+  },
+  "cloth_010": {
+    "id": "cloth_010",
+    "name": "Aquamarine Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt009.png",
+    "description": "An aquamarine shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_010"
+    ]
+  },
+  "cloth_011": {
+    "id": "cloth_011",
+    "name": "Suit Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt010.png",
+    "description": "A formal top for fancy events and celebrations.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_011"
+    ]
+  },
+  "cloth_012": {
+    "id": "cloth_012",
+    "name": "Green Belted Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt011.png",
+    "description": "A green, belted shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_012"
+    ]
+  },
+  "cloth_013": {
+    "id": "cloth_013",
+    "name": "Lime Green Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt012.png",
+    "description": "A lime green shirt with white stripes.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_013"
+    ]
+  },
+  "cloth_014": {
+    "id": "cloth_014",
+    "name": "Red Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt013.png",
+    "description": "A red shirt with white stripes.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_014"
+    ]
+  },
+  "cloth_015": {
+    "id": "cloth_015",
+    "name": "Skeleton Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt014.png",
+    "description": "A shirt with a skeletal rib cage printed on it.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation. Can be dropped by Haunted Skulls .",
+    "requiredSpoolIds": [
+      "spool_015",
+      "spool_016",
+      "spool_017",
+      "spool_018",
+      "spool_019",
+      "spool_020",
+      "spool_021",
+      "spool_022",
+      "spool_023",
+      "spool_024",
+      "spool_025",
+      "spool_026",
+      "spool_027",
+      "spool_028",
+      "spool_029"
+    ]
+  },
+  "cloth_016": {
+    "id": "cloth_016",
+    "name": "Orange Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt015.png",
+    "description": "An orange shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_030"
+    ]
+  },
+  "cloth_017": {
+    "id": "cloth_017",
+    "name": "Night Sky Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt016.png",
+    "description": "A shirt that reminds you of the night sky.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_031"
+    ]
+  },
+  "cloth_018": {
+    "id": "cloth_018",
+    "name": "Mayoral Suspenders",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt017.png",
+    "description": "A pair of suspenders that looks awfully familiar...",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_032"
+    ]
+  },
+  "cloth_019": {
+    "id": "cloth_019",
+    "name": "Brown Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt018.png",
+    "description": "A nice, sturdy jacket made of brown material.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_033"
+    ]
+  },
+  "cloth_020": {
+    "id": "cloth_020",
+    "name": "Sailor Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt019.png",
+    "description": "Reminds you of the open sea.",
+    "dyeable": false,
+    "notes": "Can only be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_021": {
+    "id": "cloth_021",
+    "name": "Green Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt020.png",
+    "description": "A neat green vest over a shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_034"
+    ]
+  },
+  "cloth_022": {
+    "id": "cloth_022",
+    "name": "Yellow and Green Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt021.png",
+    "description": "A yellow shirt with a green stripe.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_035"
+    ]
+  },
+  "cloth_023": {
+    "id": "cloth_023",
+    "name": "Shirt (v1)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt022.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_024": {
+    "id": "cloth_024",
+    "name": "Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt023.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_025": {
+    "id": "cloth_025",
+    "name": "Shirt (v3)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt024.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_036"
+    ]
+  },
+  "cloth_026": {
+    "id": "cloth_026",
+    "name": "Shirt (v19)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt025.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_037"
+    ]
+  },
+  "cloth_027": {
+    "id": "cloth_027",
+    "name": "Light Blue Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt026.png",
+    "description": "A light blue shirt with a white stripe.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_038"
+    ]
+  },
+  "cloth_028": {
+    "id": "cloth_028",
+    "name": "Pink Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt027.png",
+    "description": "A pink shirt with stripes.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_039"
+    ]
+  },
+  "cloth_029": {
+    "id": "cloth_029",
+    "name": "Heart Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt028.png",
+    "description": "Wear your heart on your sleeves with this extra soft garment.",
+    "dyeable": false,
+    "notes": "Can also be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_030": {
+    "id": "cloth_030",
+    "name": "Work Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt029.png",
+    "description": "For long days in the fields.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_040"
+    ]
+  },
+  "cloth_031": {
+    "id": "cloth_031",
+    "name": "Store Owner's Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt030.png",
+    "description": "A jacket that looks like it'd be worn by a small town merchant.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_041"
+    ]
+  },
+  "cloth_032": {
+    "id": "cloth_032",
+    "name": "Shirt (v20)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt031.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_042"
+    ]
+  },
+  "cloth_033": {
+    "id": "cloth_033",
+    "name": "Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt032.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_043"
+    ]
+  },
+  "cloth_034": {
+    "id": "cloth_034",
+    "name": "Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt033.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_044"
+    ]
+  },
+  "cloth_035": {
+    "id": "cloth_035",
+    "name": "Green Tunic",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt034.png",
+    "description": "A shirt fit for an adventurer.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_045"
+    ]
+  },
+  "cloth_036": {
+    "id": "cloth_036",
+    "name": "Fancy Red Blouse",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt035.png",
+    "description": "A bright red blouse adorned with shiny yellow buttons.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_046"
+    ]
+  },
+  "cloth_037": {
+    "id": "cloth_037",
+    "name": "Shirt (v3)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt036.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_047"
+    ]
+  },
+  "cloth_038": {
+    "id": "cloth_038",
+    "name": "Shirt (v4)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt037.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_048"
+    ]
+  },
+  "cloth_039": {
+    "id": "cloth_039",
+    "name": "Plain Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt038.png",
+    "description": "A simple shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_049"
+    ]
+  },
+  "cloth_040": {
+    "id": "cloth_040",
+    "name": "Retro Rainbow Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt039.png",
+    "description": "A simple shirt with a faded rainbow pattern.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_050"
+    ]
+  },
+  "cloth_041": {
+    "id": "cloth_041",
+    "name": "Shirt (v4)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt040.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_042": {
+    "id": "cloth_042",
+    "name": "Lime Green Tunic",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt042.png",
+    "description": "A bright green tunic with a belt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_051"
+    ]
+  },
+  "cloth_043": {
+    "id": "cloth_043",
+    "name": "Shirt (v5)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt043.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_044": {
+    "id": "cloth_044",
+    "name": "Shirt (v6)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt044.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_052"
+    ]
+  },
+  "cloth_045": {
+    "id": "cloth_045",
+    "name": "Shirt (v7)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt045.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_046": {
+    "id": "cloth_046",
+    "name": "Shirt (v8)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt046.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_047": {
+    "id": "cloth_047",
+    "name": "Shirt (v9)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt047.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_053"
+    ]
+  },
+  "cloth_048": {
+    "id": "cloth_048",
+    "name": "Shirt (v10)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt048.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_054"
+    ]
+  },
+  "cloth_049": {
+    "id": "cloth_049",
+    "name": "Shirt (v11)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt049.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_050": {
+    "id": "cloth_050",
+    "name": "Shirt (v12)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt050.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_055"
+    ]
+  },
+  "cloth_051": {
+    "id": "cloth_051",
+    "name": "Shirt (v13)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt051.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_056"
+    ]
+  },
+  "cloth_052": {
+    "id": "cloth_052",
+    "name": "Shirt (v14)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt052.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_057"
+    ]
+  },
+  "cloth_053": {
+    "id": "cloth_053",
+    "name": "Shirt (v15)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt053.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_058"
+    ]
+  },
+  "cloth_054": {
+    "id": "cloth_054",
+    "name": "Shirt (v16)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt054.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_055": {
+    "id": "cloth_055",
+    "name": "Shirt (v17)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt055.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_059"
+    ]
+  },
+  "cloth_056": {
+    "id": "cloth_056",
+    "name": "Shirt (v5)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt056.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_057": {
+    "id": "cloth_057",
+    "name": "Shirt (v6)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt057.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_060"
+    ]
+  },
+  "cloth_058": {
+    "id": "cloth_058",
+    "name": "Shirt (v7)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt058.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_061"
+    ]
+  },
+  "cloth_059": {
+    "id": "cloth_059",
+    "name": "Shirt (v8)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt059.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_062"
+    ]
+  },
+  "cloth_060": {
+    "id": "cloth_060",
+    "name": "Shirt (v9)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt060.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_061": {
+    "id": "cloth_061",
+    "name": "Shirt (v10)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt061.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_063"
+    ]
+  },
+  "cloth_062": {
+    "id": "cloth_062",
+    "name": "Shirt (v11)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt062.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_064"
+    ]
+  },
+  "cloth_063": {
+    "id": "cloth_063",
+    "name": "Shirt (v12)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt063.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_065"
+    ]
+  },
+  "cloth_064": {
+    "id": "cloth_064",
+    "name": "Shirt (v13)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt064.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_066"
+    ]
+  },
+  "cloth_065": {
+    "id": "cloth_065",
+    "name": "Shirt (v14)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt065.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_067"
+    ]
+  },
+  "cloth_066": {
+    "id": "cloth_066",
+    "name": "Shirt (v15)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt066.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_068"
+    ]
+  },
+  "cloth_067": {
+    "id": "cloth_067",
+    "name": "Shirt (v16)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt067.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_069"
+    ]
+  },
+  "cloth_068": {
+    "id": "cloth_068",
+    "name": "Shirt (v17)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt068.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_070"
+    ]
+  },
+  "cloth_069": {
+    "id": "cloth_069",
+    "name": "Shirt (v18)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt069.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_071"
+    ]
+  },
+  "cloth_070": {
+    "id": "cloth_070",
+    "name": "Shirt (v19)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt070.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_072"
+    ]
+  },
+  "cloth_071": {
+    "id": "cloth_071",
+    "name": "White Overalls Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt071.png",
+    "description": "Classic overalls with a white shirt and belt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_073"
+    ]
+  },
+  "cloth_072": {
+    "id": "cloth_072",
+    "name": "Shirt (v20)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt072.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_074"
+    ]
+  },
+  "cloth_073": {
+    "id": "cloth_073",
+    "name": "Shirt (v21)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt073.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_075"
+    ]
+  },
+  "cloth_074": {
+    "id": "cloth_074",
+    "name": "Shirt (v22)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt074.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_076"
+    ]
+  },
+  "cloth_075": {
+    "id": "cloth_075",
+    "name": "Shirt (v23)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt075.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_077"
+    ]
+  },
+  "cloth_076": {
+    "id": "cloth_076",
+    "name": "Shirt (v24)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt076.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_077": {
+    "id": "cloth_077",
+    "name": "Shirt (v25)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt077.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_078"
+    ]
+  },
+  "cloth_078": {
+    "id": "cloth_078",
+    "name": "Shirt (v26)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt078.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_079"
+    ]
+  },
+  "cloth_079": {
+    "id": "cloth_079",
+    "name": "Shirt (v27)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt079.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_080"
+    ]
+  },
+  "cloth_080": {
+    "id": "cloth_080",
+    "name": "Shirt (v28)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt080.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_081": {
+    "id": "cloth_081",
+    "name": "Shirt (v29)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt081.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_081"
+    ]
+  },
+  "cloth_082": {
+    "id": "cloth_082",
+    "name": "Shirt (v30)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt082.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_083": {
+    "id": "cloth_083",
+    "name": "Shirt (v31)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt083.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_082"
+    ]
+  },
+  "cloth_084": {
+    "id": "cloth_084",
+    "name": "Shirt (v32)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt084.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_085": {
+    "id": "cloth_085",
+    "name": "Shirt (v33)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt085.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_083"
+    ]
+  },
+  "cloth_086": {
+    "id": "cloth_086",
+    "name": "Shirt (v34)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt086.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_084"
+    ]
+  },
+  "cloth_087": {
+    "id": "cloth_087",
+    "name": "Neat Bow Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt087.png",
+    "description": "A neat button down shirt with a prominent bow tie.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_088": {
+    "id": "cloth_088",
+    "name": "Shirt (v35)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt088.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_085"
+    ]
+  },
+  "cloth_089": {
+    "id": "cloth_089",
+    "name": "Shirt (v36)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt089.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_086"
+    ]
+  },
+  "cloth_090": {
+    "id": "cloth_090",
+    "name": "Shirt (v37)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt090.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_091": {
+    "id": "cloth_091",
+    "name": "Shirt (v38)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt091.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_087"
+    ]
+  },
+  "cloth_092": {
+    "id": "cloth_092",
+    "name": "Shirt (v39)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt092.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_088"
+    ]
+  },
+  "cloth_093": {
+    "id": "cloth_093",
+    "name": "Shirt (v40)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt093.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_089"
+    ]
+  },
+  "cloth_094": {
+    "id": "cloth_094",
+    "name": "Shirt (v41)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt094.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_090"
+    ]
+  },
+  "cloth_095": {
+    "id": "cloth_095",
+    "name": "Shirt (v42)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt095.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_091"
+    ]
+  },
+  "cloth_096": {
+    "id": "cloth_096",
+    "name": "Shirt (v43)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt096.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_092"
+    ]
+  },
+  "cloth_097": {
+    "id": "cloth_097",
+    "name": "Shirt (v44)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt097.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_093"
+    ]
+  },
+  "cloth_098": {
+    "id": "cloth_098",
+    "name": "Shirt (v45)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt098.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_094"
+    ]
+  },
+  "cloth_099": {
+    "id": "cloth_099",
+    "name": "Shirt (v46)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt099.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_095"
+    ]
+  },
+  "cloth_100": {
+    "id": "cloth_100",
+    "name": "Shirt (v47)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt100.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_096"
+    ]
+  },
+  "cloth_101": {
+    "id": "cloth_101",
+    "name": "Shirt (v48)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt101.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_097"
+    ]
+  },
+  "cloth_102": {
+    "id": "cloth_102",
+    "name": "Shirt (v49)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt102.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_098"
+    ]
+  },
+  "cloth_103": {
+    "id": "cloth_103",
+    "name": "Shirt (v50)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt103.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_099"
+    ]
+  },
+  "cloth_104": {
+    "id": "cloth_104",
+    "name": "Shirt (v51)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt104.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_100"
+    ]
+  },
+  "cloth_105": {
+    "id": "cloth_105",
+    "name": "Shirt (v52)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt105.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_101"
+    ]
+  },
+  "cloth_106": {
+    "id": "cloth_106",
+    "name": "Shirt (v53)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt106.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_102"
+    ]
+  },
+  "cloth_107": {
+    "id": "cloth_107",
+    "name": "Shirt (v54)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt107.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_103"
+    ]
+  },
+  "cloth_108": {
+    "id": "cloth_108",
+    "name": "Shirt (v55)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt108.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_109": {
+    "id": "cloth_109",
+    "name": "Shirt (v56)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt109.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_110": {
+    "id": "cloth_110",
+    "name": "Shirt (v57)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt110.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": []
+  },
+  "cloth_111": {
+    "id": "cloth_111",
+    "name": "Shirt (v58)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt111.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_104"
+    ]
+  },
+  "cloth_112": {
+    "id": "cloth_112",
+    "name": "Shirt (v59)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt112.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_105"
+    ]
+  },
+  "cloth_113": {
+    "id": "cloth_113",
+    "name": "Shirt (v60)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt113.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_106"
+    ]
+  },
+  "cloth_114": {
+    "id": "cloth_114",
+    "name": "Shirt (v61)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt114.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_107"
+    ]
+  },
+  "cloth_115": {
+    "id": "cloth_115",
+    "name": "Shirt (v62)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt115.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_108"
+    ]
+  },
+  "cloth_116": {
+    "id": "cloth_116",
+    "name": "Shirt (v63)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt116.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_109"
+    ]
+  },
+  "cloth_117": {
+    "id": "cloth_117",
+    "name": "Shirt (v64)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt117.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_110"
+    ]
+  },
+  "cloth_118": {
+    "id": "cloth_118",
+    "name": "Shirt (v65)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt118.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Randomly sold at the Oasis",
+    "requiredSpoolIds": []
+  },
+  "cloth_119": {
+    "id": "cloth_119",
+    "name": "Shirt (v66)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt119.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Randomly sold at the Oasis",
+    "requiredSpoolIds": []
+  },
+  "cloth_120": {
+    "id": "cloth_120",
+    "name": "Shirt (v67)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt120.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Randomly sold at the Oasis",
+    "requiredSpoolIds": []
+  },
+  "cloth_121": {
+    "id": "cloth_121",
+    "name": "Shirt (v68)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt121.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "Randomly sold at the Oasis",
+    "requiredSpoolIds": []
+  },
+  "cloth_122": {
+    "id": "cloth_122",
+    "name": "Shirt (v69)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt122.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_111"
+    ]
+  },
+  "cloth_123": {
+    "id": "cloth_123",
+    "name": "Shirt And Tie",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt123.png",
+    "description": "A white dress shirt and a tie.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_112"
+    ]
+  },
+  "cloth_124": {
+    "id": "cloth_124",
+    "name": "Shirt (v70)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt124.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_113"
+    ]
+  },
+  "cloth_125": {
+    "id": "cloth_125",
+    "name": "Shirt (v71)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt125.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_114"
+    ]
+  },
+  "cloth_126": {
+    "id": "cloth_126",
+    "name": "Shirt (v72)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt126.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_115"
+    ]
+  },
+  "cloth_127": {
+    "id": "cloth_127",
+    "name": "Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt128.png",
+    "description": "It's a shirt with faint stripes on it.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_116"
+    ]
+  },
+  "cloth_128": {
+    "id": "cloth_128",
+    "name": "Tank Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt129.png",
+    "description": "A sleeveless shirt.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_117",
+      "spool_118",
+      "spool_119"
+    ]
+  },
+  "cloth_129": {
+    "id": "cloth_129",
+    "name": "Cowboy Poncho",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt131.png",
+    "description": "A legendary outfit from the old west.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_120"
+    ]
+  },
+  "cloth_130": {
+    "id": "cloth_130",
+    "name": "Crop Tank Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt132.png",
+    "description": "A sleeveless shirt cut extra short on the bottom.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_121"
+    ]
+  },
+  "cloth_131": {
+    "id": "cloth_131",
+    "name": "Bikini Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt134.png",
+    "description": "A summer staple.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_122"
+    ]
+  },
+  "cloth_132": {
+    "id": "cloth_132",
+    "name": "Wumbus Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt135.png",
+    "description": "A shirt featuring a strange green guy.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_123"
+    ]
+  },
+  "cloth_133": {
+    "id": "cloth_133",
+    "name": "80's Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt136.png",
+    "description": "A gnarly t-shirt that sits off the shoulder.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_124"
+    ]
+  },
+  "cloth_134": {
+    "id": "cloth_134",
+    "name": "Letterman Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt137.png",
+    "description": "A jacket that's oozing with team spirit.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_125"
+    ]
+  },
+  "cloth_135": {
+    "id": "cloth_135",
+    "name": "Black Leather Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt138.png",
+    "description": "A cool jacket made of dark black leather.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_126",
+      "spool_127",
+      "spool_128",
+      "spool_129",
+      "spool_130"
+    ]
+  },
+  "cloth_136": {
+    "id": "cloth_136",
+    "name": "Strapped Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt139.png",
+    "description": "A top with a thin strap.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_131",
+      "spool_132",
+      "spool_133"
+    ]
+  },
+  "cloth_137": {
+    "id": "cloth_137",
+    "name": "Button Down Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt140.png",
+    "description": "A simple, clean shirt.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_134",
+      "spool_135",
+      "spool_136",
+      "spool_137",
+      "spool_138",
+      "spool_139",
+      "spool_140"
+    ]
+  },
+  "cloth_138": {
+    "id": "cloth_138",
+    "name": "Crop Top Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt141.png",
+    "description": "A shirt cut extra short on the bottom.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_141"
+    ]
+  },
+  "cloth_139": {
+    "id": "cloth_139",
+    "name": "Tube Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt142.png",
+    "description": "A strapless top that wraps around the body.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_142",
+      "spool_143"
+    ]
+  },
+  "cloth_140": {
+    "id": "cloth_140",
+    "name": "Tie Dye Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt143.png",
+    "description": "A shirt that was tied up and then dipped into multiple colored dyes.",
+    "dyeable": false,
+    "notes": "Only obtainable as a random cosmetic item",
+    "requiredSpoolIds": []
+  },
+  "cloth_141": {
+    "id": "cloth_141",
+    "name": "Shirt (v73)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt144.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_144"
+    ]
+  },
+  "cloth_142": {
+    "id": "cloth_142",
+    "name": "Shirt (v74)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt145.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_145"
+    ]
+  },
+  "cloth_143": {
+    "id": "cloth_143",
+    "name": "Shirt (v75)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt146.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_146"
+    ]
+  },
+  "cloth_144": {
+    "id": "cloth_144",
+    "name": "Shirt (v76)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt147.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_147"
+    ]
+  },
+  "cloth_145": {
+    "id": "cloth_145",
+    "name": "Steel Breastplate",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt148.png",
+    "description": "Decorative armor made from steel.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_148"
+    ]
+  },
+  "cloth_146": {
+    "id": "cloth_146",
+    "name": "Copper Breastplate",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt149.png",
+    "description": "Decorative armor made from copper.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_149"
+    ]
+  },
+  "cloth_147": {
+    "id": "cloth_147",
+    "name": "Gold Breastplate",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt150.png",
+    "description": "Decorative armor made from solid gold.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_150"
+    ]
+  },
+  "cloth_148": {
+    "id": "cloth_148",
+    "name": "Iridium Breastplate",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt151.png",
+    "description": "Decorative armor made from pure iridium.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_151"
+    ]
+  },
+  "cloth_149": {
+    "id": "cloth_149",
+    "name": "Fake Muscles Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt153.png",
+    "description": "You could hit the gym, or you could just wear this instead.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_152"
+    ]
+  },
+  "cloth_150": {
+    "id": "cloth_150",
+    "name": "Flannel Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt154.png",
+    "description": "A nice thick button down shirt with a cross-hatch pattern. Perfect for cold winters.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_153"
+    ]
+  },
+  "cloth_151": {
+    "id": "cloth_151",
+    "name": "Bomber Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt155.png",
+    "description": "A thick, sturdy jacket worn by fighter pilots long ago.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_154",
+      "spool_155",
+      "spool_156"
+    ]
+  },
+  "cloth_152": {
+    "id": "cloth_152",
+    "name": "Caveman Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt156.png",
+    "description": "A stone-age classic!",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_157",
+      "spool_158"
+    ]
+  },
+  "cloth_153": {
+    "id": "cloth_153",
+    "name": "Fishing Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt157.png",
+    "description": "Lots of pockets to store your tackle.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_159",
+      "spool_160",
+      "spool_161",
+      "spool_162",
+      "spool_163",
+      "spool_164",
+      "spool_165",
+      "spool_166",
+      "spool_167",
+      "spool_168",
+      "spool_169",
+      "spool_170"
+    ]
+  },
+  "cloth_154": {
+    "id": "cloth_154",
+    "name": "Fish Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt158.png",
+    "description": "A shirt with a fish logo.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_171",
+      "spool_172",
+      "spool_173",
+      "spool_174",
+      "spool_175",
+      "spool_176",
+      "spool_177",
+      "spool_178",
+      "spool_179",
+      "spool_180"
+    ]
+  },
+  "cloth_155": {
+    "id": "cloth_155",
+    "name": "Shirt And Belt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt159.png",
+    "description": "A plain shirt with a brown belt.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_181",
+      "spool_182",
+      "spool_183",
+      "spool_184",
+      "spool_185",
+      "spool_186",
+      "spool_187",
+      "spool_188",
+      "spool_189",
+      "spool_190",
+      "spool_191"
+    ]
+  },
+  "cloth_156": {
+    "id": "cloth_156",
+    "name": "Gray Hoodie",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt160.png",
+    "description": "A sporty gray pullover with a hood.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_192"
+    ]
+  },
+  "cloth_157": {
+    "id": "cloth_157",
+    "name": "Blue Hoodie",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt161.png",
+    "description": "A sporty blue pullover with a hood.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_193"
+    ]
+  },
+  "cloth_158": {
+    "id": "cloth_158",
+    "name": "Red Hoodie",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt162.png",
+    "description": "A sporty red pullover with a hood.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_194"
+    ]
+  },
+  "cloth_159": {
+    "id": "cloth_159",
+    "name": "Denim Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt163.png",
+    "description": "A rugged jacket made from denim.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_195"
+    ]
+  },
+  "cloth_160": {
+    "id": "cloth_160",
+    "name": "Track Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt164.png",
+    "description": "A light jacket made from elastic material.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_196"
+    ]
+  },
+  "cloth_161": {
+    "id": "cloth_161",
+    "name": "White Gi",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt165.png",
+    "description": "A loose garment typically worn by martial artists.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_197"
+    ]
+  },
+  "cloth_162": {
+    "id": "cloth_162",
+    "name": "Orange Gi",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt166.png",
+    "description": "A loose garment typically worn by martial artists.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_198"
+    ]
+  },
+  "cloth_163": {
+    "id": "cloth_163",
+    "name": "Gray Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt167.png",
+    "description": "A gray vest over a white shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_199"
+    ]
+  },
+  "cloth_164": {
+    "id": "cloth_164",
+    "name": "Kelp Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt168.png",
+    "description": "It looks like you just washed up on the beach. Smells like it, too.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_200"
+    ]
+  },
+  "cloth_165": {
+    "id": "cloth_165",
+    "name": "Studded Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt169.png",
+    "description": "A black vest studded with metal spikes.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_201"
+    ]
+  },
+  "cloth_166": {
+    "id": "cloth_166",
+    "name": "Gaudy Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt170.png",
+    "description": "It's a therapeutic blue...",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_202"
+    ]
+  },
+  "cloth_167": {
+    "id": "cloth_167",
+    "name": "Oasis Gown",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt171.png",
+    "description": "The jewel of the desert.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_203"
+    ]
+  },
+  "cloth_168": {
+    "id": "cloth_168",
+    "name": "Blacksmith Apron",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt172.png",
+    "description": "Handed down from one generation to the next.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_204"
+    ]
+  },
+  "cloth_169": {
+    "id": "cloth_169",
+    "name": "Neat Bow Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt173.png",
+    "description": "A neat button down shirt with a prominent bow tie.",
+    "dyeable": true,
+    "notes": "Only obtainable as a random cosmetic item",
+    "requiredSpoolIds": []
+  },
+  "cloth_170": {
+    "id": "cloth_170",
+    "name": "High-Waisted Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt174.png",
+    "description": "The high-waisted pants look, with a dyeable bottom.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_205",
+      "spool_206",
+      "spool_207",
+      "spool_208",
+      "spool_209",
+      "spool_210",
+      "spool_211"
+    ]
+  },
+  "cloth_171": {
+    "id": "cloth_171",
+    "name": "High-Waisted Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt175.png",
+    "description": "The high-waisted jeans look, with a dyeable top.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_212",
+      "spool_213",
+      "spool_214"
+    ]
+  },
+  "cloth_172": {
+    "id": "cloth_172",
+    "name": "Basic Pullover",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt176.png",
+    "description": "It's a plain pullover.",
+    "dyeable": true,
+    "notes": "A variant of the male version may be obtained from the Makeover Stall at the Desert Festival",
+    "requiredSpoolIds": [
+      "spool_215",
+      "spool_216"
+    ]
+  },
+  "cloth_173": {
+    "id": "cloth_173",
+    "name": "Turtleneck Sweater",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt178.png",
+    "description": "Keep that neck piping hot.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_217",
+      "spool_218",
+      "spool_219",
+      "spool_220"
+    ]
+  },
+  "cloth_174": {
+    "id": "cloth_174",
+    "name": "Iridium Energy Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt179.png",
+    "description": "Show off your iridium energy.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_221"
+    ]
+  },
+  "cloth_175": {
+    "id": "cloth_175",
+    "name": "Tunnelers Jersey",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt180.png",
+    "description": "It's a jersey for the Zuzu City Tunnelers.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_222"
+    ]
+  },
+  "cloth_176": {
+    "id": "cloth_176",
+    "name": "Shirt (v77)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt181.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_223"
+    ]
+  },
+  "cloth_177": {
+    "id": "cloth_177",
+    "name": "Shirt (v78)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt182.png",
+    "description": "A wearable shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_224"
+    ]
+  },
+  "cloth_178": {
+    "id": "cloth_178",
+    "name": "Gray Suit",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt183.png",
+    "description": "It's a custom-tailored gray suit.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_225"
+    ]
+  },
+  "cloth_179": {
+    "id": "cloth_179",
+    "name": "Red Tuxedo",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt184.png",
+    "description": "An elegant top for formal events.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_226"
+    ]
+  },
+  "cloth_180": {
+    "id": "cloth_180",
+    "name": "Navy Tuxedo",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt185.png",
+    "description": "An elegant top for formal events.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_227"
+    ]
+  },
+  "cloth_181": {
+    "id": "cloth_181",
+    "name": "Holiday Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt186.png",
+    "description": "Celebrate the Feast of the Winter Star.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_228"
+    ]
+  },
+  "cloth_182": {
+    "id": "cloth_182",
+    "name": "Leafy Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt187.png",
+    "description": "Real leaves adorn this garment.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_229"
+    ]
+  },
+  "cloth_183": {
+    "id": "cloth_183",
+    "name": "Goodnight Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt188.png",
+    "description": "A big baggy nightshirt with a detailed moon graphic.",
+    "dyeable": false,
+    "notes": "Can be purchased from Maru at the Desert Festival .",
+    "requiredSpoolIds": [
+      "spool_230"
+    ]
+  },
+  "cloth_184": {
+    "id": "cloth_184",
+    "name": "Green Belted Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt189.png",
+    "description": "A green shirt with a belt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_231"
+    ]
+  },
+  "cloth_185": {
+    "id": "cloth_185",
+    "name": "Happy Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt190.png",
+    "description": "It's the happiest shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_232"
+    ]
+  },
+  "cloth_186": {
+    "id": "cloth_186",
+    "name": "Shirt with Bow",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt191.png",
+    "description": "This shirt comes with a little bow around the neck.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_233"
+    ]
+  },
+  "cloth_187": {
+    "id": "cloth_187",
+    "name": "Jester Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt192.png",
+    "description": "Put your inner clown on display.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_234"
+    ]
+  },
+  "cloth_188": {
+    "id": "cloth_188",
+    "name": "Ocean Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt193.png",
+    "description": "The shirt looks like underwater ripples.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_235"
+    ]
+  },
+  "cloth_189": {
+    "id": "cloth_189",
+    "name": "Dark Striped Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt194a.png",
+    "description": "A dark shirt with colorful stripes.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_236"
+    ]
+  },
+  "cloth_190": {
+    "id": "cloth_190",
+    "name": "Bandana Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt195.png",
+    "description": "A shirt with a bandana to keep your neck soft.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_237"
+    ]
+  },
+  "cloth_191": {
+    "id": "cloth_191",
+    "name": "Backpack Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt196.png",
+    "description": "A plain shirt with a canvas backpack.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_238"
+    ]
+  },
+  "cloth_192": {
+    "id": "cloth_192",
+    "name": "Purple Blouse",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt197.png",
+    "description": "A stunning purple blouse.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_239"
+    ]
+  },
+  "cloth_193": {
+    "id": "cloth_193",
+    "name": "Vintage Polo",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt198.png",
+    "description": "It's faded from age and smells like old closet.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_240"
+    ]
+  },
+  "cloth_194": {
+    "id": "cloth_194",
+    "name": "Toga Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt199.png",
+    "description": "It's an old design, but the airflow is really nice!",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_241"
+    ]
+  },
+  "cloth_195": {
+    "id": "cloth_195",
+    "name": "Star Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt200.png",
+    "description": "The star is supposed to glow in the dark, but it doesn't.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_242"
+    ]
+  },
+  "cloth_196": {
+    "id": "cloth_196",
+    "name": "Classy Top",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt201.png",
+    "description": "It feels like the softest velvet.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_243"
+    ]
+  },
+  "cloth_197": {
+    "id": "cloth_197",
+    "name": "Bandana Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt203.png",
+    "description": "A shirt with a bandana to shield your neck from harm.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_244"
+    ]
+  },
+  "cloth_198": {
+    "id": "cloth_198",
+    "name": "Vacation Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt204.png",
+    "description": "It's a tourist shirt from the Fern Islands.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_245"
+    ]
+  },
+  "cloth_199": {
+    "id": "cloth_199",
+    "name": "Green Thumb Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt205.png",
+    "description": "It comes pre-rubbed with potting soil.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_246"
+    ]
+  },
+  "cloth_200": {
+    "id": "cloth_200",
+    "name": "Bandana Shirt (v3)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt206.png",
+    "description": "A shirt with a bandana to keep your neck soft.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_247"
+    ]
+  },
+  "cloth_201": {
+    "id": "cloth_201",
+    "name": "Slime Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt207.png",
+    "description": "A shirt that looks like a big slime.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_248"
+    ]
+  },
+  "cloth_202": {
+    "id": "cloth_202",
+    "name": "Excavator Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt208.png",
+    "description": "Look sharp while digging for fossils.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_249",
+      "spool_250",
+      "spool_251",
+      "spool_252"
+    ]
+  },
+  "cloth_203": {
+    "id": "cloth_203",
+    "name": "Sports Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt209.png",
+    "description": "Knock it out of the park with this classic look.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_253"
+    ]
+  },
+  "cloth_204": {
+    "id": "cloth_204",
+    "name": "Heart Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt028.png",
+    "description": "Wear your heart on your sleeves with this extra soft garment.",
+    "dyeable": true,
+    "notes": "Non-dyeable version can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_254"
+    ]
+  },
+  "cloth_205": {
+    "id": "cloth_205",
+    "name": "Dark Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt211.png",
+    "description": "A dark denim jacket lined with fleece.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_255"
+    ]
+  },
+  "cloth_206": {
+    "id": "cloth_206",
+    "name": "Sunset Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt212.png",
+    "description": "A shirt inspired by the most evocative time of day.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_256"
+    ]
+  },
+  "cloth_207": {
+    "id": "cloth_207",
+    "name": "Chef Coat",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt213.png",
+    "description": "The traditional uniform of a head chef.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_257"
+    ]
+  },
+  "cloth_208": {
+    "id": "cloth_208",
+    "name": "Shirt O' The Sea",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt214.png",
+    "description": "It smells like the brine of the sea.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_258"
+    ]
+  },
+  "cloth_209": {
+    "id": "cloth_209",
+    "name": "Arcane Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt215.png",
+    "description": "You can feel a certain power from this garment.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_259"
+    ]
+  },
+  "cloth_210": {
+    "id": "cloth_210",
+    "name": "Plain Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt216.png",
+    "description": "Classic overalls with a shirt that can be dyed.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_260"
+    ]
+  },
+  "cloth_211": {
+    "id": "cloth_211",
+    "name": "Sleeveless Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt217.png",
+    "description": "Classic overalls with a sleeveless shirt that can be dyed.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_261"
+    ]
+  },
+  "cloth_212": {
+    "id": "cloth_212",
+    "name": "Cardigan",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt218.png",
+    "description": "A soft button-up cardigan sweater.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_262"
+    ]
+  },
+  "cloth_213": {
+    "id": "cloth_213",
+    "name": "Yoba Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt219.png",
+    "description": "A shirt featuring a prominent 'sign of the vessel'.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_263"
+    ]
+  },
+  "cloth_214": {
+    "id": "cloth_214",
+    "name": "Necklace Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt220.png",
+    "description": "A shirt with a gold necklace.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_264"
+    ]
+  },
+  "cloth_215": {
+    "id": "cloth_215",
+    "name": "Belted Coat",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt221.png",
+    "description": "A velvety black coat with a prominent belt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_265"
+    ]
+  },
+  "cloth_216": {
+    "id": "cloth_216",
+    "name": "Gold Trimmed Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt222.png",
+    "description": "A shirt with a gold trim.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_266",
+      "spool_267",
+      "spool_268",
+      "spool_269"
+    ]
+  },
+  "cloth_217": {
+    "id": "cloth_217",
+    "name": "Prismatic Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt223.png",
+    "description": "It's shimmering with prismatic energy.",
+    "dyeable": false,
+    "notes": "Prismatic (rectangle on front)",
+    "requiredSpoolIds": [
+      "spool_270"
+    ]
+  },
+  "cloth_218": {
+    "id": "cloth_218",
+    "name": "Pendant Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt224.png",
+    "description": "A shirt with a big pendant.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_271"
+    ]
+  },
+  "cloth_219": {
+    "id": "cloth_219",
+    "name": "High Heat Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt225.png",
+    "description": "The shirt almost looks like it's on fire!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_272"
+    ]
+  },
+  "cloth_220": {
+    "id": "cloth_220",
+    "name": "Flames Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt226.png",
+    "description": "Look cool with hot flames.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_273"
+    ]
+  },
+  "cloth_221": {
+    "id": "cloth_221",
+    "name": "Antiquity Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt227.png",
+    "description": "A shirt with an ancient pattern.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_274"
+    ]
+  },
+  "cloth_222": {
+    "id": "cloth_222",
+    "name": "Soft Arrow Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt228.png",
+    "description": "A soft-colored shirt with an upward arrow pattern.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_275"
+    ]
+  },
+  "cloth_223": {
+    "id": "cloth_223",
+    "name": "Doll Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt229.png",
+    "description": "A shirt featuring a strange ancient doll face.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_276"
+    ]
+  },
+  "cloth_224": {
+    "id": "cloth_224",
+    "name": "Jewelry Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt230.png",
+    "description": "A shirt with a simple golden chain.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_277"
+    ]
+  },
+  "cloth_225": {
+    "id": "cloth_225",
+    "name": "Canvas Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt231.png",
+    "description": "A brown jacket with a fleece lining.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_278"
+    ]
+  },
+  "cloth_226": {
+    "id": "cloth_226",
+    "name": "Trash Can Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt232.png",
+    "description": "You're wearing a trash can.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_279",
+      "spool_280",
+      "spool_281",
+      "spool_282",
+      "spool_283"
+    ]
+  },
+  "cloth_227": {
+    "id": "cloth_227",
+    "name": "Rusty Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt233.png",
+    "description": "It's made to look like the shirt is full of rust.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_284"
+    ]
+  },
+  "cloth_228": {
+    "id": "cloth_228",
+    "name": "Circuitboard Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt234.png",
+    "description": "The shirt looks like an electronics circuitboard.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_285"
+    ]
+  },
+  "cloth_229": {
+    "id": "cloth_229",
+    "name": "Fluffy Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt235.png",
+    "description": "It's fuzzy.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_286"
+    ]
+  },
+  "cloth_230": {
+    "id": "cloth_230",
+    "name": "Sauce-Stained Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt236.png",
+    "description": "It's already covered in spaghetti sauce so you don't have to feel guilty about it!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_287"
+    ]
+  },
+  "cloth_231": {
+    "id": "cloth_231",
+    "name": "Brown Suit",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt237.png",
+    "description": "It's a standard brown business suit.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_288"
+    ]
+  },
+  "cloth_232": {
+    "id": "cloth_232",
+    "name": "Golden Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt238.png",
+    "description": "It's a shiny golden shirt.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_289"
+    ]
+  },
+  "cloth_233": {
+    "id": "cloth_233",
+    "name": "Captain's Uniform",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt239.png",
+    "description": "The classic uniform of a ship's captain.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_290"
+    ]
+  },
+  "cloth_234": {
+    "id": "cloth_234",
+    "name": "Officer Uniform",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt240.png",
+    "description": "The classic uniform for an officer of the law.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_291"
+    ]
+  },
+  "cloth_235": {
+    "id": "cloth_235",
+    "name": "Ranger Uniform",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt241.png",
+    "description": "The classic uniform for a park ranger.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_292"
+    ]
+  },
+  "cloth_236": {
+    "id": "cloth_236",
+    "name": "Blue Long Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt242.png",
+    "description": "A long blue vest above a grey shirt.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_293"
+    ]
+  },
+  "cloth_237": {
+    "id": "cloth_237",
+    "name": "Regal Mantle",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt243.png",
+    "description": "A regal purple garment.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_294"
+    ]
+  },
+  "cloth_238": {
+    "id": "cloth_238",
+    "name": "Relic Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt244.png",
+    "description": "I found a golden relic and I've got the shirt to prove it!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_295"
+    ]
+  },
+  "cloth_239": {
+    "id": "cloth_239",
+    "name": "Bobo Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt245.png",
+    "description": "A pink shirt featuring a strange-looking guy.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_296"
+    ]
+  },
+  "cloth_240": {
+    "id": "cloth_240",
+    "name": "Fried Egg Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt246.png",
+    "description": "Wake up, it's time for eggs.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_297"
+    ]
+  },
+  "cloth_241": {
+    "id": "cloth_241",
+    "name": "Burger Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt247.png",
+    "description": "Wear what you eat!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_298"
+    ]
+  },
+  "cloth_242": {
+    "id": "cloth_242",
+    "name": "Collared Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt248.png",
+    "description": "A shirt with a starchy white collar.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_299",
+      "spool_300"
+    ]
+  },
+  "cloth_243": {
+    "id": "cloth_243",
+    "name": "Toasted Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt249.png",
+    "description": "It looks lightly toasted.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_301"
+    ]
+  },
+  "cloth_244": {
+    "id": "cloth_244",
+    "name": "Carp Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt250.png",
+    "description": "A big carp head adorns the front.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_302"
+    ]
+  },
+  "cloth_245": {
+    "id": "cloth_245",
+    "name": "Red Flannel Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt251.png",
+    "description": "A flannel shirt with a red and blue pattern.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_303"
+    ]
+  },
+  "cloth_246": {
+    "id": "cloth_246",
+    "name": "Tortilla Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt252.png",
+    "description": "A shirt that looks like the surface of a tortilla.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_304"
+    ]
+  },
+  "cloth_247": {
+    "id": "cloth_247",
+    "name": "Warm Flannel Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt253.png",
+    "description": "A flannel shirt with a warm brown and rose color.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_305"
+    ]
+  },
+  "cloth_248": {
+    "id": "cloth_248",
+    "name": "Sugar Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt254.png",
+    "description": "It's bursting with 'sweet energy'.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_306"
+    ]
+  },
+  "cloth_249": {
+    "id": "cloth_249",
+    "name": "Green Flannel Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt255.png",
+    "description": "A flannel shirt with a green and brown pattern.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_307"
+    ]
+  },
+  "cloth_250": {
+    "id": "cloth_250",
+    "name": "Oil Stained Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt256.png",
+    "description": "It's already stained with oil for that greasy look.",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_308"
+    ]
+  },
+  "cloth_251": {
+    "id": "cloth_251",
+    "name": "Morel Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt257.png",
+    "description": "This shirt features the iconic spring mushroom.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_309"
+    ]
+  },
+  "cloth_252": {
+    "id": "cloth_252",
+    "name": "Spring Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt258.png",
+    "description": "It's light, it's fresh, and it features the colors of spring.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_310"
+    ]
+  },
+  "cloth_253": {
+    "id": "cloth_253",
+    "name": "Sailor Shirt (v1)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt259a.png",
+    "description": "Reminds you of the open sea.",
+    "dyeable": true,
+    "notes": "Non-dyeable version can be chosen at character creation",
+    "requiredSpoolIds": [
+      "spool_311",
+      "spool_312",
+      "spool_313",
+      "spool_314",
+      "spool_315",
+      "spool_316",
+      "spool_317",
+      "spool_318",
+      "spool_319",
+      "spool_320",
+      "spool_321",
+      "spool_322",
+      "spool_323",
+      "spool_324",
+      "spool_325",
+      "spool_326"
+    ]
+  },
+  "cloth_254": {
+    "id": "cloth_254",
+    "name": "Rain Coat",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt260.png",
+    "description": "The classic yellow rain coat.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_327",
+      "spool_328",
+      "spool_329"
+    ]
+  },
+  "cloth_255": {
+    "id": "cloth_255",
+    "name": "Sailor Shirt (v2)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt261a.png",
+    "description": "Unlike most sailor shirts, this one has a dyeable body and a white collar.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_330",
+      "spool_331",
+      "spool_332",
+      "spool_333",
+      "spool_334",
+      "spool_335",
+      "spool_336"
+    ]
+  },
+  "cloth_256": {
+    "id": "cloth_256",
+    "name": "Dark Bandana Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt262a.png",
+    "description": "A dark shirt with a colorful bandana.",
+    "dyeable": true,
+    "notes": "Can be dropped by Haunted Skulls",
+    "requiredSpoolIds": [
+      "spool_337",
+      "spool_338"
+    ]
+  },
+  "cloth_257": {
+    "id": "cloth_257",
+    "name": "Dark Highlight Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt263a.png",
+    "description": "A dark shirt with bright highlights.",
+    "dyeable": true,
+    "notes": "Can be dropped by Haunted Skulls",
+    "requiredSpoolIds": [
+      "spool_339",
+      "spool_340",
+      "spool_341"
+    ]
+  },
+  "cloth_258": {
+    "id": "cloth_258",
+    "name": "Omni Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt264.png",
+    "description": "It's speckled with rainbow flecks!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_342"
+    ]
+  },
+  "cloth_259": {
+    "id": "cloth_259",
+    "name": "Bridal Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt265.png",
+    "description": "A beautiful white top, perfect for a bride.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_343"
+    ]
+  },
+  "cloth_260": {
+    "id": "cloth_260",
+    "name": "Brown Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt266.png",
+    "description": "It's hard to see the dirt stains on this one.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_344"
+    ]
+  },
+  "cloth_261": {
+    "id": "cloth_261",
+    "name": "Orange Bow Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt267.png",
+    "description": "A striped orange shirt with a big white bow.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_345"
+    ]
+  },
+  "cloth_262": {
+    "id": "cloth_262",
+    "name": "White Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt268.png",
+    "description": "A nice clean variant of the classic farmer look.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_346"
+    ]
+  },
+  "cloth_263": {
+    "id": "cloth_263",
+    "name": "Pour-Over Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt269.png",
+    "description": "A familiar zig-zag pattern adorns this shirt. Ahhh... that smell.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_347",
+      "spool_348"
+    ]
+  },
+  "cloth_264": {
+    "id": "cloth_264",
+    "name": "Green Jacket Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt270.png",
+    "description": "Inspired by the mallard's coat. The shirt can be dyed.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_349"
+    ]
+  },
+  "cloth_265": {
+    "id": "cloth_265",
+    "name": "Short Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt271a.png",
+    "description": "A short dyeable jacket over a shirt.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_350"
+    ]
+  },
+  "cloth_266": {
+    "id": "cloth_266",
+    "name": "Polka Dot Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt272.png",
+    "description": "A dark shirt with dyeable polka dots.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_351",
+      "spool_352"
+    ]
+  },
+  "cloth_267": {
+    "id": "cloth_267",
+    "name": "White Dot Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt273.png",
+    "description": "A dyeable shirt with white polka dots.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_353"
+    ]
+  },
+  "cloth_268": {
+    "id": "cloth_268",
+    "name": "Camo Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt274.png",
+    "description": "Helps you blend in with the surroundings.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_354"
+    ]
+  },
+  "cloth_269": {
+    "id": "cloth_269",
+    "name": "Dirt Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt275.png",
+    "description": "You'll fit right in on the farm!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_355"
+    ]
+  },
+  "cloth_270": {
+    "id": "cloth_270",
+    "name": "Crab Cake Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt276.png",
+    "description": "Pre-slathered with aioli for your enjoyment. Bon Appetit!",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_356"
+    ]
+  },
+  "cloth_271": {
+    "id": "cloth_271",
+    "name": "Silky Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt277a.png",
+    "description": "It's made from a smooth silky substance.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_357"
+    ]
+  },
+  "cloth_272": {
+    "id": "cloth_272",
+    "name": "Blue Buttoned Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt278a.png",
+    "description": "It's a blue shirt with dyeable sleeves.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_358"
+    ]
+  },
+  "cloth_273": {
+    "id": "cloth_273",
+    "name": "Faded Denim Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt279.png",
+    "description": "It's a denim shirt with a dusty, faded look.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_359"
+    ]
+  },
+  "cloth_274": {
+    "id": "cloth_274",
+    "name": "Red Buttoned Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt280a.png",
+    "description": "It's a red shirt with dyeable sleeves.",
+    "dyeable": true,
+    "notes": "Only obtainable as a random cosmetic item",
+    "requiredSpoolIds": []
+  },
+  "cloth_275": {
+    "id": "cloth_275",
+    "name": "Green Buttoned Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt281a.png",
+    "description": "It's a green shirt with dyeable sleeves.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_360",
+      "spool_361"
+    ]
+  },
+  "cloth_276": {
+    "id": "cloth_276",
+    "name": "Tomato Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt282.png",
+    "description": "A shirt that answers the big question: 'Tomatoes are'... (but the rest is smudged).",
+    "dyeable": false,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_362"
+    ]
+  },
+  "cloth_277": {
+    "id": "cloth_277",
+    "name": "Fringed Vest",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt283a.png",
+    "description": "A fringed brown vest over a sleeveless shirt.",
+    "dyeable": true,
+    "notes": "Sleeveless",
+    "requiredSpoolIds": [
+      "spool_363"
+    ]
+  },
+  "cloth_278": {
+    "id": "cloth_278",
+    "name": "Globby Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt284a.png",
+    "description": "It's got an indistinguishable glob pattern.",
+    "dyeable": true,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_364"
+    ]
+  },
+  "cloth_279": {
+    "id": "cloth_279",
+    "name": "Midnight Dog Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt285.png",
+    "description": "It's dyed a deep midnight blue from squid ink.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_365"
+    ]
+  },
+  "cloth_280": {
+    "id": "cloth_280",
+    "name": "Shrimp Enthusiast Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt286.png",
+    "description": "For those whose appetites demand a steady supply of shrimp.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_366"
+    ]
+  },
+  "cloth_281": {
+    "id": "cloth_281",
+    "name": "Tea Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt287.png",
+    "description": "A shirt inspired by the popular beverage.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_367"
+    ]
+  },
+  "cloth_282": {
+    "id": "cloth_282",
+    "name": "Prismatic Shirt (white sleeves)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt288a.png",
+    "description": "It's shimmering with prismatic energy. Has white sleeves.",
+    "dyeable": false,
+    "notes": "Prismatic",
+    "requiredSpoolIds": [
+      "spool_270"
+    ]
+  },
+  "cloth_283": {
+    "id": "cloth_283",
+    "name": "Prismatic Shirt (black sleeves)",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt289a.png",
+    "description": "It's shimmering with prismatic energy. Has dark sleeves.",
+    "dyeable": false,
+    "notes": "Prismatic",
+    "requiredSpoolIds": [
+      "spool_270"
+    ]
+  },
+  "cloth_284": {
+    "id": "cloth_284",
+    "name": "Trinket Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt290.png",
+    "description": "A shirt with large colored glass orbs attached to it.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_368"
+    ]
+  },
+  "cloth_285": {
+    "id": "cloth_285",
+    "name": "Darkness Suit",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt291.png",
+    "description": "A black suit top with a faded red pocket square.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_369"
+    ]
+  },
+  "cloth_286": {
+    "id": "cloth_286",
+    "name": "Mineral Dog Jacket",
+    "type": "Shirt",
+    "imageUrl": "assets/Mineral_Dog_Jacket.png",
+    "description": "It's infused with trace minerals from the ocean.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_370"
+    ]
+  },
+  "cloth_287": {
+    "id": "cloth_287",
+    "name": "Magic Sprinkle Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Shirt272.png",
+    "description": "A shirt with prismatic sprinkles.",
+    "dyeable": false,
+    "notes": "Prismatic version of the Polka Dot Shirt",
+    "requiredSpoolIds": [
+      "spool_371"
+    ]
+  },
+  "cloth_288": {
+    "id": "cloth_288",
+    "name": "Magenta Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Magenta_Shirt.png",
+    "description": "This particular shade is unique to the magma cap mushroom.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_372"
+    ]
+  },
+  "cloth_289": {
+    "id": "cloth_289",
+    "name": "Ginger Overalls",
+    "type": "Shirt",
+    "imageUrl": "assets/Ginger_Overalls.png",
+    "description": "The color scheme is inspired by ginger ale.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_373"
+    ]
+  },
+  "cloth_290": {
+    "id": "cloth_290",
+    "name": "Banana Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Banana_Shirt.png",
+    "description": "Consider this shirt, if you happen to love bananas.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_374"
+    ]
+  },
+  "cloth_291": {
+    "id": "cloth_291",
+    "name": "Yellow Suit",
+    "type": "Shirt",
+    "imageUrl": "assets/Yellow_Suit.png",
+    "description": "It's a bold statement to wear this suit.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_375"
+    ]
+  },
+  "cloth_292": {
+    "id": "cloth_292",
+    "name": "Hot Pink Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Hot_Pink_Shirt.png",
+    "description": "A silky shirt in tropical pink.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_376"
+    ]
+  },
+  "cloth_293": {
+    "id": "cloth_293",
+    "name": "Tropical Sunrise Shirt",
+    "type": "Shirt",
+    "imageUrl": "assets/Tropical_Sunrise_Shirt.png",
+    "description": "This shirt smells like coconut.",
+    "dyeable": false,
+    "notes": "",
+    "requiredSpoolIds": [
+      "spool_377"
+    ]
+  },
+  "cloth_294": {
+    "id": "cloth_294",
+    "name": "Island Bikini",
+    "type": "Shirt",
+    "imageUrl": "assets/Island_Bikini.png",
+    "description": "A Fern Islands classic.",
+    "dyeable": true,
+    "notes": "Sleeveless.",
+    "requiredSpoolIds": [
+      "spool_378"
+    ]
+  },
+  "cloth_295": {
+    "id": "cloth_295",
+    "name": "Farmer Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Farmer_Pants.png",
+    "description": "Comfortable and durable for long hours in the field.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_379",
+      "spool_380",
+      "spool_381",
+      "spool_382",
+      "spool_383"
+    ]
+  },
+  "cloth_296": {
+    "id": "cloth_296",
+    "name": "Shorts",
+    "type": "Pant",
+    "imageUrl": "assets/Shorts.png",
+    "description": "Perfect for a hot summer's day... your legs will thank you.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_384",
+      "spool_385",
+      "spool_386",
+      "spool_387"
+    ]
+  },
+  "cloth_297": {
+    "id": "cloth_297",
+    "name": "Long Dress",
+    "type": "Pant",
+    "imageUrl": "assets/Long_Dress.png",
+    "description": "A long, flowy dress.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_388",
+      "spool_389"
+    ]
+  },
+  "cloth_298": {
+    "id": "cloth_298",
+    "name": "Skirt",
+    "type": "Pant",
+    "imageUrl": "assets/Skirt.png",
+    "description": "A cute skirt.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_390",
+      "spool_391"
+    ]
+  },
+  "cloth_299": {
+    "id": "cloth_299",
+    "name": "Pleated Skirt",
+    "type": "Pant",
+    "imageUrl": "assets/Pleated_Skirt.png",
+    "description": "A cute pleated skirt.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_392",
+      "spool_393"
+    ]
+  },
+  "cloth_300": {
+    "id": "cloth_300",
+    "name": "Dinosaur Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Dinosaur_Pants.png",
+    "description": "These pants were thought to have gone extinct a long time ago!",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_394"
+    ]
+  },
+  "cloth_301": {
+    "id": "cloth_301",
+    "name": "Grass Skirt",
+    "type": "Pant",
+    "imageUrl": "assets/Grass_Skirt.png",
+    "description": "A skirt made of dried grass.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_395"
+    ]
+  },
+  "cloth_302": {
+    "id": "cloth_302",
+    "name": "Genie Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Genie_Pants.png",
+    "description": "Pants that balloon out near the bottom. Your wish has been answered!",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_396",
+      "spool_397"
+    ]
+  },
+  "cloth_303": {
+    "id": "cloth_303",
+    "name": "Baggy Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Baggy_Pants.png",
+    "description": "A loose pair of pants.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_398"
+    ]
+  },
+  "cloth_304": {
+    "id": "cloth_304",
+    "name": "Simple Dress",
+    "type": "Pant",
+    "imageUrl": "assets/Simple_Dress.png",
+    "description": "A soft, smooth, medium length dress.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_399"
+    ]
+  },
+  "cloth_305": {
+    "id": "cloth_305",
+    "name": "Relaxed Fit Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Relaxed_Fit_Pants.png",
+    "description": "These pants have a little more room for the legs.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_400",
+      "spool_401",
+      "spool_402",
+      "spool_403",
+      "spool_404",
+      "spool_405"
+    ]
+  },
+  "cloth_306": {
+    "id": "cloth_306",
+    "name": "Relaxed Fit Shorts",
+    "type": "Pant",
+    "imageUrl": "assets/Relaxed_Fit_Shorts.png",
+    "description": "These shorts have a little more room for the legs.",
+    "dyeable": true,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_406",
+      "spool_407"
+    ]
+  },
+  "cloth_307": {
+    "id": "cloth_307",
+    "name": "Prismatic Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Farmer_Pants.png",
+    "description": "Pants that shimmer with prismatic energy.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_270"
+    ]
+  },
+  "cloth_308": {
+    "id": "cloth_308",
+    "name": "Prismatic Genie Pants",
+    "type": "Pant",
+    "imageUrl": "assets/Genie_Pants.png",
+    "description": "Pants that shimmer with prismatic energy.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_270"
+    ]
+  },
+  "cloth_309": {
+    "id": "cloth_309",
+    "name": "Dinosaur Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Dinosaur_Hat.png",
+    "description": "A hat fashioned to look like a small dinosaur.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_408"
+    ]
+  },
+  "cloth_310": {
+    "id": "cloth_310",
+    "name": "Totem Mask",
+    "type": "Hat",
+    "imageUrl": "assets/Totem_Mask.png",
+    "description": "Don't worry, it won't warp your face...",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_409",
+      "spool_410",
+      "spool_411",
+      "spool_412",
+      "spool_413",
+      "spool_414",
+      "spool_415"
+    ]
+  },
+  "cloth_311": {
+    "id": "cloth_311",
+    "name": "Logo Cap",
+    "type": "Hat",
+    "imageUrl": "assets/Logo_Cap.png",
+    "description": "A pink cap with a sleek profile.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_416"
+    ]
+  },
+  "cloth_312": {
+    "id": "cloth_312",
+    "name": "Wearable Dwarf Helm",
+    "type": "Hat",
+    "imageUrl": "assets/Wearable_Dwarf_Helm.png",
+    "description": "A slightly larger, human sized version of the helmets worn by dwarves.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_417",
+      "spool_418"
+    ]
+  },
+  "cloth_313": {
+    "id": "cloth_313",
+    "name": "Fashion Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Fashion_Hat.png",
+    "description": "A fashionable hat with a feather in the brim.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_419"
+    ]
+  },
+  "cloth_314": {
+    "id": "cloth_314",
+    "name": "Pumpkin Mask",
+    "type": "Hat",
+    "imageUrl": "assets/Pumpkin_Mask.png",
+    "description": "This must have been a pretty big pumpkin once...",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_420"
+    ]
+  },
+  "cloth_315": {
+    "id": "cloth_315",
+    "name": "Hair Bone",
+    "type": "Hat",
+    "imageUrl": "assets/Hair_Bone.png",
+    "description": "A prehistoric version of the hair bow.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_421"
+    ]
+  },
+  "cloth_316": {
+    "id": "cloth_316",
+    "name": "Spotted Headscarf",
+    "type": "Hat",
+    "imageUrl": "assets/Spotted_Headscarf.png",
+    "description": "A red polka-dot scarf tied around the head.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_422"
+    ]
+  },
+  "cloth_317": {
+    "id": "cloth_317",
+    "name": "Beanie",
+    "type": "Hat",
+    "imageUrl": "assets/Beanie.png",
+    "description": "A warm hat with a pretty tight fit.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_423",
+      "spool_424",
+      "spool_425",
+      "spool_426"
+    ]
+  },
+  "cloth_318": {
+    "id": "cloth_318",
+    "name": "Floppy Beanie",
+    "type": "Hat",
+    "imageUrl": "assets/Floppy_Beanie.png",
+    "description": "A warm hat with a looser fit.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_427",
+      "spool_428",
+      "spool_429"
+    ]
+  },
+  "cloth_319": {
+    "id": "cloth_319",
+    "name": "Fishing Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Fishing_Hat.png",
+    "description": "The wide brim keeps you shaded when you're fishing on the riverbank.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_430",
+      "spool_431",
+      "spool_432",
+      "spool_433",
+      "spool_434",
+      "spool_435",
+      "spool_436"
+    ]
+  },
+  "cloth_320": {
+    "id": "cloth_320",
+    "name": "Blobfish Mask",
+    "type": "Hat",
+    "imageUrl": "assets/Blobfish_Mask.png",
+    "description": "Just as spongy as the real thing!",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_437"
+    ]
+  },
+  "cloth_321": {
+    "id": "cloth_321",
+    "name": "Party Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Party_Hat_red.png",
+    "description": "A goofy red hat that makes any celebration more fun.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_438",
+      "spool_439"
+    ]
+  },
+  "cloth_322": {
+    "id": "cloth_322",
+    "name": "Party Hat (v2)",
+    "type": "Hat",
+    "imageUrl": "assets/Party_Hat_blue.png",
+    "description": "A goofy blue hat that makes any celebration more fun.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_440",
+      "spool_441"
+    ]
+  },
+  "cloth_323": {
+    "id": "cloth_323",
+    "name": "Party Hat (v3)",
+    "type": "Hat",
+    "imageUrl": "assets/Party_Hat_green.png",
+    "description": "A goofy green hat that makes any celebration more fun.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_442",
+      "spool_443"
+    ]
+  },
+  "cloth_324": {
+    "id": "cloth_324",
+    "name": "Pirate Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Pirate_Hat.png",
+    "description": "A captain's hat with a horrible skull on the front.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_444"
+    ]
+  },
+  "cloth_325": {
+    "id": "cloth_325",
+    "name": "Flat Topped Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Flat_Topped_Hat.png",
+    "description": "An old style of hat once considered very fashionable.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_445",
+      "spool_446"
+    ]
+  },
+  "cloth_326": {
+    "id": "cloth_326",
+    "name": "White Turban",
+    "type": "Hat",
+    "imageUrl": "assets/White_Turban.png",
+    "description": "A fine white silk turban with blue trim.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_447"
+    ]
+  },
+  "cloth_327": {
+    "id": "cloth_327",
+    "name": "Golden Mask",
+    "type": "Hat",
+    "imageUrl": "assets/Golden_Mask_hat.png",
+    "description": "A faithful recreation of the Calico Desert relic!",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_448"
+    ]
+  },
+  "cloth_328": {
+    "id": "cloth_328",
+    "name": "Propeller Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Propeller_Hat.png",
+    "description": "A goofy hat with a propeller on top.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_449"
+    ]
+  },
+  "cloth_329": {
+    "id": "cloth_329",
+    "name": "Bridal Veil",
+    "type": "Hat",
+    "imageUrl": "assets/Bridal_Veil.png",
+    "description": "The traditional headwear for a bride.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_450"
+    ]
+  },
+  "cloth_330": {
+    "id": "cloth_330",
+    "name": "Witch Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Witch_Hat.png",
+    "description": "A pointy hat popular with witches.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_451"
+    ]
+  },
+  "cloth_331": {
+    "id": "cloth_331",
+    "name": "Radioactive Goggles",
+    "type": "Hat",
+    "imageUrl": "assets/Radioactive_Goggles.png",
+    "description": "Doesn't actually provide any protection from radiation.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_452"
+    ]
+  },
+  "cloth_332": {
+    "id": "cloth_332",
+    "name": "Swashbuckler Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Swashbuckler_Hat.png",
+    "description": "The classic swashbuckler look.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_453"
+    ]
+  },
+  "cloth_333": {
+    "id": "cloth_333",
+    "name": "Qi Mask",
+    "type": "Hat",
+    "imageUrl": "assets/Qi_Mask.png",
+    "description": "???",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_454"
+    ]
+  },
+  "cloth_334": {
+    "id": "cloth_334",
+    "name": "Star Helmet",
+    "type": "Hat",
+    "imageUrl": "assets/Star_Helmet.png",
+    "description": "A red hat with stars on it.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_455"
+    ]
+  },
+  "cloth_335": {
+    "id": "cloth_335",
+    "name": "Sunglasses",
+    "type": "Hat",
+    "imageUrl": "assets/Sunglasses.png",
+    "description": "These give you a relaxed look.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_456"
+    ]
+  },
+  "cloth_336": {
+    "id": "cloth_336",
+    "name": "Goggles",
+    "type": "Hat",
+    "imageUrl": "assets/Goggles.png",
+    "description": "These will make you look very safe.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_457"
+    ]
+  },
+  "cloth_337": {
+    "id": "cloth_337",
+    "name": "Forager's Hat",
+    "type": "Hat",
+    "imageUrl": "assets/Forager_Hat.png",
+    "description": "It's a forager's delight.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_458"
+    ]
+  },
+  "cloth_338": {
+    "id": "cloth_338",
+    "name": "Warrior Helmet",
+    "type": "Hat",
+    "imageUrl": "assets/Warrior_Helmet.png",
+    "description": "An Ostrich eggshell repurposed into a helmet.",
+    "dyeable": false,
+    "notes": null,
+    "requiredSpoolIds": [
+      "spool_459"
+    ]
+  }
+}

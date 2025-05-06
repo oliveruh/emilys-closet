@@ -1,0 +1,76 @@
+/* --- Typography --- */
+
+/* --- Headings --- */
+.header-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color: #8b4513; 
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px dotted #a0522d; 
+    padding-bottom: 4px;
+    text-align: center; 
+}
+
+/* Form Labels & Input Placeholders */
+label, .filter-sort-label {
+    font-size: 0.75rem; 
+    line-height: 1rem;
+    font-weight: 600;
+    color: #8b4513; 
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px; 
+}
+
+/* Item Name Labels in Grids */
+.item-name-label {
+    font-size: 0.75rem; 
+    line-height: 1.3;
+    color: #5a3a22;
+    font-weight: 500;
+    max-width: 100%;
+    word-break: break-word;
+    margin-top: 5px;
+    min-height: 1.5rem; 
+    display: block;
+}
+
+/* Small Italic Notes */
+.italic-note {
+    font-size: 0.65rem;
+    color: #a0522d; 
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+/* Footer */
+.footer-text {
+    color: rgba(74, 42, 18, 0.8); 
+    font-size: 0.75rem; 
+}
+
+.footer-text .wife-signature {
+    color: #A0522D;
+}
+
+.footer-text a {
+    font-size: 85%;
+    font-variant: small-caps;
+}
+
+.footer-text a:hover {
+    color: #b6b095;
+    text-decoration: underline;
+}

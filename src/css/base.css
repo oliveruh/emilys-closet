@@ -1,0 +1,71 @@
+/* --- Base Styles & Theme --- */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #deb887;
+    background-image: linear-gradient(45deg, #a0522d 25%, transparent 25%),
+        linear-gradient(-45deg, #a0522d 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #a0522d 75%),
+        linear-gradient(-45deg, transparent 75%, #a0522d 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    color: #4a2a12;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* --- Custom Scrollbar --- */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(245, 229, 195, 0.5);
+    border: none;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(139, 69, 19, 0.6);
+    border: none;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(160, 82, 45, 0.8);
+}
+
+
+/* --- Loading Indicator --- */
+#loading-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(222, 184, 135, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: #4a2a12;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+/* --- Empty State Message --- */
+.empty-state-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a0522d;
+    font-style: italic;
+    font-size: 0.9rem;
+    height: 100%;
+    min-height: 100px;
+    padding: 1.5rem;
+}

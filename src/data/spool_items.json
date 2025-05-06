@@ -1,0 +1,2756 @@
+{
+  "spool_001": {
+    "id": "spool_001",
+    "name": "Complete Breakfast",
+    "imageUrl": "assets/24px-Complete_Breakfast.png",
+    "dyeInfoId": "dye_001"
+  },
+  "spool_002": {
+    "id": "spool_002",
+    "name": "Clay",
+    "imageUrl": "assets/24px-Clay.png",
+    "dyeInfoId": "dye_002"
+  },
+  "spool_003": {
+    "id": "spool_003",
+    "name": "Dandelion",
+    "imageUrl": "assets/24px-Dandelion.png",
+    "dyeInfoId": "dye_003"
+  },
+  "spool_004": {
+    "id": "spool_004",
+    "name": "Bat Wing",
+    "imageUrl": "assets/24px-Bat_Wing.png",
+    "dyeInfoId": "dye_004"
+  },
+  "spool_005": {
+    "id": "spool_005",
+    "name": "Prehistoric Skull",
+    "imageUrl": "assets/24px-Prehistoric_Skull.png",
+    "dyeInfoId": "dye_005"
+  },
+  "spool_006": {
+    "id": "spool_006",
+    "name": "Mayonnaise",
+    "imageUrl": "assets/24px-Mayonnaise.png",
+    "dyeInfoId": "dye_006"
+  },
+  "spool_007": {
+    "id": "spool_007",
+    "name": "Sap",
+    "imageUrl": "assets/24px-Sap.png",
+    "dyeInfoId": "dye_007"
+  },
+  "spool_008": {
+    "id": "spool_008",
+    "name": "Fiddlehead Fern",
+    "imageUrl": "assets/24px-Fiddlehead_Fern.png",
+    "dyeInfoId": "dye_008"
+  },
+  "spool_009": {
+    "id": "spool_009",
+    "name": "Wild Horseradish",
+    "imageUrl": "assets/24px-Wild_Horseradish.png",
+    "dyeInfoId": "dye_009"
+  },
+  "spool_010": {
+    "id": "spool_010",
+    "name": "Duck Mayonnaise",
+    "imageUrl": "assets/24px-Duck_Mayonnaise.png",
+    "dyeInfoId": "dye_010"
+  },
+  "spool_011": {
+    "id": "spool_011",
+    "name": "Bouquet",
+    "imageUrl": "assets/24px-Bouquet.png",
+    "dyeInfoId": "dye_011"
+  },
+  "spool_012": {
+    "id": "spool_012",
+    "name": "Cave Carrot",
+    "imageUrl": "assets/24px-Cave_Carrot.png",
+    "dyeInfoId": "dye_012"
+  },
+  "spool_013": {
+    "id": "spool_013",
+    "name": "Duck Feather",
+    "imageUrl": "assets/24px-Duck_Feather.png",
+    "dyeInfoId": "dye_013"
+  },
+  "spool_014": {
+    "id": "spool_014",
+    "name": "Cranberry Candy",
+    "imageUrl": "assets/24px-Cranberry_Candy.png",
+    "dyeInfoId": "dye_014"
+  },
+  "spool_015": {
+    "id": "spool_015",
+    "name": "Bone Fragment",
+    "imageUrl": "assets/24px-Bone_Fragment.png",
+    "dyeInfoId": "dye_015"
+  },
+  "spool_016": {
+    "id": "spool_016",
+    "name": "Fossilized Leg",
+    "imageUrl": "assets/24px-Fossilized_Leg.png",
+    "dyeInfoId": "dye_016"
+  },
+  "spool_017": {
+    "id": "spool_017",
+    "name": "Fossilized Ribs",
+    "imageUrl": "assets/24px-Fossilized_Ribs.png",
+    "dyeInfoId": "dye_017"
+  },
+  "spool_018": {
+    "id": "spool_018",
+    "name": "Fossilized Skull",
+    "imageUrl": "assets/24px-Fossilized_Skull.png",
+    "dyeInfoId": "dye_018"
+  },
+  "spool_019": {
+    "id": "spool_019",
+    "name": "Fossilized Spine",
+    "imageUrl": "assets/24px-Fossilized_Spine.png",
+    "dyeInfoId": "dye_019"
+  },
+  "spool_020": {
+    "id": "spool_020",
+    "name": "Fossilized Tail",
+    "imageUrl": "assets/24px-Fossilized_Tail.png",
+    "dyeInfoId": "dye_020"
+  },
+  "spool_021": {
+    "id": "spool_021",
+    "name": "Mummified Bat",
+    "imageUrl": "assets/24px-Mummified_Bat.png",
+    "dyeInfoId": "dye_021"
+  },
+  "spool_022": {
+    "id": "spool_022",
+    "name": "Mummified Frog",
+    "imageUrl": "assets/24px-Mummified_Frog.png",
+    "dyeInfoId": "dye_022"
+  },
+  "spool_023": {
+    "id": "spool_023",
+    "name": "Prehistoric Rib",
+    "imageUrl": "assets/24px-Prehistoric_Rib.png",
+    "dyeInfoId": "dye_023"
+  },
+  "spool_024": {
+    "id": "spool_024",
+    "name": "Prehistoric Scapula",
+    "imageUrl": "assets/24px-Prehistoric_Scapula.png",
+    "dyeInfoId": "dye_024"
+  },
+  "spool_025": {
+    "id": "spool_025",
+    "name": "Prehistoric Vertebra",
+    "imageUrl": "assets/24px-Prehistoric_Vertebra.png",
+    "dyeInfoId": "dye_025"
+  },
+  "spool_026": {
+    "id": "spool_026",
+    "name": "Skeletal Hand",
+    "imageUrl": "assets/24px-Skeletal_Hand.png",
+    "dyeInfoId": "dye_026"
+  },
+  "spool_027": {
+    "id": "spool_027",
+    "name": "Skeletal Tail",
+    "imageUrl": "assets/24px-Skeletal_Tail.png",
+    "dyeInfoId": "dye_027"
+  },
+  "spool_028": {
+    "id": "spool_028",
+    "name": "Snake Skull",
+    "imageUrl": "assets/24px-Snake_Skull.png",
+    "dyeInfoId": "dye_028"
+  },
+  "spool_029": {
+    "id": "spool_029",
+    "name": "Snake Vertebrae",
+    "imageUrl": "assets/24px-Snake_Vertebrae.png",
+    "dyeInfoId": "dye_029"
+  },
+  "spool_030": {
+    "id": "spool_030",
+    "name": "Chanterelle",
+    "imageUrl": "assets/24px-Chanterelle.png",
+    "dyeInfoId": "dye_030"
+  },
+  "spool_031": {
+    "id": "spool_031",
+    "name": "Blueberry Tart",
+    "imageUrl": "assets/24px-Blueberry_Tart.png",
+    "dyeInfoId": "dye_031"
+  },
+  "spool_032": {
+    "id": "spool_032",
+    "name": "Vegetable Medley",
+    "imageUrl": "assets/24px-Vegetable_Medley.png",
+    "dyeInfoId": "dye_032"
+  },
+  "spool_033": {
+    "id": "spool_033",
+    "name": "Mudstone",
+    "imageUrl": "assets/24px-Mudstone.png",
+    "dyeInfoId": "dye_033"
+  },
+  "spool_034": {
+    "id": "spool_034",
+    "name": "Bean Hotpot",
+    "imageUrl": "assets/24px-Bean_Hotpot.png",
+    "dyeInfoId": "dye_034"
+  },
+  "spool_035": {
+    "id": "spool_035",
+    "name": "Omelet",
+    "imageUrl": "assets/24px-Omelet.png",
+    "dyeInfoId": "dye_035"
+  },
+  "spool_036": {
+    "id": "spool_036",
+    "name": "Goat Milk",
+    "imageUrl": "assets/24px-Goat_Milk.png",
+    "dyeInfoId": "dye_036"
+  },
+  "spool_037": {
+    "id": "spool_037",
+    "name": "Large Goat Milk",
+    "imageUrl": "assets/24px-Large_Goat_Milk.png",
+    "dyeInfoId": "dye_037"
+  },
+  "spool_038": {
+    "id": "spool_038",
+    "name": "Rice Pudding",
+    "imageUrl": "assets/24px-Rice_Pudding.png",
+    "dyeInfoId": "dye_038"
+  },
+  "spool_039": {
+    "id": "spool_039",
+    "name": "Bug Meat",
+    "imageUrl": "assets/24px-Bug_Meat.png",
+    "dyeInfoId": "dye_039"
+  },
+  "spool_040": {
+    "id": "spool_040",
+    "name": "Stone",
+    "imageUrl": "assets/24px-Stone.png",
+    "dyeInfoId": "dye_040"
+  },
+  "spool_041": {
+    "id": "spool_041",
+    "name": "Fried Calamari",
+    "imageUrl": "assets/24px-Fried_Calamari.png",
+    "dyeInfoId": "dye_041"
+  },
+  "spool_042": {
+    "id": "spool_042",
+    "name": "Baked Fish",
+    "imageUrl": "assets/24px-Baked_Fish.png",
+    "dyeInfoId": "dye_042"
+  },
+  "spool_043": {
+    "id": "spool_043",
+    "name": "Salmonberry",
+    "imageUrl": "assets/24px-Salmonberry.png",
+    "dyeInfoId": "dye_043"
+  },
+  "spool_044": {
+    "id": "spool_044",
+    "name": "Salad",
+    "imageUrl": "assets/24px-Salad.png",
+    "dyeInfoId": "dye_044"
+  },
+  "spool_045": {
+    "id": "spool_045",
+    "name": "Ancient Sword",
+    "imageUrl": "assets/24px-Ancient_Sword.png",
+    "dyeInfoId": "dye_045"
+  },
+  "spool_046": {
+    "id": "spool_046",
+    "name": "Holly",
+    "imageUrl": "assets/24px-Holly.png",
+    "dyeInfoId": "dye_046"
+  },
+  "spool_047": {
+    "id": "spool_047",
+    "name": "Sashimi",
+    "imageUrl": "assets/24px-Sashimi.png",
+    "dyeInfoId": "dye_047"
+  },
+  "spool_048": {
+    "id": "spool_048",
+    "name": "Maki Roll",
+    "imageUrl": "assets/24px-Maki_Roll.png",
+    "dyeInfoId": "dye_048"
+  },
+  "spool_049": {
+    "id": "spool_049",
+    "name": "Wool",
+    "imageUrl": "assets/24px-Wool.png",
+    "dyeInfoId": "dye_049"
+  },
+  "spool_050": {
+    "id": "spool_050",
+    "name": "Ice Cream",
+    "imageUrl": "assets/24px-Ice_Cream.png",
+    "dyeInfoId": "dye_050"
+  },
+  "spool_051": {
+    "id": "spool_051",
+    "name": "Leek",
+    "imageUrl": "assets/24px-Leek.png",
+    "dyeInfoId": "dye_051"
+  },
+  "spool_052": {
+    "id": "spool_052",
+    "name": "Snow Yam",
+    "imageUrl": "assets/24px-Snow_Yam.png",
+    "dyeInfoId": "dye_052"
+  },
+  "spool_053": {
+    "id": "spool_053",
+    "name": "Hardwood",
+    "imageUrl": "assets/24px-Hardwood.png",
+    "dyeInfoId": "dye_053"
+  },
+  "spool_054": {
+    "id": "spool_054",
+    "name": "Coal",
+    "imageUrl": "assets/24px-Coal.png",
+    "dyeInfoId": "dye_054"
+  },
+  "spool_055": {
+    "id": "spool_055",
+    "name": "Sweet Pea",
+    "imageUrl": "assets/24px-Sweet_Pea.png",
+    "dyeInfoId": "dye_055"
+  },
+  "spool_056": {
+    "id": "spool_056",
+    "name": "Pink Cake",
+    "imageUrl": "assets/24px-Pink_Cake.png",
+    "dyeInfoId": "dye_056"
+  },
+  "spool_057": {
+    "id": "spool_057",
+    "name": "Lucky Lunch",
+    "imageUrl": "assets/24px-Lucky_Lunch.png",
+    "dyeInfoId": "dye_057"
+  },
+  "spool_058": {
+    "id": "spool_058",
+    "name": "Roasted Hazelnuts",
+    "imageUrl": "assets/24px-Roasted_Hazelnuts.png",
+    "dyeInfoId": "dye_058"
+  },
+  "spool_059": {
+    "id": "spool_059",
+    "name": "Fried Eel",
+    "imageUrl": "assets/24px-Fried_Eel.png",
+    "dyeInfoId": "dye_059"
+  },
+  "spool_060": {
+    "id": "spool_060",
+    "name": "Fire Quartz",
+    "imageUrl": "assets/24px-Fire_Quartz.png",
+    "dyeInfoId": "dye_060"
+  },
+  "spool_061": {
+    "id": "spool_061",
+    "name": "Blackberry Cobbler",
+    "imageUrl": "assets/24px-Blackberry_Cobbler.png",
+    "dyeInfoId": "dye_061"
+  },
+  "spool_062": {
+    "id": "spool_062",
+    "name": "Pumpkin Soup",
+    "imageUrl": "assets/24px-Pumpkin_Soup.png",
+    "dyeInfoId": "dye_062"
+  },
+  "spool_063": {
+    "id": "spool_063",
+    "name": "Bread",
+    "imageUrl": "assets/24px-Bread.png",
+    "dyeInfoId": "dye_063"
+  },
+  "spool_064": {
+    "id": "spool_064",
+    "name": "Opal",
+    "imageUrl": "assets/24px-Opal.png",
+    "dyeInfoId": "dye_064"
+  },
+  "spool_065": {
+    "id": "spool_065",
+    "name": "Rhubarb Pie",
+    "imageUrl": "assets/24px-Rhubarb_Pie.png",
+    "dyeInfoId": "dye_065"
+  },
+  "spool_066": {
+    "id": "spool_066",
+    "name": "Crystal Fruit",
+    "imageUrl": "assets/24px-Crystal_Fruit.png",
+    "dyeInfoId": "dye_066"
+  },
+  "spool_067": {
+    "id": "spool_067",
+    "name": "Artichoke Dip",
+    "imageUrl": "assets/24px-Artichoke_Dip.png",
+    "dyeInfoId": "dye_067"
+  },
+  "spool_068": {
+    "id": "spool_068",
+    "name": "Cheese",
+    "imageUrl": "assets/24px-Cheese.png",
+    "dyeInfoId": "dye_068"
+  },
+  "spool_069": {
+    "id": "spool_069",
+    "name": "Daffodil",
+    "imageUrl": "assets/24px-Daffodil.png",
+    "dyeInfoId": "dye_069"
+  },
+  "spool_070": {
+    "id": "spool_070",
+    "name": "Farmer's Lunch",
+    "imageUrl": "assets/24px-Farmer_Lunch.png",
+    "dyeInfoId": "dye_070"
+  },
+  "spool_071": {
+    "id": "spool_071",
+    "name": "Algae Soup",
+    "imageUrl": "assets/24px-Algae_Soup.png",
+    "dyeInfoId": "dye_071"
+  },
+  "spool_072": {
+    "id": "spool_072",
+    "name": "Fairy Stone",
+    "imageUrl": "assets/24px-Fairy_Stone.png",
+    "dyeInfoId": "dye_072"
+  },
+  "spool_073": {
+    "id": "spool_073",
+    "name": "Milk",
+    "imageUrl": "assets/24px-Milk.png",
+    "dyeInfoId": "dye_073"
+  },
+  "spool_074": {
+    "id": "spool_074",
+    "name": "Fruit Salad",
+    "imageUrl": "assets/24px-Fruit_Salad.png",
+    "dyeInfoId": "dye_074"
+  },
+  "spool_075": {
+    "id": "spool_075",
+    "name": "Thunder Egg",
+    "imageUrl": "assets/24px-Thunder_Egg.png",
+    "dyeInfoId": "dye_075"
+  },
+  "spool_076": {
+    "id": "spool_076",
+    "name": "Common Mushroom",
+    "imageUrl": "assets/24px-Common_Mushroom.png",
+    "dyeInfoId": "dye_076"
+  },
+  "spool_077": {
+    "id": "spool_077",
+    "name": "Wild Bait",
+    "imageUrl": "assets/24px-Wild_Bait.png",
+    "dyeInfoId": null
+  },
+  "spool_078": {
+    "id": "spool_078",
+    "name": "Cookie",
+    "imageUrl": "assets/24px-Cookie.png",
+    "dyeInfoId": "dye_077"
+  },
+  "spool_079": {
+    "id": "spool_079",
+    "name": "Crocus",
+    "imageUrl": "assets/24px-Crocus.png",
+    "dyeInfoId": "dye_078"
+  },
+  "spool_080": {
+    "id": "spool_080",
+    "name": "Blackberry",
+    "imageUrl": "assets/24px-Blackberry.png",
+    "dyeInfoId": "dye_079"
+  },
+  "spool_081": {
+    "id": "spool_081",
+    "name": "Alamite",
+    "imageUrl": "assets/24px-Alamite.png",
+    "dyeInfoId": "dye_080"
+  },
+  "spool_082": {
+    "id": "spool_082",
+    "name": "Void Egg",
+    "imageUrl": "assets/24px-Void_Egg.png",
+    "dyeInfoId": "dye_081"
+  },
+  "spool_083": {
+    "id": "spool_083",
+    "name": "Ruby",
+    "imageUrl": "assets/24px-Ruby.png",
+    "dyeInfoId": "dye_082"
+  },
+  "spool_084": {
+    "id": "spool_084",
+    "name": "Slate",
+    "imageUrl": "assets/24px-Slate.png",
+    "dyeInfoId": "dye_083"
+  },
+  "spool_085": {
+    "id": "spool_085",
+    "name": "Parsnip Soup",
+    "imageUrl": "assets/24px-Parsnip_Soup.png",
+    "dyeInfoId": "dye_084"
+  },
+  "spool_086": {
+    "id": "spool_086",
+    "name": "Amethyst",
+    "imageUrl": "assets/24px-Amethyst.png",
+    "dyeInfoId": "dye_085"
+  },
+  "spool_087": {
+    "id": "spool_087",
+    "name": "Pickles (any)",
+    "imageUrl": "assets/24px-Pickles.png",
+    "dyeInfoId": "dye_086"
+  },
+  "spool_088": {
+    "id": "spool_088",
+    "name": "Jelly (any)",
+    "imageUrl": "assets/24px-Jelly.png",
+    "dyeInfoId": "dye_087"
+  },
+  "spool_089": {
+    "id": "spool_089",
+    "name": "Goat Cheese",
+    "imageUrl": "assets/24px-Goat_Cheese.png",
+    "dyeInfoId": "dye_088"
+  },
+  "spool_090": {
+    "id": "spool_090",
+    "name": "Earth Crystal",
+    "imageUrl": "assets/24px-Earth_Crystal.png",
+    "dyeInfoId": "dye_089"
+  },
+  "spool_091": {
+    "id": "spool_091",
+    "name": "Rabbit's Foot",
+    "imageUrl": "assets/24px-Rabbit_Foot.png",
+    "dyeInfoId": "dye_090"
+  },
+  "spool_092": {
+    "id": "spool_092",
+    "name": "Slime",
+    "imageUrl": "assets/24px-Slime.png",
+    "dyeInfoId": "dye_091"
+  },
+  "spool_093": {
+    "id": "spool_093",
+    "name": "Basalt",
+    "imageUrl": "assets/24px-Basalt.png",
+    "dyeInfoId": "dye_092"
+  },
+  "spool_094": {
+    "id": "spool_094",
+    "name": "Neptunite",
+    "imageUrl": "assets/24px-Neptunite.png",
+    "dyeInfoId": "dye_093"
+  },
+  "spool_095": {
+    "id": "spool_095",
+    "name": "Purple Mushroom",
+    "imageUrl": "assets/24px-Purple_Mushroom.png",
+    "dyeInfoId": "dye_094"
+  },
+  "spool_096": {
+    "id": "spool_096",
+    "name": "Celestine",
+    "imageUrl": "assets/24px-Celestine.png",
+    "dyeInfoId": "dye_095"
+  },
+  "spool_097": {
+    "id": "spool_097",
+    "name": "Bixite",
+    "imageUrl": "assets/24px-Bixite.png",
+    "dyeInfoId": "dye_096"
+  },
+  "spool_098": {
+    "id": "spool_098",
+    "name": "Limestone",
+    "imageUrl": "assets/24px-Limestone.png",
+    "dyeInfoId": "dye_097"
+  },
+  "spool_099": {
+    "id": "spool_099",
+    "name": "Ghost Crystal",
+    "imageUrl": "assets/24px-Ghost_Crystal.png",
+    "dyeInfoId": "dye_098"
+  },
+  "spool_100": {
+    "id": "spool_100",
+    "name": "Geminite",
+    "imageUrl": "assets/24px-Geminite.png",
+    "dyeInfoId": "dye_099"
+  },
+  "spool_101": {
+    "id": "spool_101",
+    "name": "Joja Cola",
+    "imageUrl": "assets/24px-Joja_Cola.png",
+    "dyeInfoId": "dye_100"
+  },
+  "spool_102": {
+    "id": "spool_102",
+    "name": "Battery Pack",
+    "imageUrl": "assets/24px-Battery_Pack.png",
+    "dyeInfoId": "dye_101"
+  },
+  "spool_103": {
+    "id": "spool_103",
+    "name": "Nekoite",
+    "imageUrl": "assets/24px-Nekoite.png",
+    "dyeInfoId": "dye_102"
+  },
+  "spool_104": {
+    "id": "spool_104",
+    "name": "Crispy Bass",
+    "imageUrl": "assets/24px-Crispy_Bass.png",
+    "dyeInfoId": "dye_103"
+  },
+  "spool_105": {
+    "id": "spool_105",
+    "name": "Fried Mushroom",
+    "imageUrl": "assets/24px-Fried_Mushroom.png",
+    "dyeInfoId": "dye_104"
+  },
+  "spool_106": {
+    "id": "spool_106",
+    "name": "Dolomite",
+    "imageUrl": "assets/24px-Dolomite.png",
+    "dyeInfoId": "dye_105"
+  },
+  "spool_107": {
+    "id": "spool_107",
+    "name": "Eggplant Parmesan",
+    "imageUrl": "assets/24px-Eggplant_Parmesan.png",
+    "dyeInfoId": "dye_106"
+  },
+  "spool_108": {
+    "id": "spool_108",
+    "name": "Aerinite",
+    "imageUrl": "assets/24px-Aerinite.png",
+    "dyeInfoId": "dye_107"
+  },
+  "spool_109": {
+    "id": "spool_109",
+    "name": "Salmon Dinner",
+    "imageUrl": "assets/24px-Salmon_Dinner.png",
+    "dyeInfoId": "dye_108"
+  },
+  "spool_110": {
+    "id": "spool_110",
+    "name": "Roots Platter",
+    "imageUrl": "assets/24px-Roots_Platter.png",
+    "dyeInfoId": "dye_109"
+  },
+  "spool_111": {
+    "id": "spool_111",
+    "name": "Granite",
+    "imageUrl": "assets/24px-Granite.png",
+    "dyeInfoId": "dye_110"
+  },
+  "spool_112": {
+    "id": "spool_112",
+    "name": "Bruschetta",
+    "imageUrl": "assets/24px-Bruschetta.png",
+    "dyeInfoId": "dye_111"
+  },
+  "spool_113": {
+    "id": "spool_113",
+    "name": "Fish Stew",
+    "imageUrl": "assets/24px-Fish_Stew.png",
+    "dyeInfoId": "dye_112"
+  },
+  "spool_114": {
+    "id": "spool_114",
+    "name": "Lobster Bisque",
+    "imageUrl": "assets/24px-Lobster_Bisque.png",
+    "dyeInfoId": "dye_113"
+  },
+  "spool_115": {
+    "id": "spool_115",
+    "name": "Coleslaw",
+    "imageUrl": "assets/24px-Coleslaw.png",
+    "dyeInfoId": "dye_114"
+  },
+  "spool_116": {
+    "id": "spool_116",
+    "name": "Corn",
+    "imageUrl": "assets/24px-Corn.png",
+    "dyeInfoId": "dye_115"
+  },
+  "spool_117": {
+    "id": "spool_117",
+    "name": "Radish",
+    "imageUrl": "assets/24px-Radish.png",
+    "dyeInfoId": "dye_116"
+  },
+  "spool_118": {
+    "id": "spool_118",
+    "name": "Red Cabbage",
+    "imageUrl": "assets/24px-Red_Cabbage.png",
+    "dyeInfoId": "dye_117"
+  },
+  "spool_119": {
+    "id": "spool_119",
+    "name": "Summer Squash",
+    "imageUrl": "assets/24px-Summer_Squash.png",
+    "dyeInfoId": "dye_118"
+  },
+  "spool_120": {
+    "id": "spool_120",
+    "name": "Rusty Spur",
+    "imageUrl": "assets/24px-Rusty_Spur.png",
+    "dyeInfoId": "dye_119"
+  },
+  "spool_121": {
+    "id": "spool_121",
+    "name": "Wheat",
+    "imageUrl": "assets/24px-Wheat.png",
+    "dyeInfoId": "dye_120"
+  },
+  "spool_122": {
+    "id": "spool_122",
+    "name": "Rainbow Shell",
+    "imageUrl": "assets/24px-Rainbow_Shell.png",
+    "dyeInfoId": null
+  },
+  "spool_123": {
+    "id": "spool_123",
+    "name": "Strange Doll (green)",
+    "imageUrl": "assets/24px-Strange_Doll_green.png",
+    "dyeInfoId": "dye_121"
+  },
+  "spool_124": {
+    "id": "spool_124",
+    "name": "Cactus Fruit",
+    "imageUrl": "assets/24px-Cactus_Fruit.png",
+    "dyeInfoId": "dye_122"
+  },
+  "spool_125": {
+    "id": "spool_125",
+    "name": "Energy Tonic",
+    "imageUrl": "assets/24px-Energy_Tonic.png",
+    "dyeInfoId": "dye_123"
+  },
+  "spool_126": {
+    "id": "spool_126",
+    "name": "Beer",
+    "imageUrl": "assets/24px-Beer.png",
+    "dyeInfoId": "dye_124"
+  },
+  "spool_127": {
+    "id": "spool_127",
+    "name": "Mead",
+    "imageUrl": "assets/24px-Mead.png",
+    "dyeInfoId": "dye_125"
+  },
+  "spool_128": {
+    "id": "spool_128",
+    "name": "Pale Ale",
+    "imageUrl": "assets/24px-Pale_Ale.png",
+    "dyeInfoId": "dye_126"
+  },
+  "spool_129": {
+    "id": "spool_129",
+    "name": "Piña Colada",
+    "imageUrl": "assets/24px-Pina_Colada.png",
+    "dyeInfoId": "dye_127"
+  },
+  "spool_130": {
+    "id": "spool_130",
+    "name": "Wine (any)",
+    "imageUrl": "assets/24px-Wine.png",
+    "dyeInfoId": "dye_128"
+  },
+  "spool_131": {
+    "id": "spool_131",
+    "name": "Coral",
+    "imageUrl": "assets/24px-Coral.png",
+    "dyeInfoId": "dye_129"
+  },
+  "spool_132": {
+    "id": "spool_132",
+    "name": "Nautilus Shell",
+    "imageUrl": "assets/24px-Nautilus_Shell.png",
+    "dyeInfoId": "dye_130"
+  },
+  "spool_133": {
+    "id": "spool_133",
+    "name": "Sea Urchin",
+    "imageUrl": "assets/24px-Sea_Urchin.png",
+    "dyeInfoId": "dye_131"
+  },
+  "spool_134": {
+    "id": "spool_134",
+    "name": "Artichoke",
+    "imageUrl": "assets/24px-Artichoke.png",
+    "dyeInfoId": "dye_132"
+  },
+  "spool_135": {
+    "id": "spool_135",
+    "name": "Beet",
+    "imageUrl": "assets/24px-Beet.png",
+    "dyeInfoId": "dye_133"
+  },
+  "spool_136": {
+    "id": "spool_136",
+    "name": "Bok Choy",
+    "imageUrl": "assets/24px-Bok_Choy.png",
+    "dyeInfoId": "dye_134"
+  },
+  "spool_137": {
+    "id": "spool_137",
+    "name": "Broccoli",
+    "imageUrl": "assets/24px-Broccoli.png",
+    "dyeInfoId": "dye_135"
+  },
+  "spool_138": {
+    "id": "spool_138",
+    "name": "Eggplant",
+    "imageUrl": "assets/24px-Eggplant.png",
+    "dyeInfoId": "dye_136"
+  },
+  "spool_139": {
+    "id": "spool_139",
+    "name": "Pumpkin",
+    "imageUrl": "assets/24px-Pumpkin.png",
+    "dyeInfoId": "dye_137"
+  },
+  "spool_140": {
+    "id": "spool_140",
+    "name": "Yam",
+    "imageUrl": "assets/24px-Yam.png",
+    "dyeInfoId": "dye_138"
+  },
+  "spool_141": {
+    "id": "spool_141",
+    "name": "Amaranth",
+    "imageUrl": "assets/24px-Amaranth.png",
+    "dyeInfoId": "dye_139"
+  },
+  "spool_142": {
+    "id": "spool_142",
+    "name": "Sea Cucumber",
+    "imageUrl": "assets/24px-Sea_Cucumber.png",
+    "dyeInfoId": "dye_140"
+  },
+  "spool_143": {
+    "id": "spool_143",
+    "name": "Super Cucumber",
+    "imageUrl": "assets/24px-Super_Cucumber.png",
+    "dyeInfoId": "dye_141"
+  },
+  "spool_144": {
+    "id": "spool_144",
+    "name": "Emerald",
+    "imageUrl": "assets/24px-Emerald.png",
+    "dyeInfoId": "dye_142"
+  },
+  "spool_145": {
+    "id": "spool_145",
+    "name": "Aquamarine",
+    "imageUrl": "assets/24px-Aquamarine.png",
+    "dyeInfoId": "dye_143"
+  },
+  "spool_146": {
+    "id": "spool_146",
+    "name": "Topaz",
+    "imageUrl": "assets/24px-Topaz.png",
+    "dyeInfoId": "dye_144"
+  },
+  "spool_147": {
+    "id": "spool_147",
+    "name": "Jade",
+    "imageUrl": "assets/24px-Jade.png",
+    "dyeInfoId": "dye_145"
+  },
+  "spool_148": {
+    "id": "spool_148",
+    "name": "Iron Bar",
+    "imageUrl": "assets/24px-Iron_Bar.png",
+    "dyeInfoId": "dye_146"
+  },
+  "spool_149": {
+    "id": "spool_149",
+    "name": "Copper Bar",
+    "imageUrl": "assets/24px-Copper_Bar.png",
+    "dyeInfoId": "dye_147"
+  },
+  "spool_150": {
+    "id": "spool_150",
+    "name": "Gold Bar",
+    "imageUrl": "assets/24px-Gold_Bar.png",
+    "dyeInfoId": "dye_148"
+  },
+  "spool_151": {
+    "id": "spool_151",
+    "name": "Iridium Bar",
+    "imageUrl": "assets/24px-Iridium_Bar.png",
+    "dyeInfoId": "dye_149"
+  },
+  "spool_152": {
+    "id": "spool_152",
+    "name": "Muscle Remedy",
+    "imageUrl": "assets/24px-Muscle_Remedy.png",
+    "dyeInfoId": "dye_150"
+  },
+  "spool_153": {
+    "id": "spool_153",
+    "name": "Coffee Bean",
+    "imageUrl": "assets/24px-Coffee_Bean.png",
+    "dyeInfoId": "dye_151"
+  },
+  "spool_154": {
+    "id": "spool_154",
+    "name": "Bomb",
+    "imageUrl": "assets/24px-Bomb.png",
+    "dyeInfoId": "dye_152"
+  },
+  "spool_155": {
+    "id": "spool_155",
+    "name": "Cherry Bomb",
+    "imageUrl": "assets/24px-Cherry_Bomb.png",
+    "dyeInfoId": "dye_153"
+  },
+  "spool_156": {
+    "id": "spool_156",
+    "name": "Mega Bomb",
+    "imageUrl": "assets/24px-Mega_Bomb.png",
+    "dyeInfoId": "dye_154"
+  },
+  "spool_157": {
+    "id": "spool_157",
+    "name": "Prehistoric Handaxe",
+    "imageUrl": "assets/24px-Prehistoric_Handaxe.png",
+    "dyeInfoId": "dye_155"
+  },
+  "spool_158": {
+    "id": "spool_158",
+    "name": "Prehistoric Tool",
+    "imageUrl": "assets/24px-Prehistoric_Tool.png",
+    "dyeInfoId": "dye_156"
+  },
+  "spool_159": {
+    "id": "spool_159",
+    "name": "Bullhead",
+    "imageUrl": "assets/24px-Bullhead.png",
+    "dyeInfoId": "dye_157"
+  },
+  "spool_160": {
+    "id": "spool_160",
+    "name": "Carp",
+    "imageUrl": "assets/24px-Carp.png",
+    "dyeInfoId": "dye_158"
+  },
+  "spool_161": {
+    "id": "spool_161",
+    "name": "Chub",
+    "imageUrl": "assets/24px-Chub.png",
+    "dyeInfoId": "dye_159"
+  },
+  "spool_162": {
+    "id": "spool_162",
+    "name": "Largemouth Bass",
+    "imageUrl": "assets/24px-Largemouth_Bass.png",
+    "dyeInfoId": "dye_160"
+  },
+  "spool_163": {
+    "id": "spool_163",
+    "name": "Lingcod",
+    "imageUrl": "assets/24px-Lingcod.png",
+    "dyeInfoId": "dye_161"
+  },
+  "spool_164": {
+    "id": "spool_164",
+    "name": "Midnight Carp",
+    "imageUrl": "assets/24px-Midnight_Carp.png",
+    "dyeInfoId": "dye_162"
+  },
+  "spool_165": {
+    "id": "spool_165",
+    "name": "Perch",
+    "imageUrl": "assets/24px-Perch.png",
+    "dyeInfoId": "dye_163"
+  },
+  "spool_166": {
+    "id": "spool_166",
+    "name": "Pike",
+    "imageUrl": "assets/24px-Pike.png",
+    "dyeInfoId": "dye_164"
+  },
+  "spool_167": {
+    "id": "spool_167",
+    "name": "Smallmouth Bass",
+    "imageUrl": "assets/24px-Smallmouth_Bass.png",
+    "dyeInfoId": "dye_165"
+  },
+  "spool_168": {
+    "id": "spool_168",
+    "name": "Sturgeon",
+    "imageUrl": "assets/24px-Sturgeon.png",
+    "dyeInfoId": "dye_166"
+  },
+  "spool_169": {
+    "id": "spool_169",
+    "name": "Walleye",
+    "imageUrl": "assets/24px-Walleye.png",
+    "dyeInfoId": "dye_167"
+  },
+  "spool_170": {
+    "id": "spool_170",
+    "name": "Woodskip",
+    "imageUrl": "assets/24px-Woodskip.png",
+    "dyeInfoId": "dye_168"
+  },
+  "spool_171": {
+    "id": "spool_171",
+    "name": "Bream",
+    "imageUrl": "assets/24px-Bream.png",
+    "dyeInfoId": "dye_169"
+  },
+  "spool_172": {
+    "id": "spool_172",
+    "name": "Catfish",
+    "imageUrl": "assets/24px-Catfish.png",
+    "dyeInfoId": "dye_170"
+  },
+  "spool_173": {
+    "id": "spool_173",
+    "name": "Dorado",
+    "imageUrl": "assets/24px-Dorado.png",
+    "dyeInfoId": "dye_171"
+  },
+  "spool_174": {
+    "id": "spool_174",
+    "name": "Ghostfish",
+    "imageUrl": "assets/24px-Ghostfish.png",
+    "dyeInfoId": "dye_172"
+  },
+  "spool_175": {
+    "id": "spool_175",
+    "name": "Goby",
+    "imageUrl": "assets/24px-Goby.png",
+    "dyeInfoId": "dye_173"
+  },
+  "spool_176": {
+    "id": "spool_176",
+    "name": "Rainbow Trout",
+    "imageUrl": "assets/24px-Rainbow_Trout.png",
+    "dyeInfoId": "dye_174"
+  },
+  "spool_177": {
+    "id": "spool_177",
+    "name": "Sandfish",
+    "imageUrl": "assets/24px-Sandfish.png",
+    "dyeInfoId": "dye_175"
+  },
+  "spool_178": {
+    "id": "spool_178",
+    "name": "Shad",
+    "imageUrl": "assets/24px-Shad.png",
+    "dyeInfoId": "dye_176"
+  },
+  "spool_179": {
+    "id": "spool_179",
+    "name": "Sunfish",
+    "imageUrl": "assets/24px-Sunfish.png",
+    "dyeInfoId": "dye_177"
+  },
+  "spool_180": {
+    "id": "spool_180",
+    "name": "Tiger Trout",
+    "imageUrl": "assets/24px-Tiger_Trout.png",
+    "dyeInfoId": "dye_178"
+  },
+  "spool_181": {
+    "id": "spool_181",
+    "name": "Carrot",
+    "imageUrl": "assets/24px-Carrot.png",
+    "dyeInfoId": "dye_179"
+  },
+  "spool_182": {
+    "id": "spool_182",
+    "name": "Cauliflower",
+    "imageUrl": "assets/24px-Cauliflower.png",
+    "dyeInfoId": "dye_180"
+  },
+  "spool_183": {
+    "id": "spool_183",
+    "name": "Garlic",
+    "imageUrl": "assets/24px-Garlic.png",
+    "dyeInfoId": "dye_181"
+  },
+  "spool_184": {
+    "id": "spool_184",
+    "name": "Green Bean",
+    "imageUrl": "assets/24px-Green_Bean.png",
+    "dyeInfoId": "dye_182"
+  },
+  "spool_185": {
+    "id": "spool_185",
+    "name": "Hops",
+    "imageUrl": "assets/24px-Hops.png",
+    "dyeInfoId": "dye_183"
+  },
+  "spool_186": {
+    "id": "spool_186",
+    "name": "Kale",
+    "imageUrl": "assets/24px-Kale.png",
+    "dyeInfoId": "dye_184"
+  },
+  "spool_187": {
+    "id": "spool_187",
+    "name": "Parsnip",
+    "imageUrl": "assets/24px-Parsnip.png",
+    "dyeInfoId": "dye_185"
+  },
+  "spool_188": {
+    "id": "spool_188",
+    "name": "Potato",
+    "imageUrl": "assets/24px-Potato.png",
+    "dyeInfoId": "dye_186"
+  },
+  "spool_189": {
+    "id": "spool_189",
+    "name": "Taro Root",
+    "imageUrl": "assets/24px-Taro_Root.png",
+    "dyeInfoId": "dye_187"
+  },
+  "spool_190": {
+    "id": "spool_190",
+    "name": "Tea Leaves",
+    "imageUrl": "assets/24px-Tea_Leaves.png",
+    "dyeInfoId": "dye_188"
+  },
+  "spool_191": {
+    "id": "spool_191",
+    "name": "Unmilled Rice",
+    "imageUrl": "assets/24px-Unmilled_Rice.png",
+    "dyeInfoId": "dye_189"
+  },
+  "spool_192": {
+    "id": "spool_192",
+    "name": "Geode",
+    "imageUrl": "assets/24px-Geode.png",
+    "dyeInfoId": "dye_190"
+  },
+  "spool_193": {
+    "id": "spool_193",
+    "name": "Frozen Geode",
+    "imageUrl": "assets/24px-Frozen_Geode.png",
+    "dyeInfoId": "dye_191"
+  },
+  "spool_194": {
+    "id": "spool_194",
+    "name": "Magma Geode",
+    "imageUrl": "assets/24px-Magma_Geode.png",
+    "dyeInfoId": "dye_192"
+  },
+  "spool_195": {
+    "id": "spool_195",
+    "name": "Field Snack",
+    "imageUrl": "assets/24px-Field_Snack.png",
+    "dyeInfoId": "dye_193"
+  },
+  "spool_196": {
+    "id": "spool_196",
+    "name": "Pancakes",
+    "imageUrl": "assets/24px-Pancakes.png",
+    "dyeInfoId": "dye_194"
+  },
+  "spool_197": {
+    "id": "spool_197",
+    "name": "Pale Broth",
+    "imageUrl": "assets/24px-Pale_Broth.png",
+    "dyeInfoId": "dye_195"
+  },
+  "spool_198": {
+    "id": "spool_198",
+    "name": "Vinegar",
+    "imageUrl": "assets/24px-Vinegar.png",
+    "dyeInfoId": "dye_196"
+  },
+  "spool_199": {
+    "id": "spool_199",
+    "name": "Quartz",
+    "imageUrl": "assets/24px-Quartz.png",
+    "dyeInfoId": "dye_197"
+  },
+  "spool_200": {
+    "id": "spool_200",
+    "name": "Seaweed",
+    "imageUrl": "assets/24px-Seaweed.png",
+    "dyeInfoId": "dye_198"
+  },
+  "spool_201": {
+    "id": "spool_201",
+    "name": "Obsidian",
+    "imageUrl": "assets/24px-Obsidian.png",
+    "dyeInfoId": "dye_199"
+  },
+  "spool_202": {
+    "id": "spool_202",
+    "name": "Soapstone",
+    "imageUrl": "assets/24px-Soapstone.png",
+    "dyeInfoId": "dye_200"
+  },
+  "spool_203": {
+    "id": "spool_203",
+    "name": "Tom Kha Soup",
+    "imageUrl": "assets/24px-Tom_Kha_Soup.png",
+    "dyeInfoId": "dye_201"
+  },
+  "spool_204": {
+    "id": "spool_204",
+    "name": "Fiddlehead Risotto",
+    "imageUrl": "assets/24px-Fiddlehead_Risotto.png",
+    "dyeInfoId": "dye_202"
+  },
+  "spool_205": {
+    "id": "spool_205",
+    "name": "Basic Fertilizer",
+    "imageUrl": "assets/24px-Basic_Fertilizer.png",
+    "dyeInfoId": "dye_203"
+  },
+  "spool_206": {
+    "id": "spool_206",
+    "name": "Basic Retaining Soil",
+    "imageUrl": "assets/24px-Basic_Retaining_Soil.png",
+    "dyeInfoId": "dye_204"
+  },
+  "spool_207": {
+    "id": "spool_207",
+    "name": "Deluxe Fertilizer",
+    "imageUrl": "assets/24px-Deluxe_Fertilizer.png",
+    "dyeInfoId": null
+  },
+  "spool_208": {
+    "id": "spool_208",
+    "name": "Deluxe Retaining Soil",
+    "imageUrl": "assets/24px-Deluxe_Retaining_Soil.png",
+    "dyeInfoId": null
+  },
+  "spool_209": {
+    "id": "spool_209",
+    "name": "Hyper Speed-Gro",
+    "imageUrl": "assets/24px-Hyper_Speed-Gro.png",
+    "dyeInfoId": null
+  },
+  "spool_210": {
+    "id": "spool_210",
+    "name": "Speed-Gro",
+    "imageUrl": "assets/24px-Speed-Gro.png",
+    "dyeInfoId": "dye_205"
+  },
+  "spool_211": {
+    "id": "spool_211",
+    "name": "Tree Fertilizer",
+    "imageUrl": "assets/24px-Tree_Fertilizer.png",
+    "dyeInfoId": "dye_206"
+  },
+  "spool_212": {
+    "id": "spool_212",
+    "name": "Deluxe Speed-Gro",
+    "imageUrl": "assets/24px-Deluxe_Speed-Gro.png",
+    "dyeInfoId": "dye_207"
+  },
+  "spool_213": {
+    "id": "spool_213",
+    "name": "Quality Fertilizer",
+    "imageUrl": "assets/24px-Quality_Fertilizer.png",
+    "dyeInfoId": "dye_208"
+  },
+  "spool_214": {
+    "id": "spool_214",
+    "name": "Quality Retaining Soil",
+    "imageUrl": "assets/24px-Quality_Retaining_Soil.png",
+    "dyeInfoId": "dye_209"
+  },
+  "spool_215": {
+    "id": "spool_215",
+    "name": "Fiber",
+    "imageUrl": "assets/24px-Fiber.png",
+    "dyeInfoId": "dye_210"
+  },
+  "spool_216": {
+    "id": "spool_216",
+    "name": "Wood",
+    "imageUrl": "assets/24px-Wood.png",
+    "dyeInfoId": "dye_211"
+  },
+  "spool_217": {
+    "id": "spool_217",
+    "name": "Copper Ore",
+    "imageUrl": "assets/24px-Copper_Ore.png",
+    "dyeInfoId": "dye_212"
+  },
+  "spool_218": {
+    "id": "spool_218",
+    "name": "Gold Ore",
+    "imageUrl": "assets/24px-Gold_Ore.png",
+    "dyeInfoId": "dye_213"
+  },
+  "spool_219": {
+    "id": "spool_219",
+    "name": "Iron Ore",
+    "imageUrl": "assets/24px-Iron_Ore.png",
+    "dyeInfoId": "dye_214"
+  },
+  "spool_220": {
+    "id": "spool_220",
+    "name": "Radioactive Ore",
+    "imageUrl": "assets/24px-Radioactive_Ore.png",
+    "dyeInfoId": "dye_215"
+  },
+  "spool_221": {
+    "id": "spool_221",
+    "name": "Iridium Ore",
+    "imageUrl": "assets/24px-Iridium_Ore.png",
+    "dyeInfoId": "dye_216"
+  },
+  "spool_222": {
+    "id": "spool_222",
+    "name": "Pepper Poppers",
+    "imageUrl": "assets/24px-Pepper_Poppers.png",
+    "dyeInfoId": "dye_217"
+  },
+  "spool_223": {
+    "id": "spool_223",
+    "name": "Baryte",
+    "imageUrl": "assets/24px-Baryte.png",
+    "dyeInfoId": "dye_218"
+  },
+  "spool_224": {
+    "id": "spool_224",
+    "name": "Calcite",
+    "imageUrl": "assets/24px-Calcite.png",
+    "dyeInfoId": "dye_219"
+  },
+  "spool_225": {
+    "id": "spool_225",
+    "name": "Esperite",
+    "imageUrl": "assets/24px-Esperite.png",
+    "dyeInfoId": "dye_220"
+  },
+  "spool_226": {
+    "id": "spool_226",
+    "name": "Red Plate",
+    "imageUrl": "assets/24px-Red_Plate.png",
+    "dyeInfoId": "dye_221"
+  },
+  "spool_227": {
+    "id": "spool_227",
+    "name": "Rare Disc",
+    "imageUrl": "assets/24px-Rare_Disc.png",
+    "dyeInfoId": "dye_222"
+  },
+  "spool_228": {
+    "id": "spool_228",
+    "name": "Pumpkin Pie",
+    "imageUrl": "assets/24px-Pumpkin_Pie.png",
+    "dyeInfoId": "dye_223"
+  },
+  "spool_229": {
+    "id": "spool_229",
+    "name": "Jagoite",
+    "imageUrl": "assets/24px-Jagoite.png",
+    "dyeInfoId": "dye_224"
+  },
+  "spool_230": {
+    "id": "spool_230",
+    "name": "Lunarite",
+    "imageUrl": "assets/24px-Lunarite.png",
+    "dyeInfoId": "dye_225"
+  },
+  "spool_231": {
+    "id": "spool_231",
+    "name": "Malachite",
+    "imageUrl": "assets/24px-Malachite.png",
+    "dyeInfoId": "dye_226"
+  },
+  "spool_232": {
+    "id": "spool_232",
+    "name": "Lemon Stone",
+    "imageUrl": "assets/24px-Lemon_Stone.png",
+    "dyeInfoId": "dye_227"
+  },
+  "spool_233": {
+    "id": "spool_233",
+    "name": "Orpiment",
+    "imageUrl": "assets/24px-Orpiment.png",
+    "dyeInfoId": "dye_228"
+  },
+  "spool_234": {
+    "id": "spool_234",
+    "name": "Pyrite",
+    "imageUrl": "assets/24px-Pyrite.png",
+    "dyeInfoId": "dye_229"
+  },
+  "spool_235": {
+    "id": "spool_235",
+    "name": "Ocean Stone",
+    "imageUrl": "assets/24px-Ocean_Stone.png",
+    "dyeInfoId": "dye_230"
+  },
+  "spool_236": {
+    "id": "spool_236",
+    "name": "Tigerseye",
+    "imageUrl": "assets/24px-Tigerseye.png",
+    "dyeInfoId": "dye_231"
+  },
+  "spool_237": {
+    "id": "spool_237",
+    "name": "Jasper",
+    "imageUrl": "assets/24px-Jasper.png",
+    "dyeInfoId": "dye_232"
+  },
+  "spool_238": {
+    "id": "spool_238",
+    "name": "Sandstone",
+    "imageUrl": "assets/24px-Sandstone.png",
+    "dyeInfoId": "dye_233"
+  },
+  "spool_239": {
+    "id": "spool_239",
+    "name": "Fire Opal",
+    "imageUrl": "assets/24px-Fire_Opal.png",
+    "dyeInfoId": "dye_234"
+  },
+  "spool_240": {
+    "id": "spool_240",
+    "name": "Hematite",
+    "imageUrl": "assets/24px-Hematite.png",
+    "dyeInfoId": "dye_235"
+  },
+  "spool_241": {
+    "id": "spool_241",
+    "name": "Marble",
+    "imageUrl": "assets/24px-Marble.png",
+    "dyeInfoId": "dye_236"
+  },
+  "spool_242": {
+    "id": "spool_242",
+    "name": "Star Shards",
+    "imageUrl": "assets/24px-Star_Shards.png",
+    "dyeInfoId": "dye_237"
+  },
+  "spool_243": {
+    "id": "spool_243",
+    "name": "Helvite",
+    "imageUrl": "assets/24px-Helvite.png",
+    "dyeInfoId": "dye_238"
+  },
+  "spool_244": {
+    "id": "spool_244",
+    "name": "Kyanite",
+    "imageUrl": "assets/24px-Kyanite.png",
+    "dyeInfoId": "dye_239"
+  },
+  "spool_245": {
+    "id": "spool_245",
+    "name": "Coconut",
+    "imageUrl": "assets/24px-Coconut.png",
+    "dyeInfoId": "dye_240"
+  },
+  "spool_246": {
+    "id": "spool_246",
+    "name": "Jamborite",
+    "imageUrl": "assets/24px-Jamborite.png",
+    "dyeInfoId": "dye_241"
+  },
+  "spool_247": {
+    "id": "spool_247",
+    "name": "Fluorapatite",
+    "imageUrl": "assets/24px-Fluorapatite.png",
+    "dyeInfoId": "dye_242"
+  },
+  "spool_248": {
+    "id": "spool_248",
+    "name": "Petrified Slime",
+    "imageUrl": "assets/24px-Petrified_Slime.png",
+    "dyeInfoId": "dye_243"
+  },
+  "spool_249": {
+    "id": "spool_249",
+    "name": "Amphibian Fossil",
+    "imageUrl": "assets/24px-Amphibian_Fossil.png",
+    "dyeInfoId": "dye_244"
+  },
+  "spool_250": {
+    "id": "spool_250",
+    "name": "Nautilus Fossil",
+    "imageUrl": "assets/24px-Nautilus_Fossil.png",
+    "dyeInfoId": "dye_245"
+  },
+  "spool_251": {
+    "id": "spool_251",
+    "name": "Palm Fossil",
+    "imageUrl": "assets/24px-Palm_Fossil.png",
+    "dyeInfoId": "dye_246"
+  },
+  "spool_252": {
+    "id": "spool_252",
+    "name": "Trilobite",
+    "imageUrl": "assets/24px-Trilobite.png",
+    "dyeInfoId": "dye_247"
+  },
+  "spool_253": {
+    "id": "spool_253",
+    "name": "Juice (any)",
+    "imageUrl": "assets/24px-Juice.png",
+    "dyeInfoId": "dye_248"
+  },
+  "spool_254": {
+    "id": "spool_254",
+    "name": "Strange Bun",
+    "imageUrl": "assets/24px-Strange_Bun.png",
+    "dyeInfoId": "dye_249"
+  },
+  "spool_255": {
+    "id": "spool_255",
+    "name": "Frozen Tear",
+    "imageUrl": "assets/24px-Frozen_Tear.png",
+    "dyeInfoId": "dye_250"
+  },
+  "spool_256": {
+    "id": "spool_256",
+    "name": "Glazed Yams",
+    "imageUrl": "assets/24px-Glazed_Yams.png",
+    "dyeInfoId": "dye_251"
+  },
+  "spool_257": {
+    "id": "spool_257",
+    "name": "Escargot",
+    "imageUrl": "assets/24px-Escargot.png",
+    "dyeInfoId": "dye_252"
+  },
+  "spool_258": {
+    "id": "spool_258",
+    "name": "Dish O' The Sea",
+    "imageUrl": "assets/24px-Dish_Of_The_Sea.png",
+    "dyeInfoId": "dye_253"
+  },
+  "spool_259": {
+    "id": "spool_259",
+    "name": "Void Essence",
+    "imageUrl": "assets/24px-Void_Essence.png",
+    "dyeInfoId": "dye_254"
+  },
+  "spool_260": {
+    "id": "spool_260",
+    "name": "Egg",
+    "imageUrl": "assets/24px-Egg.png",
+    "dyeInfoId": null
+  },
+  "spool_261": {
+    "id": "spool_261",
+    "name": "Large Milk",
+    "imageUrl": "assets/24px-Large_Milk.png",
+    "dyeInfoId": "dye_255"
+  },
+  "spool_262": {
+    "id": "spool_262",
+    "name": "Large Egg",
+    "imageUrl": "assets/24px-Large_Egg.png",
+    "dyeInfoId": null
+  },
+  "spool_263": {
+    "id": "spool_263",
+    "name": "Solar Essence",
+    "imageUrl": "assets/24px-Solar_Essence.png",
+    "dyeInfoId": "dye_256"
+  },
+  "spool_264": {
+    "id": "spool_264",
+    "name": "Refined Quartz",
+    "imageUrl": "assets/24px-Refined_Quartz.png",
+    "dyeInfoId": "dye_257"
+  },
+  "spool_265": {
+    "id": "spool_265",
+    "name": "Autumn's Bounty",
+    "imageUrl": "assets/24px-Autumn_Bounty.png",
+    "dyeInfoId": "dye_258"
+  },
+  "spool_266": {
+    "id": "spool_266",
+    "name": "Dwarf Scroll I",
+    "imageUrl": "assets/24px-Dwarf_Scroll_I.png",
+    "dyeInfoId": "dye_259"
+  },
+  "spool_267": {
+    "id": "spool_267",
+    "name": "Dwarf Scroll II",
+    "imageUrl": "assets/24px-Dwarf_Scroll_II.png",
+    "dyeInfoId": "dye_260"
+  },
+  "spool_268": {
+    "id": "spool_268",
+    "name": "Dwarf Scroll III",
+    "imageUrl": "assets/24px-Dwarf_Scroll_III.png",
+    "dyeInfoId": "dye_261"
+  },
+  "spool_269": {
+    "id": "spool_269",
+    "name": "Dwarf Scroll IV",
+    "imageUrl": "assets/24px-Dwarf_Scroll_IV.png",
+    "dyeInfoId": "dye_262"
+  },
+  "spool_270": {
+    "id": "spool_270",
+    "name": "Prismatic Shard",
+    "imageUrl": "assets/24px-Prismatic_Shard.png",
+    "dyeInfoId": null
+  },
+  "spool_271": {
+    "id": "spool_271",
+    "name": "Diamond",
+    "imageUrl": "assets/24px-Diamond.png",
+    "dyeInfoId": "dye_263"
+  },
+  "spool_272": {
+    "id": "spool_272",
+    "name": "Torch",
+    "imageUrl": "assets/24px-Torch.png",
+    "dyeInfoId": "dye_264"
+  },
+  "spool_273": {
+    "id": "spool_273",
+    "name": "Spicy Eel",
+    "imageUrl": "assets/24px-Spicy_Eel.png",
+    "dyeInfoId": "dye_265"
+  },
+  "spool_274": {
+    "id": "spool_274",
+    "name": "Chipped Amphora",
+    "imageUrl": "assets/24px-Chipped_Amphora.png",
+    "dyeInfoId": "dye_266"
+  },
+  "spool_275": {
+    "id": "spool_275",
+    "name": "Arrowhead",
+    "imageUrl": "assets/24px-Arrowhead.png",
+    "dyeInfoId": "dye_267"
+  },
+  "spool_276": {
+    "id": "spool_276",
+    "name": "Ancient Doll",
+    "imageUrl": "assets/24px-Ancient_Doll.png",
+    "dyeInfoId": "dye_268"
+  },
+  "spool_277": {
+    "id": "spool_277",
+    "name": "Elvish Jewelry",
+    "imageUrl": "assets/24px-Elvish_Jewelry.png",
+    "dyeInfoId": "dye_269"
+  },
+  "spool_278": {
+    "id": "spool_278",
+    "name": "Chewing Stick",
+    "imageUrl": "assets/24px-Chewing_Stick.png",
+    "dyeInfoId": "dye_270"
+  },
+  "spool_279": {
+    "id": "spool_279",
+    "name": "Broken CD",
+    "imageUrl": "assets/24px-Broken_CD.png",
+    "dyeInfoId": "dye_271"
+  },
+  "spool_280": {
+    "id": "spool_280",
+    "name": "Broken Glasses",
+    "imageUrl": "assets/24px-Broken_Glasses.png",
+    "dyeInfoId": "dye_272"
+  },
+  "spool_281": {
+    "id": "spool_281",
+    "name": "Driftwood",
+    "imageUrl": "assets/24px-Driftwood.png",
+    "dyeInfoId": "dye_273"
+  },
+  "spool_282": {
+    "id": "spool_282",
+    "name": "Soggy Newspaper",
+    "imageUrl": "assets/24px-Soggy_Newspaper.png",
+    "dyeInfoId": "dye_274"
+  },
+  "spool_283": {
+    "id": "spool_283",
+    "name": "Trash (item)",
+    "imageUrl": "assets/24px-Trash_item.png",
+    "dyeInfoId": "dye_275"
+  },
+  "spool_284": {
+    "id": "spool_284",
+    "name": "Rusty Spoon",
+    "imageUrl": "assets/24px-Rusty_Spoon.png",
+    "dyeInfoId": "dye_276"
+  },
+  "spool_285": {
+    "id": "spool_285",
+    "name": "Rusty Cog",
+    "imageUrl": "assets/24px-Rusty_Cog.png",
+    "dyeInfoId": "dye_277"
+  },
+  "spool_286": {
+    "id": "spool_286",
+    "name": "Chicken Statue",
+    "imageUrl": "assets/24px-Chicken_Statue.png",
+    "dyeInfoId": "dye_278"
+  },
+  "spool_287": {
+    "id": "spool_287",
+    "name": "Spaghetti",
+    "imageUrl": "assets/24px-Spaghetti.png",
+    "dyeInfoId": "dye_279"
+  },
+  "spool_288": {
+    "id": "spool_288",
+    "name": "Ancient Seed",
+    "imageUrl": "assets/24px-Ancient_Seed.png",
+    "dyeInfoId": null
+  },
+  "spool_289": {
+    "id": "spool_289",
+    "name": "Dried Starfish",
+    "imageUrl": "assets/24px-Dried_Starfish.png",
+    "dyeInfoId": "dye_280"
+  },
+  "spool_290": {
+    "id": "spool_290",
+    "name": "Anchor",
+    "imageUrl": "assets/24px-Anchor.png",
+    "dyeInfoId": "dye_281"
+  },
+  "spool_291": {
+    "id": "spool_291",
+    "name": "Glass Shards",
+    "imageUrl": "assets/24px-Glass_Shards.png",
+    "dyeInfoId": "dye_282"
+  },
+  "spool_292": {
+    "id": "spool_292",
+    "name": "Trout Soup",
+    "imageUrl": "assets/24px-Trout_Soup.png",
+    "dyeInfoId": "dye_283"
+  },
+  "spool_293": {
+    "id": "spool_293",
+    "name": "Bone Flute",
+    "imageUrl": "assets/24px-Bone_Flute.png",
+    "dyeInfoId": "dye_284"
+  },
+  "spool_294": {
+    "id": "spool_294",
+    "name": "Ancient Drum",
+    "imageUrl": "assets/24px-Ancient_Drum.png",
+    "dyeInfoId": "dye_285"
+  },
+  "spool_295": {
+    "id": "spool_295",
+    "name": "Golden Relic",
+    "imageUrl": "assets/24px-Golden_Relic.png",
+    "dyeInfoId": "dye_286"
+  },
+  "spool_296": {
+    "id": "spool_296",
+    "name": "Strange Doll (yellow)",
+    "imageUrl": "assets/24px-Strange_Doll_yellow.png",
+    "dyeInfoId": "dye_287"
+  },
+  "spool_297": {
+    "id": "spool_297",
+    "name": "Fried Egg",
+    "imageUrl": "assets/24px-Fried_Egg.png",
+    "dyeInfoId": "dye_288"
+  },
+  "spool_298": {
+    "id": "spool_298",
+    "name": "Survival Burger",
+    "imageUrl": "assets/24px-Survival_Burger.png",
+    "dyeInfoId": "dye_289"
+  },
+  "spool_299": {
+    "id": "spool_299",
+    "name": "Green Algae",
+    "imageUrl": "assets/24px-Green_Algae.png",
+    "dyeInfoId": "dye_290"
+  },
+  "spool_300": {
+    "id": "spool_300",
+    "name": "White Algae",
+    "imageUrl": "assets/24px-White_Algae.png",
+    "dyeInfoId": "dye_291"
+  },
+  "spool_301": {
+    "id": "spool_301",
+    "name": "Cheese Cauliflower",
+    "imageUrl": "assets/24px-Cheese_Cauliflower.png",
+    "dyeInfoId": "dye_292"
+  },
+  "spool_302": {
+    "id": "spool_302",
+    "name": "Carp Surprise",
+    "imageUrl": "assets/24px-Carp_Surprise.png",
+    "dyeInfoId": "dye_293"
+  },
+  "spool_303": {
+    "id": "spool_303",
+    "name": "Hashbrowns",
+    "imageUrl": "assets/24px-Hashbrowns.png",
+    "dyeInfoId": "dye_294"
+  },
+  "spool_304": {
+    "id": "spool_304",
+    "name": "Tortilla",
+    "imageUrl": "assets/24px-Tortilla.png",
+    "dyeInfoId": "dye_295"
+  },
+  "spool_305": {
+    "id": "spool_305",
+    "name": "Wheat Flour",
+    "imageUrl": "assets/24px-Wheat_Flour.png",
+    "dyeInfoId": "dye_296"
+  },
+  "spool_306": {
+    "id": "spool_306",
+    "name": "Sugar",
+    "imageUrl": "assets/24px-Sugar.png",
+    "dyeInfoId": "dye_297"
+  },
+  "spool_307": {
+    "id": "spool_307",
+    "name": "Super Meal",
+    "imageUrl": "assets/24px-Super_Meal.png",
+    "dyeInfoId": "dye_298"
+  },
+  "spool_308": {
+    "id": "spool_308",
+    "name": "Oil",
+    "imageUrl": "assets/24px-Oil.png",
+    "dyeInfoId": "dye_299"
+  },
+  "spool_309": {
+    "id": "spool_309",
+    "name": "Morel",
+    "imageUrl": "assets/24px-Morel.png",
+    "dyeInfoId": "dye_300"
+  },
+  "spool_310": {
+    "id": "spool_310",
+    "name": "Spring Onion",
+    "imageUrl": "assets/24px-Spring_Onion.png",
+    "dyeInfoId": "dye_301"
+  },
+  "spool_311": {
+    "id": "spool_311",
+    "name": "Albacore",
+    "imageUrl": "assets/24px-Albacore.png",
+    "dyeInfoId": "dye_302"
+  },
+  "spool_312": {
+    "id": "spool_312",
+    "name": "Anchovy",
+    "imageUrl": "assets/24px-Anchovy.png",
+    "dyeInfoId": "dye_303"
+  },
+  "spool_313": {
+    "id": "spool_313",
+    "name": "Blue Discus",
+    "imageUrl": "assets/24px-Blue_Discus.png",
+    "dyeInfoId": "dye_304"
+  },
+  "spool_314": {
+    "id": "spool_314",
+    "name": "Eel",
+    "imageUrl": "assets/24px-Eel.png",
+    "dyeInfoId": "dye_305"
+  },
+  "spool_315": {
+    "id": "spool_315",
+    "name": "Flounder",
+    "imageUrl": "assets/24px-Flounder.png",
+    "dyeInfoId": "dye_306"
+  },
+  "spool_316": {
+    "id": "spool_316",
+    "name": "Halibut",
+    "imageUrl": "assets/24px-Halibut.png",
+    "dyeInfoId": "dye_307"
+  },
+  "spool_317": {
+    "id": "spool_317",
+    "name": "Herring",
+    "imageUrl": "assets/24px-Herring.png",
+    "dyeInfoId": "dye_308"
+  },
+  "spool_318": {
+    "id": "spool_318",
+    "name": "Lionfish",
+    "imageUrl": "assets/24px-Lionfish.png",
+    "dyeInfoId": "dye_309"
+  },
+  "spool_319": {
+    "id": "spool_319",
+    "name": "Pufferfish",
+    "imageUrl": "assets/24px-Pufferfish.png",
+    "dyeInfoId": "dye_310"
+  },
+  "spool_320": {
+    "id": "spool_320",
+    "name": "Red Mullet",
+    "imageUrl": "assets/24px-Red_Mullet.png",
+    "dyeInfoId": "dye_311"
+  },
+  "spool_321": {
+    "id": "spool_321",
+    "name": "Red Snapper",
+    "imageUrl": "assets/24px-Red_Snapper.png",
+    "dyeInfoId": "dye_312"
+  },
+  "spool_322": {
+    "id": "spool_322",
+    "name": "Sardine",
+    "imageUrl": "assets/24px-Sardine.png",
+    "dyeInfoId": "dye_313"
+  },
+  "spool_323": {
+    "id": "spool_323",
+    "name": "Squid",
+    "imageUrl": "assets/24px-Squid.png",
+    "dyeInfoId": "dye_314"
+  },
+  "spool_324": {
+    "id": "spool_324",
+    "name": "Stingray",
+    "imageUrl": "assets/24px-Stingray.png",
+    "dyeInfoId": "dye_315"
+  },
+  "spool_325": {
+    "id": "spool_325",
+    "name": "Tilapia",
+    "imageUrl": "assets/24px-Tilapia.png",
+    "dyeInfoId": "dye_316"
+  },
+  "spool_326": {
+    "id": "spool_326",
+    "name": "Tuna",
+    "imageUrl": "assets/24px-Tuna.png",
+    "dyeInfoId": "dye_317"
+  },
+  "spool_327": {
+    "id": "spool_327",
+    "name": "Crayfish",
+    "imageUrl": "assets/24px-Crayfish.png",
+    "dyeInfoId": "dye_318"
+  },
+  "spool_328": {
+    "id": "spool_328",
+    "name": "Periwinkle",
+    "imageUrl": "assets/24px-Periwinkle.png",
+    "dyeInfoId": "dye_319"
+  },
+  "spool_329": {
+    "id": "spool_329",
+    "name": "Snail",
+    "imageUrl": "assets/24px-Snail.png",
+    "dyeInfoId": "dye_320"
+  },
+  "spool_330": {
+    "id": "spool_330",
+    "name": "Clam",
+    "imageUrl": "assets/24px-Clam.png",
+    "dyeInfoId": "dye_321"
+  },
+  "spool_331": {
+    "id": "spool_331",
+    "name": "Cockle",
+    "imageUrl": "assets/24px-Cockle.png",
+    "dyeInfoId": "dye_322"
+  },
+  "spool_332": {
+    "id": "spool_332",
+    "name": "Crab",
+    "imageUrl": "assets/24px-Crab.png",
+    "dyeInfoId": "dye_323"
+  },
+  "spool_333": {
+    "id": "spool_333",
+    "name": "Lobster",
+    "imageUrl": "assets/24px-Lobster.png",
+    "dyeInfoId": "dye_324"
+  },
+  "spool_334": {
+    "id": "spool_334",
+    "name": "Mussel",
+    "imageUrl": "assets/24px-Mussel.png",
+    "dyeInfoId": "dye_325"
+  },
+  "spool_335": {
+    "id": "spool_335",
+    "name": "Oyster",
+    "imageUrl": "assets/24px-Oyster.png",
+    "dyeInfoId": "dye_326"
+  },
+  "spool_336": {
+    "id": "spool_336",
+    "name": "Shrimp",
+    "imageUrl": "assets/24px-Shrimp.png",
+    "dyeInfoId": "dye_327"
+  },
+  "spool_337": {
+    "id": "spool_337",
+    "name": "Truffle",
+    "imageUrl": "assets/24px-Truffle.png",
+    "dyeInfoId": "dye_328"
+  },
+  "spool_338": {
+    "id": "spool_338",
+    "name": "Truffle Oil",
+    "imageUrl": "assets/24px-Truffle_Oil.png",
+    "dyeInfoId": "dye_329"
+  },
+  "spool_339": {
+    "id": "spool_339",
+    "name": "Life Elixir",
+    "imageUrl": "assets/24px-Life_Elixir.png",
+    "dyeInfoId": "dye_330"
+  },
+  "spool_340": {
+    "id": "spool_340",
+    "name": "Monster Musk",
+    "imageUrl": "assets/24px-Monster_Musk.png",
+    "dyeInfoId": "dye_331"
+  },
+  "spool_341": {
+    "id": "spool_341",
+    "name": "Oil of Garlic",
+    "imageUrl": "assets/24px-Oil_of_Garlic.png",
+    "dyeInfoId": "dye_332"
+  },
+  "spool_342": {
+    "id": "spool_342",
+    "name": "Omni Geode",
+    "imageUrl": "assets/24px-Omni_Geode.png",
+    "dyeInfoId": "dye_333"
+  },
+  "spool_343": {
+    "id": "spool_343",
+    "name": "Ornamental Fan",
+    "imageUrl": "assets/24px-Ornamental_Fan.png",
+    "dyeInfoId": "dye_334"
+  },
+  "spool_344": {
+    "id": "spool_344",
+    "name": "Hazelnut",
+    "imageUrl": "assets/24px-Hazelnut.png",
+    "dyeInfoId": "dye_335"
+  },
+  "spool_345": {
+    "id": "spool_345",
+    "name": "Winter Root",
+    "imageUrl": "assets/24px-Winter_Root.png",
+    "dyeInfoId": "dye_336"
+  },
+  "spool_346": {
+    "id": "spool_346",
+    "name": "Rice",
+    "imageUrl": "assets/24px-Rice.png",
+    "dyeInfoId": "dye_337"
+  },
+  "spool_347": {
+    "id": "spool_347",
+    "name": "Coffee",
+    "imageUrl": "assets/24px-Coffee.png",
+    "dyeInfoId": "dye_338"
+  },
+  "spool_348": {
+    "id": "spool_348",
+    "name": "Triple Shot Espresso",
+    "imageUrl": "assets/24px-Triple_Shot_Espresso.png",
+    "dyeInfoId": "dye_339"
+  },
+  "spool_349": {
+    "id": "spool_349",
+    "name": "Duck Egg",
+    "imageUrl": "assets/24px-Duck_Egg.png",
+    "dyeInfoId": "dye_340"
+  },
+  "spool_350": {
+    "id": "spool_350",
+    "name": "Plum Pudding",
+    "imageUrl": "assets/24px-Plum_Pudding.png",
+    "dyeInfoId": "dye_341"
+  },
+  "spool_351": {
+    "id": "spool_351",
+    "name": "Roe (any)",
+    "imageUrl": "assets/24px-Roe.png",
+    "dyeInfoId": "dye_342"
+  },
+  "spool_352": {
+    "id": "spool_352",
+    "name": "Void Mayonnaise",
+    "imageUrl": "assets/24px-Void_Mayonnaise.png",
+    "dyeInfoId": "dye_343"
+  },
+  "spool_353": {
+    "id": "spool_353",
+    "name": "Poppyseed Muffin",
+    "imageUrl": "assets/24px-Poppyseed_Muffin.png",
+    "dyeInfoId": "dye_344"
+  },
+  "spool_354": {
+    "id": "spool_354",
+    "name": "Stir Fry",
+    "imageUrl": "assets/24px-Stir_Fry.png",
+    "dyeInfoId": "dye_345"
+  },
+  "spool_355": {
+    "id": "spool_355",
+    "name": "Maple Bar",
+    "imageUrl": "assets/24px-Maple_Bar.png",
+    "dyeInfoId": "dye_346"
+  },
+  "spool_356": {
+    "id": "spool_356",
+    "name": "Crab Cakes",
+    "imageUrl": "assets/24px-Crab_Cakes.png",
+    "dyeInfoId": "dye_347"
+  },
+  "spool_357": {
+    "id": "spool_357",
+    "name": "Radish Salad",
+    "imageUrl": "assets/24px-Radish_Salad.png",
+    "dyeInfoId": "dye_348"
+  },
+  "spool_358": {
+    "id": "spool_358",
+    "name": "Octopus",
+    "imageUrl": "assets/24px-Octopus.png",
+    "dyeInfoId": "dye_349"
+  },
+  "spool_359": {
+    "id": "spool_359",
+    "name": "Salmon",
+    "imageUrl": "assets/24px-Salmon.png",
+    "dyeInfoId": "dye_350"
+  },
+  "spool_360": {
+    "id": "spool_360",
+    "name": "Rhubarb",
+    "imageUrl": "assets/24px-Rhubarb.png",
+    "dyeInfoId": "dye_351"
+  },
+  "spool_361": {
+    "id": "spool_361",
+    "name": "Spice Berry",
+    "imageUrl": "assets/24px-Spice_Berry.png",
+    "dyeInfoId": "dye_352"
+  },
+  "spool_362": {
+    "id": "spool_362",
+    "name": "Tomato",
+    "imageUrl": "assets/24px-Tomato.png",
+    "dyeInfoId": "dye_353"
+  },
+  "spool_363": {
+    "id": "spool_363",
+    "name": "Chowder",
+    "imageUrl": "assets/24px-Chowder.png",
+    "dyeInfoId": "dye_354"
+  },
+  "spool_364": {
+    "id": "spool_364",
+    "name": "Aged Roe",
+    "imageUrl": "assets/24px-Aged_Roe.png",
+    "dyeInfoId": null
+  },
+  "spool_365": {
+    "id": "spool_365",
+    "name": "Squid Ink",
+    "imageUrl": "assets/24px-Squid_Ink.png",
+    "dyeInfoId": "dye_355"
+  },
+  "spool_366": {
+    "id": "spool_366",
+    "name": "Shrimp Cocktail",
+    "imageUrl": "assets/24px-Shrimp_Cocktail.png",
+    "dyeInfoId": "dye_356"
+  },
+  "spool_367": {
+    "id": "spool_367",
+    "name": "Green Tea",
+    "imageUrl": "assets/24px-Green_Tea.png",
+    "dyeInfoId": "dye_357"
+  },
+  "spool_368": {
+    "id": "spool_368",
+    "name": "Artifact Trove",
+    "imageUrl": "assets/24px-Artifact_Trove.png",
+    "dyeInfoId": null
+  },
+  "spool_369": {
+    "id": "spool_369",
+    "name": "Wilted Bouquet",
+    "imageUrl": "assets/24px-Wilted_Bouquet.png",
+    "dyeInfoId": null
+  },
+  "spool_370": {
+    "id": "spool_370",
+    "name": "Seafoam Pudding",
+    "imageUrl": "assets/24px-Seafoam_Pudding.png",
+    "dyeInfoId": "dye_358"
+  },
+  "spool_371": {
+    "id": "spool_371",
+    "name": "Magic Rock Candy",
+    "imageUrl": "assets/24px-Magic_Rock_Candy.png",
+    "dyeInfoId": null
+  },
+  "spool_372": {
+    "id": "spool_372",
+    "name": "Magma Cap",
+    "imageUrl": "assets/24px-Magma_Cap.png",
+    "dyeInfoId": "dye_359"
+  },
+  "spool_373": {
+    "id": "spool_373",
+    "name": "Ginger Ale",
+    "imageUrl": "assets/24px-Ginger_Ale.png",
+    "dyeInfoId": "dye_360"
+  },
+  "spool_374": {
+    "id": "spool_374",
+    "name": "Banana Pudding",
+    "imageUrl": "assets/24px-Banana_Pudding.png",
+    "dyeInfoId": "dye_361"
+  },
+  "spool_375": {
+    "id": "spool_375",
+    "name": "Mango Sticky Rice",
+    "imageUrl": "assets/24px-Mango_Sticky_Rice.png",
+    "dyeInfoId": "dye_362"
+  },
+  "spool_376": {
+    "id": "spool_376",
+    "name": "Poi",
+    "imageUrl": "assets/24px-Poi.png",
+    "dyeInfoId": "dye_363"
+  },
+  "spool_377": {
+    "id": "spool_377",
+    "name": "Tropical Curry",
+    "imageUrl": "assets/24px-Tropical_Curry.png",
+    "dyeInfoId": "dye_364"
+  },
+  "spool_378": {
+    "id": "spool_378",
+    "name": "Golden Coconut",
+    "imageUrl": "assets/24px-Golden_Coconut.png",
+    "dyeInfoId": "dye_365"
+  },
+  "spool_379": {
+    "id": "spool_379",
+    "name": "Cranberries",
+    "imageUrl": "assets/24px-Cranberries.png",
+    "dyeInfoId": "dye_366"
+  },
+  "spool_380": {
+    "id": "spool_380",
+    "name": "Pineapple",
+    "imageUrl": "assets/24px-Pineapple.png",
+    "dyeInfoId": "dye_367"
+  },
+  "spool_381": {
+    "id": "spool_381",
+    "name": "Powdermelon",
+    "imageUrl": "assets/24px-Powdermelon.png",
+    "dyeInfoId": "dye_368"
+  },
+  "spool_382": {
+    "id": "spool_382",
+    "name": "Strawberry",
+    "imageUrl": "assets/24px-Strawberry.png",
+    "dyeInfoId": "dye_369"
+  },
+  "spool_383": {
+    "id": "spool_383",
+    "name": "Wild Plum",
+    "imageUrl": "assets/24px-Wild_Plum.png",
+    "dyeInfoId": "dye_370"
+  },
+  "spool_384": {
+    "id": "spool_384",
+    "name": "Blueberry",
+    "imageUrl": "assets/24px-Blueberry.png",
+    "dyeInfoId": "dye_371"
+  },
+  "spool_385": {
+    "id": "spool_385",
+    "name": "Grape",
+    "imageUrl": "assets/24px-Grape.png",
+    "dyeInfoId": "dye_372"
+  },
+  "spool_386": {
+    "id": "spool_386",
+    "name": "Hot Pepper",
+    "imageUrl": "assets/24px-Hot_Pepper.png",
+    "dyeInfoId": "dye_373"
+  },
+  "spool_387": {
+    "id": "spool_387",
+    "name": "Melon",
+    "imageUrl": "assets/24px-Melon.png",
+    "dyeInfoId": "dye_374"
+  },
+  "spool_388": {
+    "id": "spool_388",
+    "name": "Fairy Rose",
+    "imageUrl": "assets/24px-Fairy_Rose.png",
+    "dyeInfoId": "dye_375"
+  },
+  "spool_389": {
+    "id": "spool_389",
+    "name": "Sunflower",
+    "imageUrl": "assets/24px-Sunflower.png",
+    "dyeInfoId": "dye_376"
+  },
+  "spool_390": {
+    "id": "spool_390",
+    "name": "Blue Jazz",
+    "imageUrl": "assets/24px-Blue_Jazz.png",
+    "dyeInfoId": "dye_377"
+  },
+  "spool_391": {
+    "id": "spool_391",
+    "name": "Tulip",
+    "imageUrl": "assets/24px-Tulip.png",
+    "dyeInfoId": "dye_378"
+  },
+  "spool_392": {
+    "id": "spool_392",
+    "name": "Poppy",
+    "imageUrl": "assets/24px-Poppy.png",
+    "dyeInfoId": "dye_379"
+  },
+  "spool_393": {
+    "id": "spool_393",
+    "name": "Summer Spangle",
+    "imageUrl": "assets/24px-Summer_Spangle.png",
+    "dyeInfoId": "dye_380"
+  },
+  "spool_394": {
+    "id": "spool_394",
+    "name": "Dinosaur Mayonnaise",
+    "imageUrl": "assets/24px-Dinosaur_Mayonnaise.png",
+    "dyeInfoId": "dye_381"
+  },
+  "spool_395": {
+    "id": "spool_395",
+    "name": "Hay",
+    "imageUrl": "assets/24px-Hay.png",
+    "dyeInfoId": "dye_382"
+  },
+  "spool_396": {
+    "id": "spool_396",
+    "name": "Ancient Fruit",
+    "imageUrl": "assets/24px-Ancient_Fruit.png",
+    "dyeInfoId": "dye_383"
+  },
+  "spool_397": {
+    "id": "spool_397",
+    "name": "Starfruit",
+    "imageUrl": "assets/24px-Starfruit.png",
+    "dyeInfoId": "dye_384"
+  },
+  "spool_398": {
+    "id": "spool_398",
+    "name": "Slime Egg",
+    "imageUrl": "assets/24px-Green_Slime_Egg.png",
+    "dyeInfoId": null
+  },
+  "spool_399": {
+    "id": "spool_399",
+    "name": "Honey (any)",
+    "imageUrl": "assets/24px-Honey.png",
+    "dyeInfoId": "dye_385"
+  },
+  "spool_400": {
+    "id": "spool_400",
+    "name": "Apple",
+    "imageUrl": "assets/24px-Apple.png",
+    "dyeInfoId": "dye_386"
+  },
+  "spool_401": {
+    "id": "spool_401",
+    "name": "Apricot",
+    "imageUrl": "assets/24px-Apricot.png",
+    "dyeInfoId": "dye_387"
+  },
+  "spool_402": {
+    "id": "spool_402",
+    "name": "Banana",
+    "imageUrl": "assets/24px-Banana.png",
+    "dyeInfoId": "dye_388"
+  },
+  "spool_403": {
+    "id": "spool_403",
+    "name": "Cherry",
+    "imageUrl": "assets/24px-Cherry.png",
+    "dyeInfoId": "dye_389"
+  },
+  "spool_404": {
+    "id": "spool_404",
+    "name": "Mango",
+    "imageUrl": "assets/24px-Mango.png",
+    "dyeInfoId": "dye_390"
+  },
+  "spool_405": {
+    "id": "spool_405",
+    "name": "Pomegranate",
+    "imageUrl": "assets/24px-Pomegranate.png",
+    "dyeInfoId": "dye_391"
+  },
+  "spool_406": {
+    "id": "spool_406",
+    "name": "Orange",
+    "imageUrl": "assets/24px-Orange.png",
+    "dyeInfoId": "dye_392"
+  },
+  "spool_407": {
+    "id": "spool_407",
+    "name": "Peach",
+    "imageUrl": "assets/24px-Peach.png",
+    "dyeInfoId": "dye_393"
+  },
+  "spool_408": {
+    "id": "spool_408",
+    "name": "Dinosaur Egg",
+    "imageUrl": "assets/24px-Dinosaur_Egg.png",
+    "dyeInfoId": "dye_394"
+  },
+  "spool_409": {
+    "id": "spool_409",
+    "name": "Rain Totem",
+    "imageUrl": "assets/24px-Rain_Totem.png",
+    "dyeInfoId": "dye_395"
+  },
+  "spool_410": {
+    "id": "spool_410",
+    "name": "Treasure Totem",
+    "imageUrl": "assets/24px-Treasure_Totem.png",
+    "dyeInfoId": "dye_396"
+  },
+  "spool_411": {
+    "id": "spool_411",
+    "name": "Warp Totem: Beach",
+    "imageUrl": "assets/24px-Warp_Totem_Beach.png",
+    "dyeInfoId": "dye_397"
+  },
+  "spool_412": {
+    "id": "spool_412",
+    "name": "Warp Totem: Desert",
+    "imageUrl": "assets/24px-Warp_Totem_Desert.png",
+    "dyeInfoId": "dye_398"
+  },
+  "spool_413": {
+    "id": "spool_413",
+    "name": "Warp Totem: Farm",
+    "imageUrl": "assets/24px-Warp_Totem_Farm.png",
+    "dyeInfoId": "dye_399"
+  },
+  "spool_414": {
+    "id": "spool_414",
+    "name": "Warp Totem: Island",
+    "imageUrl": "assets/24px-Warp_Totem_Island.png",
+    "dyeInfoId": "dye_400"
+  },
+  "spool_415": {
+    "id": "spool_415",
+    "name": "Warp Totem: Mountains",
+    "imageUrl": "assets/24px-Warp_Totem_Mountains.png",
+    "dyeInfoId": "dye_401"
+  },
+  "spool_416": {
+    "id": "spool_416",
+    "name": "Lava Eel",
+    "imageUrl": "assets/24px-Lava_Eel.png",
+    "dyeInfoId": "dye_402"
+  },
+  "spool_417": {
+    "id": "spool_417",
+    "name": "Dwarf Gadget",
+    "imageUrl": "assets/24px-Dwarf_Gadget.png",
+    "dyeInfoId": "dye_403"
+  },
+  "spool_418": {
+    "id": "spool_418",
+    "name": "Dwarvish Helm",
+    "imageUrl": "assets/24px-Dwarvish_Helm.png",
+    "dyeInfoId": "dye_404"
+  },
+  "spool_419": {
+    "id": "spool_419",
+    "name": "Caviar",
+    "imageUrl": "assets/24px-Caviar.png",
+    "dyeInfoId": "dye_405"
+  },
+  "spool_420": {
+    "id": "spool_420",
+    "name": "Jack-O-Lantern",
+    "imageUrl": "assets/24px-Jack-O-Lantern.png",
+    "dyeInfoId": "dye_406"
+  },
+  "spool_421": {
+    "id": "spool_421",
+    "name": "Prehistoric Tibia",
+    "imageUrl": "assets/24px-Prehistoric_Tibia.png",
+    "dyeInfoId": "dye_407"
+  },
+  "spool_422": {
+    "id": "spool_422",
+    "name": "Red Mushroom",
+    "imageUrl": "assets/24px-Red_Mushroom.png",
+    "dyeInfoId": "dye_408"
+  },
+  "spool_423": {
+    "id": "spool_423",
+    "name": "Acorn",
+    "imageUrl": "assets/24px-Acorn.png",
+    "dyeInfoId": "dye_409"
+  },
+  "spool_424": {
+    "id": "spool_424",
+    "name": "Mahogany Seed",
+    "imageUrl": "assets/24px-Mahogany_Seed.png",
+    "dyeInfoId": "dye_410"
+  },
+  "spool_425": {
+    "id": "spool_425",
+    "name": "Maple Seed",
+    "imageUrl": "assets/24px-Maple_Seed.png",
+    "dyeInfoId": "dye_411"
+  },
+  "spool_426": {
+    "id": "spool_426",
+    "name": "Pine Cone",
+    "imageUrl": "assets/24px-Pine_Cone.png",
+    "dyeInfoId": "dye_412"
+  },
+  "spool_427": {
+    "id": "spool_427",
+    "name": "Maple Syrup",
+    "imageUrl": "assets/24px-Maple_Syrup.png",
+    "dyeInfoId": "dye_413"
+  },
+  "spool_428": {
+    "id": "spool_428",
+    "name": "Oak Resin",
+    "imageUrl": "assets/24px-Oak_Resin.png",
+    "dyeInfoId": "dye_414"
+  },
+  "spool_429": {
+    "id": "spool_429",
+    "name": "Pine Tar",
+    "imageUrl": "assets/24px-Pine_Tar.png",
+    "dyeInfoId": "dye_415"
+  },
+  "spool_430": {
+    "id": "spool_430",
+    "name": "Ice Pip",
+    "imageUrl": "assets/24px-Ice_Pip.png",
+    "dyeInfoId": "dye_416"
+  },
+  "spool_431": {
+    "id": "spool_431",
+    "name": "Midnight Squid",
+    "imageUrl": "assets/24px-Midnight_Squid.png",
+    "dyeInfoId": "dye_417"
+  },
+  "spool_432": {
+    "id": "spool_432",
+    "name": "Scorpion Carp",
+    "imageUrl": "assets/24px-Scorpion_Carp.png",
+    "dyeInfoId": "dye_418"
+  },
+  "spool_433": {
+    "id": "spool_433",
+    "name": "Slimejack",
+    "imageUrl": "assets/24px-Slimejack.png",
+    "dyeInfoId": "dye_419"
+  },
+  "spool_434": {
+    "id": "spool_434",
+    "name": "Spook Fish",
+    "imageUrl": "assets/24px-Spook_Fish.png",
+    "dyeInfoId": "dye_420"
+  },
+  "spool_435": {
+    "id": "spool_435",
+    "name": "Stonefish",
+    "imageUrl": "assets/24px-Stonefish.png",
+    "dyeInfoId": "dye_421"
+  },
+  "spool_436": {
+    "id": "spool_436",
+    "name": "Void Salmon",
+    "imageUrl": "assets/24px-Void_Salmon.png",
+    "dyeInfoId": "dye_422"
+  },
+  "spool_437": {
+    "id": "spool_437",
+    "name": "Blobfish",
+    "imageUrl": "assets/24px-Blobfish.png",
+    "dyeInfoId": "dye_423"
+  },
+  "spool_438": {
+    "id": "spool_438",
+    "name": "Fireworks (Red)",
+    "imageUrl": "assets/24px-Fireworks_Red.png",
+    "dyeInfoId": "dye_424"
+  },
+  "spool_439": {
+    "id": "spool_439",
+    "name": "Pizza",
+    "imageUrl": "assets/24px-Pizza.png",
+    "dyeInfoId": "dye_425"
+  },
+  "spool_440": {
+    "id": "spool_440",
+    "name": "Chocolate Cake",
+    "imageUrl": "assets/24px-Chocolate_Cake.png",
+    "dyeInfoId": "dye_426"
+  },
+  "spool_441": {
+    "id": "spool_441",
+    "name": "Fireworks (Purple)",
+    "imageUrl": "assets/24px-Fireworks_Purple.png",
+    "dyeInfoId": "dye_427"
+  },
+  "spool_442": {
+    "id": "spool_442",
+    "name": "Fireworks (Green)",
+    "imageUrl": "assets/24px-Fireworks_Green.png",
+    "dyeInfoId": "dye_428"
+  },
+  "spool_443": {
+    "id": "spool_443",
+    "name": "Fish Taco",
+    "imageUrl": "assets/24px-Fish_Taco.png",
+    "dyeInfoId": "dye_429"
+  },
+  "spool_444": {
+    "id": "spool_444",
+    "name": "Treasure Chest",
+    "imageUrl": "assets/24px-Treasure_Chest.png",
+    "dyeInfoId": "dye_430"
+  },
+  "spool_445": {
+    "id": "spool_445",
+    "name": "Cranberry Sauce",
+    "imageUrl": "assets/24px-Cranberry_Sauce.png",
+    "dyeInfoId": "dye_431"
+  },
+  "spool_446": {
+    "id": "spool_446",
+    "name": "Stuffing",
+    "imageUrl": "assets/24px-Stuffing.png",
+    "dyeInfoId": "dye_432"
+  },
+  "spool_447": {
+    "id": "spool_447",
+    "name": "Sweet Gem Berry",
+    "imageUrl": "assets/24px-Sweet_Gem_Berry.png",
+    "dyeInfoId": "dye_433"
+  },
+  "spool_448": {
+    "id": "spool_448",
+    "name": "Golden Mask",
+    "imageUrl": "assets/24px-Golden_Mask.png",
+    "dyeInfoId": "dye_434"
+  },
+  "spool_449": {
+    "id": "spool_449",
+    "name": "Miner's Treat",
+    "imageUrl": "assets/24px-Miner_Treat.png",
+    "dyeInfoId": "dye_435"
+  },
+  "spool_450": {
+    "id": "spool_450",
+    "name": "Pearl",
+    "imageUrl": "assets/24px-Pearl.png",
+    "dyeInfoId": "dye_436"
+  },
+  "spool_451": {
+    "id": "spool_451",
+    "name": "Golden Pumpkin",
+    "imageUrl": "assets/24px-Golden_Pumpkin.png",
+    "dyeInfoId": "dye_437"
+  },
+  "spool_452": {
+    "id": "spool_452",
+    "name": "Radioactive Bar",
+    "imageUrl": "assets/24px-Radioactive_Bar.png",
+    "dyeInfoId": "dye_438"
+  },
+  "spool_453": {
+    "id": "spool_453",
+    "name": "Dragon Tooth",
+    "imageUrl": "assets/24px-Dragon_Tooth.png",
+    "dyeInfoId": "dye_439"
+  },
+  "spool_454": {
+    "id": "spool_454",
+    "name": "Qi Fruit",
+    "imageUrl": "assets/24px-Qi_Fruit.png",
+    "dyeInfoId": "dye_440"
+  },
+  "spool_455": {
+    "id": "spool_455",
+    "name": "Mushroom Tree Seed",
+    "imageUrl": "assets/24px-Mushroom_Tree_Seed.png",
+    "dyeInfoId": "dye_441"
+  },
+  "spool_456": {
+    "id": "spool_456",
+    "name": "Cinder Shard",
+    "imageUrl": "assets/24px-Cinder_Shard.png",
+    "dyeInfoId": "dye_442"
+  },
+  "spool_457": {
+    "id": "spool_457",
+    "name": "Bug Steak",
+    "imageUrl": "assets/24px-Bug_Steak.png",
+    "dyeInfoId": "dye_443"
+  },
+  "spool_458": {
+    "id": "spool_458",
+    "name": "Ginger",
+    "imageUrl": "assets/24px-Ginger.png",
+    "dyeInfoId": "dye_444"
+  },
+  "spool_459": {
+    "id": "spool_459",
+    "name": "Ostrich Egg",
+    "imageUrl": "assets/24px-Ostrich_Egg.png",
+    "dyeInfoId": "dye_445"
+  }
+}

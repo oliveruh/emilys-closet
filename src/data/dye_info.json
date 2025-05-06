@@ -1,0 +1,2672 @@
+{
+  "dye_001": {
+    "id": "dye_001",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_002": {
+    "id": "dye_002",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_003": {
+    "id": "dye_003",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_004": {
+    "id": "dye_004",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_005": {
+    "id": "dye_005",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_006": {
+    "id": "dye_006",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_007": {
+    "id": "dye_007",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_008": {
+    "id": "dye_008",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "strong"
+  },
+  "dye_009": {
+    "id": "dye_009",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_010": {
+    "id": "dye_010",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_011": {
+    "id": "dye_011",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_012": {
+    "id": "dye_012",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_013": {
+    "id": "dye_013",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_014": {
+    "id": "dye_014",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "strong"
+  },
+  "dye_015": {
+    "id": "dye_015",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_016": {
+    "id": "dye_016",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_017": {
+    "id": "dye_017",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_018": {
+    "id": "dye_018",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_019": {
+    "id": "dye_019",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_020": {
+    "id": "dye_020",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_021": {
+    "id": "dye_021",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_022": {
+    "id": "dye_022",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_023": {
+    "id": "dye_023",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_024": {
+    "id": "dye_024",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_025": {
+    "id": "dye_025",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_026": {
+    "id": "dye_026",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_027": {
+    "id": "dye_027",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_028": {
+    "id": "dye_028",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_029": {
+    "id": "dye_029",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_030": {
+    "id": "dye_030",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_031": {
+    "id": "dye_031",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_032": {
+    "id": "dye_032",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_033": {
+    "id": "dye_033",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_034": {
+    "id": "dye_034",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_035": {
+    "id": "dye_035",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_036": {
+    "id": "dye_036",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_037": {
+    "id": "dye_037",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_038": {
+    "id": "dye_038",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_039": {
+    "id": "dye_039",
+    "colorName": "dark pink",
+    "rgbCode": "255,20,147",
+    "strength": null
+  },
+  "dye_040": {
+    "id": "dye_040",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_041": {
+    "id": "dye_041",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_042": {
+    "id": "dye_042",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_043": {
+    "id": "dye_043",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_044": {
+    "id": "dye_044",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_045": {
+    "id": "dye_045",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_046": {
+    "id": "dye_046",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_047": {
+    "id": "dye_047",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_048": {
+    "id": "dye_048",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_049": {
+    "id": "dye_049",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_050": {
+    "id": "dye_050",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_051": {
+    "id": "dye_051",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_052": {
+    "id": "dye_052",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_053": {
+    "id": "dye_053",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_054": {
+    "id": "dye_054",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_055": {
+    "id": "dye_055",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": "medium"
+  },
+  "dye_056": {
+    "id": "dye_056",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_057": {
+    "id": "dye_057",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_058": {
+    "id": "dye_058",
+    "colorName": "dark brown",
+    "rgbCode": "139,69,19",
+    "strength": null
+  },
+  "dye_059": {
+    "id": "dye_059",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_060": {
+    "id": "dye_060",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_061": {
+    "id": "dye_061",
+    "colorName": "dark blue",
+    "rgbCode": "0,0,139",
+    "strength": null
+  },
+  "dye_062": {
+    "id": "dye_062",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_063": {
+    "id": "dye_063",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_064": {
+    "id": "dye_064",
+    "colorName": "light cyan",
+    "rgbCode": "180,255,255",
+    "strength": null
+  },
+  "dye_065": {
+    "id": "dye_065",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_066": {
+    "id": "dye_066",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_067": {
+    "id": "dye_067",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_068": {
+    "id": "dye_068",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_069": {
+    "id": "dye_069",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_070": {
+    "id": "dye_070",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_071": {
+    "id": "dye_071",
+    "colorName": "dark green",
+    "rgbCode": "0,100,0",
+    "strength": null
+  },
+  "dye_072": {
+    "id": "dye_072",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_073": {
+    "id": "dye_073",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_074": {
+    "id": "dye_074",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_075": {
+    "id": "dye_075",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": null
+  },
+  "dye_076": {
+    "id": "dye_076",
+    "colorName": "dark brown",
+    "rgbCode": "139,69,19",
+    "strength": null
+  },
+  "dye_077": {
+    "id": "dye_077",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_078": {
+    "id": "dye_078",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": "medium"
+  },
+  "dye_079": {
+    "id": "dye_079",
+    "colorName": "dark blue",
+    "rgbCode": "0,0,139",
+    "strength": null
+  },
+  "dye_080": {
+    "id": "dye_080",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_081": {
+    "id": "dye_081",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_082": {
+    "id": "dye_082",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_083": {
+    "id": "dye_083",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_084": {
+    "id": "dye_084",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_085": {
+    "id": "dye_085",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_086": {
+    "id": "dye_086",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_087": {
+    "id": "dye_087",
+    "colorName": "dark red",
+    "rgbCode": "139,0,0",
+    "strength": null
+  },
+  "dye_088": {
+    "id": "dye_088",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_089": {
+    "id": "dye_089",
+    "colorName": "copper",
+    "rgbCode": "179,85,0",
+    "strength": null
+  },
+  "dye_090": {
+    "id": "dye_090",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_091": {
+    "id": "dye_091",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_092": {
+    "id": "dye_092",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_093": {
+    "id": "dye_093",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_094": {
+    "id": "dye_094",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_095": {
+    "id": "dye_095",
+    "colorName": "iron",
+    "rgbCode": "197,213,224",
+    "strength": null
+  },
+  "dye_096": {
+    "id": "dye_096",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_097": {
+    "id": "dye_097",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_098": {
+    "id": "dye_098",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_099": {
+    "id": "dye_099",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_100": {
+    "id": "dye_100",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_101": {
+    "id": "dye_101",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_102": {
+    "id": "dye_102",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_103": {
+    "id": "dye_103",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_104": {
+    "id": "dye_104",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_105": {
+    "id": "dye_105",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_106": {
+    "id": "dye_106",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_107": {
+    "id": "dye_107",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_108": {
+    "id": "dye_108",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_109": {
+    "id": "dye_109",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_110": {
+    "id": "dye_110",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_111": {
+    "id": "dye_111",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_112": {
+    "id": "dye_112",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_113": {
+    "id": "dye_113",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_114": {
+    "id": "dye_114",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_115": {
+    "id": "dye_115",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "medium"
+  },
+  "dye_116": {
+    "id": "dye_116",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_117": {
+    "id": "dye_117",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": "medium"
+  },
+  "dye_118": {
+    "id": "dye_118",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "medium"
+  },
+  "dye_119": {
+    "id": "dye_119",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "strong"
+  },
+  "dye_120": {
+    "id": "dye_120",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_121": {
+    "id": "dye_121",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "strong"
+  },
+  "dye_122": {
+    "id": "dye_122",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_123": {
+    "id": "dye_123",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_124": {
+    "id": "dye_124",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_125": {
+    "id": "dye_125",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_126": {
+    "id": "dye_126",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_127": {
+    "id": "dye_127",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_128": {
+    "id": "dye_128",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": null
+  },
+  "dye_129": {
+    "id": "dye_129",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_130": {
+    "id": "dye_130",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_131": {
+    "id": "dye_131",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_132": {
+    "id": "dye_132",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "medium"
+  },
+  "dye_133": {
+    "id": "dye_133",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": "strong"
+  },
+  "dye_134": {
+    "id": "dye_134",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "medium"
+  },
+  "dye_135": {
+    "id": "dye_135",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "medium"
+  },
+  "dye_136": {
+    "id": "dye_136",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": "medium"
+  },
+  "dye_137": {
+    "id": "dye_137",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": "medium"
+  },
+  "dye_138": {
+    "id": "dye_138",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "medium"
+  },
+  "dye_139": {
+    "id": "dye_139",
+    "colorName": "pale violet red",
+    "rgbCode": "219,112,147",
+    "strength": "medium"
+  },
+  "dye_140": {
+    "id": "dye_140",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_141": {
+    "id": "dye_141",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_142": {
+    "id": "dye_142",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_143": {
+    "id": "dye_143",
+    "colorName": "aquamarine",
+    "rgbCode": "127,255,212",
+    "strength": null
+  },
+  "dye_144": {
+    "id": "dye_144",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_145": {
+    "id": "dye_145",
+    "colorName": "jade",
+    "rgbCode": "130,158,93",
+    "strength": null
+  },
+  "dye_146": {
+    "id": "dye_146",
+    "colorName": "iron",
+    "rgbCode": "197,213,224",
+    "strength": null
+  },
+  "dye_147": {
+    "id": "dye_147",
+    "colorName": "copper",
+    "rgbCode": "179,85,0",
+    "strength": null
+  },
+  "dye_148": {
+    "id": "dye_148",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_149": {
+    "id": "dye_149",
+    "colorName": "iridium",
+    "rgbCode": "105,15,255",
+    "strength": null
+  },
+  "dye_150": {
+    "id": "dye_150",
+    "colorName": "dark yellow",
+    "rgbCode": "184,134,11",
+    "strength": null
+  },
+  "dye_151": {
+    "id": "dye_151",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_152": {
+    "id": "dye_152",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_153": {
+    "id": "dye_153",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_154": {
+    "id": "dye_154",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_155": {
+    "id": "dye_155",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_156": {
+    "id": "dye_156",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_157": {
+    "id": "dye_157",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_158": {
+    "id": "dye_158",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_159": {
+    "id": "dye_159",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_160": {
+    "id": "dye_160",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_161": {
+    "id": "dye_161",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_162": {
+    "id": "dye_162",
+    "colorName": "iridium",
+    "rgbCode": "105,15,255",
+    "strength": null
+  },
+  "dye_163": {
+    "id": "dye_163",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_164": {
+    "id": "dye_164",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_165": {
+    "id": "dye_165",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_166": {
+    "id": "dye_166",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_167": {
+    "id": "dye_167",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_168": {
+    "id": "dye_168",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_169": {
+    "id": "dye_169",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_170": {
+    "id": "dye_170",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_171": {
+    "id": "dye_171",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_172": {
+    "id": "dye_172",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_173": {
+    "id": "dye_173",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_174": {
+    "id": "dye_174",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_175": {
+    "id": "dye_175",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_176": {
+    "id": "dye_176",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_177": {
+    "id": "dye_177",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_178": {
+    "id": "dye_178",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_179": {
+    "id": "dye_179",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": "medium"
+  },
+  "dye_180": {
+    "id": "dye_180",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": "medium"
+  },
+  "dye_181": {
+    "id": "dye_181",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": "medium"
+  },
+  "dye_182": {
+    "id": "dye_182",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "medium"
+  },
+  "dye_183": {
+    "id": "dye_183",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_184": {
+    "id": "dye_184",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "strong"
+  },
+  "dye_185": {
+    "id": "dye_185",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "medium"
+  },
+  "dye_186": {
+    "id": "dye_186",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "medium"
+  },
+  "dye_187": {
+    "id": "dye_187",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_188": {
+    "id": "dye_188",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_189": {
+    "id": "dye_189",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_190": {
+    "id": "dye_190",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_191": {
+    "id": "dye_191",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_192": {
+    "id": "dye_192",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_193": {
+    "id": "dye_193",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_194": {
+    "id": "dye_194",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_195": {
+    "id": "dye_195",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_196": {
+    "id": "dye_196",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_197": {
+    "id": "dye_197",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_198": {
+    "id": "dye_198",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_199": {
+    "id": "dye_199",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_200": {
+    "id": "dye_200",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_201": {
+    "id": "dye_201",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_202": {
+    "id": "dye_202",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_203": {
+    "id": "dye_203",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_204": {
+    "id": "dye_204",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_205": {
+    "id": "dye_205",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_206": {
+    "id": "dye_206",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_207": {
+    "id": "dye_207",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_208": {
+    "id": "dye_208",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_209": {
+    "id": "dye_209",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_210": {
+    "id": "dye_210",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_211": {
+    "id": "dye_211",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_212": {
+    "id": "dye_212",
+    "colorName": "copper",
+    "rgbCode": "179,85,0",
+    "strength": null
+  },
+  "dye_213": {
+    "id": "dye_213",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_214": {
+    "id": "dye_214",
+    "colorName": "iron",
+    "rgbCode": "197,213,224",
+    "strength": null
+  },
+  "dye_215": {
+    "id": "dye_215",
+    "colorName": "lime",
+    "rgbCode": "0,255,0",
+    "strength": null
+  },
+  "dye_216": {
+    "id": "dye_216",
+    "colorName": "iridium",
+    "rgbCode": "105,15,255",
+    "strength": null
+  },
+  "dye_217": {
+    "id": "dye_217",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_218": {
+    "id": "dye_218",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_219": {
+    "id": "dye_219",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_220": {
+    "id": "dye_220",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_221": {
+    "id": "dye_221",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_222": {
+    "id": "dye_222",
+    "colorName": "dark gray",
+    "rgbCode": "169,169,169",
+    "strength": "strong"
+  },
+  "dye_223": {
+    "id": "dye_223",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_224": {
+    "id": "dye_224",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_225": {
+    "id": "dye_225",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": "strong"
+  },
+  "dye_226": {
+    "id": "dye_226",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_227": {
+    "id": "dye_227",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_228": {
+    "id": "dye_228",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_229": {
+    "id": "dye_229",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_230": {
+    "id": "dye_230",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_231": {
+    "id": "dye_231",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_232": {
+    "id": "dye_232",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_233": {
+    "id": "dye_233",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_234": {
+    "id": "dye_234",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": null
+  },
+  "dye_235": {
+    "id": "dye_235",
+    "colorName": "copper",
+    "rgbCode": "179,85,0",
+    "strength": null
+  },
+  "dye_236": {
+    "id": "dye_236",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_237": {
+    "id": "dye_237",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_238": {
+    "id": "dye_238",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_239": {
+    "id": "dye_239",
+    "colorName": "dark blue",
+    "rgbCode": "0,0,139",
+    "strength": null
+  },
+  "dye_240": {
+    "id": "dye_240",
+    "colorName": "dark brown",
+    "rgbCode": "139,69,19",
+    "strength": null
+  },
+  "dye_241": {
+    "id": "dye_241",
+    "colorName": "lime",
+    "rgbCode": "0,255,0",
+    "strength": null
+  },
+  "dye_242": {
+    "id": "dye_242",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_243": {
+    "id": "dye_243",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_244": {
+    "id": "dye_244",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_245": {
+    "id": "dye_245",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_246": {
+    "id": "dye_246",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_247": {
+    "id": "dye_247",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_248": {
+    "id": "dye_248",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_249": {
+    "id": "dye_249",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_250": {
+    "id": "dye_250",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_251": {
+    "id": "dye_251",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_252": {
+    "id": "dye_252",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_253": {
+    "id": "dye_253",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_254": {
+    "id": "dye_254",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_255": {
+    "id": "dye_255",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_256": {
+    "id": "dye_256",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_257": {
+    "id": "dye_257",
+    "colorName": "iridium",
+    "rgbCode": "105,15,255",
+    "strength": null
+  },
+  "dye_258": {
+    "id": "dye_258",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_259": {
+    "id": "dye_259",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "strong"
+  },
+  "dye_260": {
+    "id": "dye_260",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "strong"
+  },
+  "dye_261": {
+    "id": "dye_261",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": "strong"
+  },
+  "dye_262": {
+    "id": "dye_262",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "strong"
+  },
+  "dye_263": {
+    "id": "dye_263",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_264": {
+    "id": "dye_264",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_265": {
+    "id": "dye_265",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_266": {
+    "id": "dye_266",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "strong"
+  },
+  "dye_267": {
+    "id": "dye_267",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_268": {
+    "id": "dye_268",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": "strong"
+  },
+  "dye_269": {
+    "id": "dye_269",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "strong"
+  },
+  "dye_270": {
+    "id": "dye_270",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "strong"
+  },
+  "dye_271": {
+    "id": "dye_271",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_272": {
+    "id": "dye_272",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_273": {
+    "id": "dye_273",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_274": {
+    "id": "dye_274",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_275": {
+    "id": "dye_275",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_276": {
+    "id": "dye_276",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_277": {
+    "id": "dye_277",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "strong"
+  },
+  "dye_278": {
+    "id": "dye_278",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": "strong"
+  },
+  "dye_279": {
+    "id": "dye_279",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_280": {
+    "id": "dye_280",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "strong"
+  },
+  "dye_281": {
+    "id": "dye_281",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_282": {
+    "id": "dye_282",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": "strong"
+  },
+  "dye_283": {
+    "id": "dye_283",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_284": {
+    "id": "dye_284",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": "strong"
+  },
+  "dye_285": {
+    "id": "dye_285",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": "strong"
+  },
+  "dye_286": {
+    "id": "dye_286",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": "strong"
+  },
+  "dye_287": {
+    "id": "dye_287",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "strong"
+  },
+  "dye_288": {
+    "id": "dye_288",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_289": {
+    "id": "dye_289",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_290": {
+    "id": "dye_290",
+    "colorName": "dark green",
+    "rgbCode": "0,100,0",
+    "strength": null
+  },
+  "dye_291": {
+    "id": "dye_291",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_292": {
+    "id": "dye_292",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_293": {
+    "id": "dye_293",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_294": {
+    "id": "dye_294",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_295": {
+    "id": "dye_295",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_296": {
+    "id": "dye_296",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_297": {
+    "id": "dye_297",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_298": {
+    "id": "dye_298",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_299": {
+    "id": "dye_299",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_300": {
+    "id": "dye_300",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_301": {
+    "id": "dye_301",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_302": {
+    "id": "dye_302",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_303": {
+    "id": "dye_303",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_304": {
+    "id": "dye_304",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_305": {
+    "id": "dye_305",
+    "colorName": "copper",
+    "rgbCode": "179,85,0",
+    "strength": null
+  },
+  "dye_306": {
+    "id": "dye_306",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_307": {
+    "id": "dye_307",
+    "colorName": "dark gray",
+    "rgbCode": "169,169,169",
+    "strength": null
+  },
+  "dye_308": {
+    "id": "dye_308",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_309": {
+    "id": "dye_309",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_310": {
+    "id": "dye_310",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_311": {
+    "id": "dye_311",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_312": {
+    "id": "dye_312",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_313": {
+    "id": "dye_313",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_314": {
+    "id": "dye_314",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_315": {
+    "id": "dye_315",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_316": {
+    "id": "dye_316",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_317": {
+    "id": "dye_317",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_318": {
+    "id": "dye_318",
+    "colorName": "dark gray",
+    "rgbCode": "169,169,169",
+    "strength": null
+  },
+  "dye_319": {
+    "id": "dye_319",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_320": {
+    "id": "dye_320",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_321": {
+    "id": "dye_321",
+    "colorName": "light cyan",
+    "rgbCode": "180,255,255",
+    "strength": null
+  },
+  "dye_322": {
+    "id": "dye_322",
+    "colorName": "dark gray",
+    "rgbCode": "169,169,169",
+    "strength": null
+  },
+  "dye_323": {
+    "id": "dye_323",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_324": {
+    "id": "dye_324",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_325": {
+    "id": "dye_325",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_326": {
+    "id": "dye_326",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_327": {
+    "id": "dye_327",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_328": {
+    "id": "dye_328",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_329": {
+    "id": "dye_329",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_330": {
+    "id": "dye_330",
+    "colorName": "dark pink",
+    "rgbCode": "255,20,147",
+    "strength": null
+  },
+  "dye_331": {
+    "id": "dye_331",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_332": {
+    "id": "dye_332",
+    "colorName": "yellow green",
+    "rgbCode": "173,255,47",
+    "strength": null
+  },
+  "dye_333": {
+    "id": "dye_333",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": null
+  },
+  "dye_334": {
+    "id": "dye_334",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": "strong"
+  },
+  "dye_335": {
+    "id": "dye_335",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_336": {
+    "id": "dye_336",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_337": {
+    "id": "dye_337",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_338": {
+    "id": "dye_338",
+    "colorName": "dark brown",
+    "rgbCode": "139,69,19",
+    "strength": null
+  },
+  "dye_339": {
+    "id": "dye_339",
+    "colorName": "dark brown",
+    "rgbCode": "139,69,19",
+    "strength": "strong"
+  },
+  "dye_340": {
+    "id": "dye_340",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_341": {
+    "id": "dye_341",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_342": {
+    "id": "dye_342",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_343": {
+    "id": "dye_343",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_344": {
+    "id": "dye_344",
+    "colorName": "poppyseed",
+    "rgbCode": "82,47,153",
+    "strength": null
+  },
+  "dye_345": {
+    "id": "dye_345",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_346": {
+    "id": "dye_346",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_347": {
+    "id": "dye_347",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_348": {
+    "id": "dye_348",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_349": {
+    "id": "dye_349",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_350": {
+    "id": "dye_350",
+    "colorName": "salmon",
+    "rgbCode": "255,85,95",
+    "strength": null
+  },
+  "dye_351": {
+    "id": "dye_351",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_352": {
+    "id": "dye_352",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_353": {
+    "id": "dye_353",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_354": {
+    "id": "dye_354",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_355": {
+    "id": "dye_355",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_356": {
+    "id": "dye_356",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_357": {
+    "id": "dye_357",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_358": {
+    "id": "dye_358",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_359": {
+    "id": "dye_359",
+    "colorName": "dark pink",
+    "rgbCode": "255,20,147",
+    "strength": null
+  },
+  "dye_360": {
+    "id": "dye_360",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_361": {
+    "id": "dye_361",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_362": {
+    "id": "dye_362",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_363": {
+    "id": "dye_363",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_364": {
+    "id": "dye_364",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_365": {
+    "id": "dye_365",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_366": {
+    "id": "dye_366",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "strong"
+  },
+  "dye_367": {
+    "id": "dye_367",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_368": {
+    "id": "dye_368",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": "medium"
+  },
+  "dye_369": {
+    "id": "dye_369",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_370": {
+    "id": "dye_370",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": null
+  },
+  "dye_371": {
+    "id": "dye_371",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": "strong"
+  },
+  "dye_372": {
+    "id": "dye_372",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_373": {
+    "id": "dye_373",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_374": {
+    "id": "dye_374",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": "medium"
+  },
+  "dye_375": {
+    "id": "dye_375",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": "medium"
+  },
+  "dye_376": {
+    "id": "dye_376",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "medium"
+  },
+  "dye_377": {
+    "id": "dye_377",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": "medium"
+  },
+  "dye_378": {
+    "id": "dye_378",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "medium"
+  },
+  "dye_379": {
+    "id": "dye_379",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": "medium"
+  },
+  "dye_380": {
+    "id": "dye_380",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": "medium"
+  },
+  "dye_381": {
+    "id": "dye_381",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_382": {
+    "id": "dye_382",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_383": {
+    "id": "dye_383",
+    "colorName": "cyan",
+    "rgbCode": "0,255,255",
+    "strength": null
+  },
+  "dye_384": {
+    "id": "dye_384",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_385": {
+    "id": "dye_385",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_386": {
+    "id": "dye_386",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_387": {
+    "id": "dye_387",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_388": {
+    "id": "dye_388",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_389": {
+    "id": "dye_389",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_390": {
+    "id": "dye_390",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_391": {
+    "id": "dye_391",
+    "colorName": "dark pink",
+    "rgbCode": "255,20,147",
+    "strength": null
+  },
+  "dye_392": {
+    "id": "dye_392",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_393": {
+    "id": "dye_393",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_394": {
+    "id": "dye_394",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": "strong"
+  },
+  "dye_395": {
+    "id": "dye_395",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_396": {
+    "id": "dye_396",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_397": {
+    "id": "dye_397",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_398": {
+    "id": "dye_398",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_399": {
+    "id": "dye_399",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_400": {
+    "id": "dye_400",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_401": {
+    "id": "dye_401",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_402": {
+    "id": "dye_402",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_403": {
+    "id": "dye_403",
+    "colorName": "gray",
+    "rgbCode": "128,128,128",
+    "strength": "strong"
+  },
+  "dye_404": {
+    "id": "dye_404",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": "strong"
+  },
+  "dye_405": {
+    "id": "dye_405",
+    "colorName": "black",
+    "rgbCode": "45,45,45",
+    "strength": null
+  },
+  "dye_406": {
+    "id": "dye_406",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_407": {
+    "id": "dye_407",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_408": {
+    "id": "dye_408",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_409": {
+    "id": "dye_409",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_410": {
+    "id": "dye_410",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_411": {
+    "id": "dye_411",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_412": {
+    "id": "dye_412",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_413": {
+    "id": "dye_413",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_414": {
+    "id": "dye_414",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_415": {
+    "id": "dye_415",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_416": {
+    "id": "dye_416",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_417": {
+    "id": "dye_417",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_418": {
+    "id": "dye_418",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_419": {
+    "id": "dye_419",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_420": {
+    "id": "dye_420",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_421": {
+    "id": "dye_421",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_422": {
+    "id": "dye_422",
+    "colorName": "dark purple",
+    "rgbCode": "148,0,211",
+    "strength": null
+  },
+  "dye_423": {
+    "id": "dye_423",
+    "colorName": "sand",
+    "rgbCode": "255,222,173",
+    "strength": null
+  },
+  "dye_424": {
+    "id": "dye_424",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_425": {
+    "id": "dye_425",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_426": {
+    "id": "dye_426",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_427": {
+    "id": "dye_427",
+    "colorName": "purple",
+    "rgbCode": "115,41,181",
+    "strength": null
+  },
+  "dye_428": {
+    "id": "dye_428",
+    "colorName": "green",
+    "rgbCode": "10,143,0",
+    "strength": null
+  },
+  "dye_429": {
+    "id": "dye_429",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_430": {
+    "id": "dye_430",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_431": {
+    "id": "dye_431",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": "strong"
+  },
+  "dye_432": {
+    "id": "dye_432",
+    "colorName": "brown",
+    "rgbCode": "130,73,37",
+    "strength": null
+  },
+  "dye_433": {
+    "id": "dye_433",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_434": {
+    "id": "dye_434",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": "strong"
+  },
+  "dye_435": {
+    "id": "dye_435",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_436": {
+    "id": "dye_436",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  },
+  "dye_437": {
+    "id": "dye_437",
+    "colorName": "gold",
+    "rgbCode": "255,215,0",
+    "strength": null
+  },
+  "dye_438": {
+    "id": "dye_438",
+    "colorName": "lime",
+    "rgbCode": "0,255,0",
+    "strength": null
+  },
+  "dye_439": {
+    "id": "dye_439",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_440": {
+    "id": "dye_440",
+    "colorName": "blue",
+    "rgbCode": "46,85,183",
+    "strength": null
+  },
+  "dye_441": {
+    "id": "dye_441",
+    "colorName": "red",
+    "rgbCode": "220,0,0",
+    "strength": null
+  },
+  "dye_442": {
+    "id": "dye_442",
+    "colorName": "orange",
+    "rgbCode": "255,128,0",
+    "strength": null
+  },
+  "dye_443": {
+    "id": "dye_443",
+    "colorName": "pink",
+    "rgbCode": "255,163,186",
+    "strength": null
+  },
+  "dye_444": {
+    "id": "dye_444",
+    "colorName": "yellow",
+    "rgbCode": "255,230,0",
+    "strength": null
+  },
+  "dye_445": {
+    "id": "dye_445",
+    "colorName": "white",
+    "rgbCode": "255,255,255",
+    "strength": null
+  }
+}
