@@ -9,7 +9,6 @@
 ## 🎯 Core Features
 
 **Emily’s Closet** simplifies your in-game fashion endeavors by allowing you to:
-
 - 👗 **Discover Clothing:** Instantly see what clothing item results from combining a specific crafting item with Cloth at the sewing machine.
 - 🧣 **Item Lookup:** Quickly find out which specific item is needed to create that one clothing piece you've been eyeing.
 
@@ -32,3 +31,10 @@ This minimalist approach keeps the tool lightweight, fast, and easy to understan
 ├── 🖼️ assets/
 ├── 🎨 css/
 └── 📜 js/
+```
+
+## ⭐ Acknowledgements
+- This project is made out of love for the incredible Stardew Valley, created by the talented ConcernedApe.
+- The original concept and motivation came from a wonderful idea by my beloved wife, RalyQueen.
+- All pixel art assets and tailoring data have been carefully gathered and adapted from the invaluable Stardew Valley Wiki.
+- Emily's Closet is a dedicated fan project and holds no official affiliation with Stardew Valley or ConcernedApe.
