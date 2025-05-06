@@ -1,76 +1,34 @@
-# 🧵 Emily’s Closet — A Tailoring Companion for Stardew Valley
+# 🧵 Emily’s Closet — Your Stardew Valley Tailoring Companion
 
-> **"Fashion meets farming."**  
-> *A fan-made tool to help you visualize what outfits you can make.*
-
----
-
-## 🎯 What is this?
-
-**Emily’s Closet** is a web tool that lets *Stardew Valley* players easily:
-
-- 👗 **Discover** what clothing results from combining a specific item with cloth in the sewing machine
-- 🧣 **Look up** what item you need to create a specific clothing piece
-
-All in a cute, handcrafted interface — built entirely with **HTML, CSS, and vanilla JavaScript**.
+> *"Fashion meets farming."*
+>
+> Emily's Closet is a fan-made web tool designed to help *Stardew Valley* players effortlessly visualize and discover all the tailoring possibilities the game has to offer.
 
 ---
 
-## 🌟 Why it’s Special
+## 🎯 Core Features
 
-✨ **No frameworks. No build tools. No fluff.**  
-This project is lovingly crafted in **pure web tech**:
+**Emily’s Closet** simplifies your in-game fashion endeavors by allowing you to:
+
+- 👗 **Discover Clothing:** Instantly see what clothing item results from combining a specific crafting item with Cloth at the sewing machine.
+- 🧣 **Item Lookup:** Quickly find out which specific item is needed to create that one clothing piece you've been eyeing.
+
+All presented in a charming, handcrafted interface!
+
+---
+
+## ✨ Why It's Special: Pure & Simple
+
+This project stands out because it's built with a love for the basics:
+
+- **No Frameworks, No Build Tools, No Fluff.**
+- Crafted entirely with **vanilla HTML, CSS, and JavaScript.**
+
+This minimalist approach keeps the tool lightweight, fast, and easy to understand. Here’s a peek at its simple structure:
 
 ```bash
-📁 index.html
-🖼 assets/
-🎨 css/
-📜 js/
-```
-
----
-
-## 💡 Inspiration
-
-This project was born out of frustration — constantly flipping through giant tailoring spreadsheets on the wiki just to:
-
-> *“What can I make with this Duck Feather?”*  
-> *“How do I get that cute red vest?”*
-
-Now you can find the answer instantly.
-
----
-
-## 🚧 Roadmap
-
-- [x] Basic item + cloth → clothing search
-- [x] Clothing → required item lookup
-- [x] Mobile-friendly UI improvements
-- [x] Favorite/save outfits locally
-
----
-
-## 🙋 Feedback Wanted!
-
-I'm posting this project here on GitHub and hosting it on **[Neocities](https://emilys-closet.neocities.org)**.  
-If you have suggestions, bug reports, or ideas — I’d love to hear them!
-
-💬 Open an issue or discussion  
-🌱 Let’s make this tool better together!
-
----
-
-## 🎀 Credits
-
-- Inspired by the amazing *Stardew Valley* by ConcernedApe
-- Original idea came from my beloved wife **RalyQueen**.
-- Pixel art assets and all the data scrapped from the **[Stardew Valley Wiki](https://stardewvalleywiki.com)**
-- Fan project — no affiliation with the official game
-
----
-
-## 🧵 Try it Now
-
-👉 [**Visit Emily’s Closet on Neocities**](https://emilys-closet.neocities.org)
-
----
+📁 /
+├── 📄 index.html
+├── 🖼️ assets/
+├── 🎨 css/
+└── 📜 js/
