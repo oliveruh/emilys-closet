@@ -71,6 +71,20 @@ function formatNameForWikiUrl(itemName) {
 }
 
 /**
+ * Formats a string by removing brackets and their contents, trimming whitespace,
+ * converting to lowercase, and replacing spaces with hyphens.
+ * @param {string} input - The input string to format.
+ * @returns {string} The formatted string.
+ * */
+function formatItemNameForTracking(input) {
+    return input
+      .replace(/\[.*?\]/g, '')     
+      .trim()                      
+      .toLowerCase()               
+      .replace(/\s+/g, '-');       
+  }
+
+/**
  * Debounce function: Limits the rate at which a function can fire.
  * Useful for event listeners like search input to prevent excessive calls.
  * @param {Function} func - The function to debounce.
