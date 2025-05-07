@@ -68,21 +68,21 @@
     </div>
 
     <div class="mb-0 flex flex-wrap">
-      <button id="tab-spool-to-result" class="tab-button active" data-mode="spoolToResult">
+      <button id="tab-spool-to-result" class="tab-button active" data-mode="spoolToResult" data-umami-event="what-clothing-this-item-makes-tab">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M0 7L7 16H9L16 7V5L13 1H3L0 5V7ZM8 14H8.02183L13.4663 7H10.625L8 14ZM10.25 5H13.5L12 3H8.75L10.25 5Z" />
         </svg>
         What does this make?
       </button>
-      <button id="tab-result-to-spool" class="tab-button" data-mode="resultToSpool">
+      <button id="tab-result-to-spool" class="tab-button" data-mode="resultToSpool" data-umami-event="how-to-make-this-cloth-tab">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M5 4.5C5 2.567 6.567 1 8.5 1C10.433 1 12 2.567 12 4.5V4.55376C12 5.82905 11.3167 7.00657 10.2094 7.63929L10.0156 7.75005L16 11.1697V15.0001H0V11.1697L9.21712 5.9028C9.70123 5.62617 10 5.11134 10 4.55376V4.5C10 3.67157 9.32843 3 8.5 3C7.67157 3 7 3.67157 7 4.5V5H5V4.5ZM8 8.9018L2 12.3304V13.0001H14V12.3304L8 8.9018Z" />
         </svg>
         How do I make this?
       </button>
-      <button id="tab-favorites" class="tab-button" data-mode="favorites">
+      <button id="tab-favorites" class="tab-button" data-mode="favorites" data-umami-event="favorites-tab">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
             d="m12 17.27l4.15 2.51c.76.46 1.68-.21 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.19.86.73 1.54 1.49 1.08L12 17.27z" />
@@ -202,7 +202,7 @@
       <p>This is a fan-made website and is not affiliated with ConcernedApe in any way.</p>
     </div>
 
-    <button class="tip-button" onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=Z74ZYG2XLA4KQ', '_blank')">
+    <button class="tip-button" data-umami-event="tip-me-button" onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=Z74ZYG2XLA4KQ', '_blank')">
       Tip me
     </button>
 

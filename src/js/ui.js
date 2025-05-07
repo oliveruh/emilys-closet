@@ -51,6 +51,7 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
             gridItem.dataset.itemName = itemKeyOrObject; 
         }
         gridItem.title = itemData.name; 
+        gridItem.setAttribute('data-umami-event', `grid-${gridElement === clothingItemGrid ? 'clothing' : 'item'}-${itemData.name}-click`);
 
         // Create image element
         const img = document.createElement('img');
@@ -74,8 +75,9 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
         } else {
             wikiLink.className = 'wiki-link-grid-item'; 
         }
-
+        
         const wikiItemName = formatNameForWikiUrl(itemData.name);
+        wikiLink.setAttribute('data-umami-event', `wiki-${gridElement === clothingItemGrid ? 'clothing' : 'item'}-${wikiItemName}-click`);
         wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
         wikiLink.target = '_blank'; 
         wikiLink.rel = 'noopener noreferrer'; 
@@ -115,7 +117,8 @@ function createFavoriteButton(clothingKey) {
      const favButton = document.createElement('button');
      favButton.className = 'favorite-button'; 
      favButton.dataset.itemKey = clothingKey; 
-     syncFavoriteButtonState(favButton, clothingKey); 
+     favButton.setAttribute('data-umami-event', `add-item-${clothingKey}-to-favorite`);
+     syncFavoriteButtonState(favButton, clothingKey);
 
      favButton.addEventListener('click', (e) => {
          e.stopPropagation(); 
@@ -463,6 +466,7 @@ function populateRequiredSpoolPanel(clothingKey) {
          const wikiLink = document.createElement('a');
          wikiLink.className = 'wiki-link-button';
          const wikiItemName = formatNameForWikiUrl(spoolItemName);
+         wikiLink.setAttribute('data-umami-event', `wiki-item-${wikiItemName}-click`);
          wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
          wikiLink.target = '_blank'; 
          wikiLink.rel = 'noopener noreferrer'; 
