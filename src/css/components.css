@@ -393,3 +393,30 @@ select.subtle-input {
     animation: spin 1s linear infinite;
     margin-top: 15px;
 }
+
+/* --- Tip button --- */
+.tip-button {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: #FFF8DC;
+    color: #5c432a;
+    border: 2px solid #773C21;
+    padding: 4px 6px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    z-index: 1000;
+}
+
+.tip-button:hover {
+    color: #FFF8DC;
+    background-color: #CD853F;
+}
+
+@media screen and (min-width: 1875px) {
+    .tip-button {
+        right: 16.5rem;
+    }
+}
