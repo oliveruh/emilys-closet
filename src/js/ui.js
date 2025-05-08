@@ -51,7 +51,8 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
             gridItem.dataset.itemName = itemKeyOrObject; 
         }
         gridItem.title = itemData.name; 
-        gridItem.setAttribute('data-umami-event', `click-grid-${gridElement === clothingItemGrid ? 'cloth' : 'item'}-${formatItemNameForTracking(itemData.name)}`);
+        gridItem.setAttribute('data-umami-event', `Clicked the grid ${gridElement === clothingItemGrid ? 'cloth' : 'item'}`);
+        gridItem.setAttribute(`data-umami-event-${gridElement === clothingItemGrid ? 'cloth' : 'item'}_name`, formatItemNameForTracking(itemData.name));
 
         // Create image element
         const img = document.createElement('img');
@@ -77,7 +78,9 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
         }
         
         const wikiItemName = formatNameForWikiUrl(itemData.name);
-        wikiLink.setAttribute('data-umami-event', `click-wiki-${gridElement === clothingItemGrid ? 'cloth' : 'item'}-${formatItemNameForTracking(itemData.name)}`);
+        wikiLink.setAttribute('data-umami-event', `Clicked the wiki link for a ${gridElement === clothingItemGrid ? 'cloth' : 'grid item'}`);
+        wikiLink.setAttribute(`data-umami-event-${gridElement === clothingItemGrid ? 'cloth' : 'item'}_name`, formatItemNameForTracking(itemData.name));
+        wikiLink.setAttribute('data-umami-event-wiki_link', `${WIKI_BASE_URL}${wikiItemName}`);
         wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
         wikiLink.target = '_blank'; 
         wikiLink.rel = 'noopener noreferrer'; 
@@ -117,7 +120,8 @@ function createFavoriteButton(clothingKey) {
      const favButton = document.createElement('button');
      favButton.className = 'favorite-button'; 
      favButton.dataset.itemKey = clothingKey; 
-     favButton.setAttribute('data-umami-event', `add-cloth-${formatItemNameForTracking(clothingKey)}-to-favorite`);
+     favButton.setAttribute('data-umami-event', `Added a cloth to favorites`);
+     favButton.setAttribute('data-umami-event-cloth_name', formatItemNameForTracking(clothingKey));
      syncFavoriteButtonState(favButton, clothingKey);
 
      favButton.addEventListener('click', (e) => {
@@ -466,7 +470,9 @@ function populateRequiredSpoolPanel(clothingKey) {
          const wikiLink = document.createElement('a');
          wikiLink.className = 'wiki-link-button';
          const wikiItemName = formatNameForWikiUrl(spoolItemName);
-         wikiLink.setAttribute('data-umami-event', `click-wiki-item-${formatItemNameForTracking(spoolItemName)}`);
+         wikiLink.setAttribute('data-umami-event', `Clicked the wiki link for a required item`);
+         wikiLink.setAttribute('data-umami-event-required_item_name', formatItemNameForTracking(spoolItemName));
+         wikiLink.setAttribute('data-umami-event-wiki_link', `${WIKI_BASE_URL}${wikiItemName}`);
          wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
          wikiLink.target = '_blank'; 
          wikiLink.rel = 'noopener noreferrer'; 
