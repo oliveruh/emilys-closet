@@ -16,7 +16,7 @@ Welcome to **Emily’s Closet**! This fan-made web tool is your go-to resource f
 
 ## Screenshots
 
-<img src="./screenshots/screenshot_1.webp" alt="Emily’s Closet 'What does this make?' interface" width="400"/> <img src="./screenshots/screenshot_2.webp" alt="Emily’s Closet 'How do I make this?' interface" width="400"/> 
+<img src="https://raw.githubusercontent.com/oliveruh/emilys-closet/refs/heads/master/screenshots/screenshot_1.webp" alt="Emily’s Closet 'What does this make?' interface" width="400"/> <img src="https://raw.githubusercontent.com/oliveruh/emilys-closet/refs/heads/master/screenshots/screenshot_2.webp" alt="Emily’s Closet 'How do I make this?' interface" width="400"/> 
 
 ---
 
