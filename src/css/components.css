@@ -394,29 +394,96 @@ select.subtle-input {
     margin-top: 15px;
 }
 
-/* --- Tip button --- */
-.tip-button {
+/* --- Floating Buttons Container --- */
+.floating-buttons-container {
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1000;
+    align-items: flex-end;
+}
+
+/* --- floating buttons --- */
+.floating-btn {
     background-color: #FFF8DC;
     color: #5c432a;
     border: 2px solid #773C21;
-    padding: 4px 6px;
+    padding: 10px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 8px;
+    font-size: 12px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
-    z-index: 1000;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, padding 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    overflow: hidden;
 }
 
-.tip-button:hover {
-    color: #FFF8DC;
-    background-color: #CD853F;
+/* SVGs within floating buttons */
+.floating-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    flex-shrink: 0;
 }
 
-@media screen and (min-width: 1875px) {
-    .tip-button {
-        right: 16.5rem;
+/* --- Text part of the button --- */
+.button-text {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    transition: max-width 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+        opacity 0.2s 0.1s ease-out,
+        margin-left 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+
+
+@media (hover: hover) and (pointer: fine) {
+    .floating-btn:hover {
+        color: #FFF8DC;
+        background-color: #CD853F;
+        border-color: #5c432a;
+        padding: 10px 15px;
     }
+
+    .floating-btn:hover .button-text {
+        max-width: 200px;
+        opacity: 1;
+        margin: 0 8px 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-item {
+        min-width: 0;
+    }
+
+    .item-name-label {
+        margin-top: 0;
+        min-height: 0;
+
+    }
+
+    .floating-buttons-container {
+        bottom: 10px;
+        right: 5px;
+    }
+
+    .floating-btn {
+        padding: 5px;
+        font-size: 10px;
+    }
+    
 }
