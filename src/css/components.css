@@ -23,7 +23,7 @@
     position: absolute;
     fill: #cd853f;
     height: 1.05rem;
-    top: .5rem;
+    top: .1rem;
     right: .11rem;
     background: white;
     border-radius: 50%;
@@ -50,9 +50,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    padding: 10px 5px;
-    min-height: 85px;
-    min-width: 80px;
+    padding: 0 5px;
 }
 
 .grid-item:hover {
@@ -70,8 +68,8 @@
 }
 
 .grid-item img {
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     background-color: rgba(255, 250, 205, 0.6);
     border: 1px solid #eee8aa;
@@ -84,9 +82,8 @@
 
 .grid-item .favorite-button {
     position: absolute;
-    top: 4px;
-    right: 4px;
-    padding: 2px;
+    top: .1rem;
+    right: .2rem;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 50%;
     line-height: 1;
@@ -214,7 +211,7 @@ select.subtle-input {
 .favorite-button {
     background: none;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     cursor: pointer;
     color: #cd853f;
     transition: color 0.2s ease, transform 0.15s ease;

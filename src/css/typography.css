@@ -34,14 +34,14 @@ label, .filter-sort-label {
 
 /* Item Name Labels in Grids */
 .item-name-label {
-    font-size: 0.75rem; 
-    line-height: 1.3;
+    font-size: 0.65rem; 
+    line-height: 1;
     color: #5a3a22;
     font-weight: 500;
     max-width: 100%;
     word-break: break-word;
-    margin-top: 5px;
-    min-height: 1.5rem; 
+    margin-top: 2.5px;
+    min-height: 1rem; 
     display: block;
 }
 
