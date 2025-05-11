@@ -70,28 +70,27 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
         nameLabel.className = gridElement === dyeItemsGrid ? 'dye-item-name' : 'item-name-label';
 
         // Create a link to the wiki page for this item
-        const wikiLink = document.createElement('a');
-        if (gridElement === clothingItemGrid) {
-            wikiLink.className = 'wiki-link-grid-clothing'; 
-        } else {
-            wikiLink.className = 'wiki-link-grid-item'; 
-        }
-        
-        const wikiItemName = formatNameForWikiUrl(itemData.name);
-        wikiLink.setAttribute('data-umami-event', `Clicked the STARDEW WIKI link`);
-        wikiLink.setAttribute('data-umami-event-click_source', 'item-grid');
-        wikiLink.setAttribute(`data-umami-event-item_name`, formatItemNameForTracking(itemData.name));
-        wikiLink.setAttribute('data-umami-event-link', `${WIKI_BASE_URL}${wikiItemName}`);
-        wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
-        wikiLink.target = '_blank'; 
-        wikiLink.rel = 'noopener noreferrer'; 
-        wikiLink.title = `View ${itemData.name} on Stardew Valley Wiki`; 
-        wikiLink.innerHTML = `
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12,1A11,11,0,1,0,23,12,11.013,11.013,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9.011,9.011,0,0,1,12,21Zm1-3H11V16h2Zm0-4H11V6h2Z" />
-            </svg>`; 
+        if (gridElement != clothingItemGrid) {
+            const wikiLink = document.createElement('a');
+            wikiLink.className = 'wiki-link-grid-item';
 
-        gridItem.appendChild(wikiLink);
+            const wikiItemName = formatNameForWikiUrl(itemData.name);
+            wikiLink.setAttribute('data-umami-event', `Clicked the STARDEW WIKI link`);
+            wikiLink.setAttribute('data-umami-event-click_source', 'item-grid');
+            wikiLink.setAttribute(`data-umami-event-item_name`, formatItemNameForTracking(itemData.name));
+            wikiLink.setAttribute('data-umami-event-link', `${WIKI_BASE_URL}${wikiItemName}`);
+            wikiLink.href = `${WIKI_BASE_URL}${wikiItemName}`; 
+            wikiLink.target = '_blank'; 
+            wikiLink.rel = 'noopener noreferrer'; 
+            wikiLink.title = `View ${itemData.name} on Stardew Valley Wiki`; 
+            wikiLink.innerHTML = `
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12,1A11,11,0,1,0,23,12,11.013,11.013,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9.011,9.011,0,0,1,12,21Zm1-3H11V16h2Zm0-4H11V6h2Z" />
+                </svg>`; 
+
+            gridItem.appendChild(wikiLink);
+            
+        }
 
         gridItem.appendChild(img);
         gridItem.appendChild(nameLabel);
