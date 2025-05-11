@@ -7,35 +7,40 @@
 
   <title>Emily's Closet | Stardew Valley Tailoring Tool</title>
   <meta name="description"
-    content="Emily's Closet is a fan-made tool for Stardew Valley players to preview tailoring combinations, find item + cloth results, and plan their outfits with ease." />
+        content="Emily's Closet is a fan-made tool for Stardew Valley players to preview tailoring combinations, find item + cloth results, and plan their outfits with ease." />
   <meta name="keywords"
-    content="Stardew Valley, tailoring, Emily's Closet, tailoring guide, sewing machine, clothing combinations, cloth, item, fan-made tool" />
+        content="Stardew Valley, tailoring, Emily's Closet, tailoring guide, sewing machine, clothing combinations, cloth, item, fan-made tool" />
+
   <meta name="author" content="oliveruh" />
   <meta name="robots" content="index, follow" />
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://emilys-closet.neocities.org/" />
   <meta property="og:title" content="Emily's Closet | Stardew Valley Tailoring Tool" />
   <meta property="og:description"
-    content="Preview tailoring combinations and find the perfect outfit in Stardew Valley using this cozy, fan-made guide." />
+        content="Preview tailoring combinations and find the perfect outfit in Stardew Valley using this cozy, fan-made guide." />
   <meta property="og:image" content="https://emilys-closet.neocities.org/public/og-image.png" />
-  <meta property="og:url" content="https://emilys-closet.neocities.org" />
-  <meta property="og:type" content="website" />
-
+  
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Emily's Closet | Stardew Valley Tailoring Tool" />
-  <meta name="twitter:description"
-    content="Explore outfit results, find item + cloth combos, and plan your Stardew Valley fashion with Emily's Closet." />
+  <meta name="twitter:description" content="Explore cloth + item combos, preview results, and plan your Stardew Valley lookbook with Emily's Closet." />
   <meta name="twitter:image" content="https://emilys-closet.neocities.org/public/og-image.png" />
 
-  <script defer src="https://analytics.veramonte.org/script.js" data-website-id="86d685f2-91bd-4534-93e1-b45c0570a643"></script>
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png" />
+  <link rel="shortcut icon" href="/public/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/public/favicon/site.webmanifest" />
 
-  <link rel="icon" type="image/x-icon" href="public/favicon/favicon.ico" />
-
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&family=Press+Start+2P&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet" />
 
+  <!-- CSS -->
   <link rel="stylesheet" href="css/tailwind_static.css" />
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/layout.css" />
@@ -43,6 +48,15 @@
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/specific_areas.css" />
   <link rel="stylesheet" href="css/animations.css" />
+
+  <!-- Analytics -->
+  <!-- Disclaimer: This site uses anonymous analytics to help me understand how people interact with my tool. 
+       The data is used solely to identify errors, possible misuse, and to improve the experience over time. 
+       I'm also using this as a learning opportunity to better understand analytics tools, in this case, Umami, which is a
+       wonderful open-source alternative to Google Analytics. I value your privacy and do not track any personal information.
+       If you have any concerns or feedback about this, feel free to reach out at ruhanmonte.dev@gmail.com. I'd love to chat! 
+  -->
+  <script defer src="https://analytics.veramonte.org/script.js" data-website-id="86d685f2-91bd-4534-93e1-b45c0570a643"></script>
 </head>
 
 <body class="flex items-center justify-center p-4 md:p-6">
@@ -70,7 +84,7 @@
       <button 
         id="tab-spool-to-result" 
         class="tab-button active" 
-        data-mode="spoolToResult" 
+        data-mode="spoolToResult"
         data-umami-event="Navigated to a tab" 
         data-umami-event-tab_name="whatClothDoesThisItemMakes">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -82,8 +96,8 @@
       <button 
         id="tab-result-to-spool" 
         class="tab-button" 
-        data-mode="resultToSpool" 
-        data-umami-event="Navigated to a tab"
+        data-mode="resultToSpool"
+        data-umami-event="Navigated to a tab" 
         data-umami-event-tab_name="howToMakeThisCloth">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -123,7 +137,7 @@
                       <p class="empty-state-message col-span-full">Loading items...</p>
                     </div>
                   </div>
-                  <p class="italic-note">* Click an item image to see what it makes. 
+                  <p class="italic-note">* Click an item image to see what it makes.
                     </br>* The ⓘ symbol will redirect you to the item's wiki page.
                   </p>
                 </div>
@@ -149,7 +163,7 @@
                     </div>
                   </div>
                   <div id="clothing-grid-container" class="grid-container mt-1 flex-grow">
-                    <div id="clothing-item-grid" class="grid grid-cols-3 gap-2">
+                    <div id="clothing-item-grid" class="grid sm:grid-cols-4 gap-2">
                       <p class="empty-state-message col-span-full">Loading clothing...</p>
                     </div>
                   </div>
@@ -217,18 +231,29 @@
     </div>
 
     <div class="floating-buttons-container">
-      <button class="floating-btn github-btn" data-umami-event="Clicked the GITHUB button" onclick="window.open('https://github.com/oliveruh/emilys-closet', '_blank')">
-          <span class="button-text">Made by oliveruh</span>
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.565 21.795 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
-          </svg>
+      <button 
+        class="floating-btn github-btn" 
+        data-umami-event="Clicked the GITHUB button"
+        onclick="window.open('https://github.com/oliveruh/emilys-closet', '_blank')">
+        <span class="button-text">Made by oliveruh</span>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.565 21.795 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+        </svg>
       </button>
 
-      <button class="floating-btn tip-btn" data-umami-event="Clicked the DONATE button" onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=Z74ZYG2XLA4KQ', '_blank')">
-          <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 0H2V3H4V0Z" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 5H13C14.6569 5 16 6.34315 16 8V10C16 11.6569 14.6569 13 13 13H11.8293C11.4175 14.1652 10.3062 15 9 15H5C3.34315 15 2 13.6569 2 12V5ZM12 11V7H13C13.5523 7 14 7.44772 14 8V10C14 10.5523 13.5523 11 13 11H12Z" /> <path d="M10 0H12V3H10V0Z" /> <path d="M8 0H6V3H8V0Z" />
-          </svg>
-          <span class="button-text">Tip me!</span>
+      <button 
+        class="floating-btn tip-btn" 
+        data-umami-event="Clicked the DONATE button"
+        onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=Z74ZYG2XLA4KQ', '_blank')">
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 0H2V3H4V0Z" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M2 5H13C14.6569 5 16 6.34315 16 8V10C16 11.6569 14.6569 13 13 13H11.8293C11.4175 14.1652 10.3062 15 9 15H5C3.34315 15 2 13.6569 2 12V5ZM12 11V7H13C13.5523 7 14 7.44772 14 8V10C14 10.5523 13.5523 11 13 11H12Z" />
+          <path d="M10 0H12V3H10V0Z" />
+          <path d="M8 0H6V3H8V0Z" />
+        </svg>
+        <span class="button-text">Tip me!</span>
       </button>
     </div>
 
