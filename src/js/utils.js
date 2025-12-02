@@ -1,4 +1,6 @@
-// --- Utility Functions ---
+// =============================================================================
+// Utility Functions
+// =============================================================================
 
 /**
  * Handles image loading errors by replacing the src with a placeholder.
@@ -7,98 +9,106 @@
  */
 function handleImageError(imgElement) {
     const originalSrc = imgElement.dataset.originalSrc || imgElement.src;
+
     if (imgElement.src !== placeholderImgUrl) {
-         console.warn(`Image failed: ${originalSrc}. Using placeholder: ${placeholderImgUrl}`);
-         imgElement.src = placeholderImgUrl;
-         imgElement.onerror = null;
+        console.warn(`Image failed to load: '${originalSrc}'. Falling back to placeholder: '${placeholderImgUrl}'`);
+        imgElement.src = placeholderImgUrl;
+        imgElement.onerror = null;
     }
 }
 
 /**
- * Extracts the display name from a clothing key (e.g., "Sailor Shirt [Shirt]" -> "Sailor Shirt").
- * @param {string} clothingKey - The clothing key string.
- * @returns {string} The display name, or an empty string if input is invalid.
+ * Extracts the display name from a clothing key.
+ * @param {string} clothingKey - Format: "Item Name [Type]"
+ * @returns {string} The display name (e.g., "Sailor Shirt")
+ * @example getClothingDisplayName("Sailor Shirt [Shirt]") // "Sailor Shirt"
  */
 function getClothingDisplayName(clothingKey) {
-    if (!clothingKey || typeof clothingKey !== 'string') return '';
-    const lastParen = clothingKey.lastIndexOf(' [');
-    return lastParen === -1 ? clothingKey : clothingKey.substring(0, lastParen).trim();
+    if (!clothingKey || typeof clothingKey !== 'string') {
+        return '';
+    }
+
+    const bracketIndex = clothingKey.lastIndexOf(' [');
+    return bracketIndex === -1 
+        ? clothingKey 
+        : clothingKey.substring(0, bracketIndex).trim();
 }
 
 /**
- * Extracts the type from a clothing key (e.g., "Sailor Shirt [Shirt]" -> "Shirt").
- * @param {string} clothingKey - The clothing key string.
- * @returns {string|null} The clothing type or null if not found or input is invalid.
+ * Extracts the type from a clothing key.
+ * @param {string} clothingKey - Format: "Item Name [Type]"
+ * @returns {string|null} The clothing type (e.g., "Shirt") or null
+ * @example getClothingType("Sailor Shirt [Shirt]") // "Shirt"
  */
 function getClothingType(clothingKey) {
-     if (!clothingKey || typeof clothingKey !== 'string') return null;
-     const match = clothingKey.match(/\[([^\]]+)\]$/);
-     return match ? match[1] : null;
+    if (!clothingKey || typeof clothingKey !== 'string') {
+        return null;
+    }
+
+    const match = clothingKey.match(/\[([^\]]+)\]$/);
+    return match ? match[1] : null;
 }
 
 /**
- * Safely gets the image URL from the data, handling potential decoding. Falls back to placeholder.
- * Assumes the input is a string based on the JSON structure.
- * @param {string|null|undefined} imageUrl - The image URL string from JSON.
- * @returns {string} The processed image URL or placeholder URL.
+ * Safely processes an image URL, handling decoding and fallback to placeholder.
+ * @param {string|null|undefined} imageUrl - The image URL from JSON data
+ * @returns {string} The processed URL or placeholder URL
  */
 function getPrimaryImageUrl(imageUrl) {
-    let url = placeholderImgUrl; 
-    if (typeof imageUrl === 'string' && imageUrl) {
-        url = imageUrl;
+    if (typeof imageUrl !== 'string' || !imageUrl) {
+        return placeholderImgUrl;
     }
 
-    if (url !== placeholderImgUrl) {
-        try {
-            const decodedUrl = decodeURIComponent(url);
-            return decodedUrl;
-        } catch (e) {
-            console.error(`Error decoding URL: ${url}`, e);
-            return url;
-        }
+    try {
+        return decodeURIComponent(imageUrl);
+    } catch (error) {
+        console.error(`Error decoding URL: ${imageUrl}`, error);
+        return imageUrl;
     }
-    return url;
 }
 
 /**
- * Formats an item name for use in a Stardew Valley Wiki URL (replaces spaces with underscores).
- * @param {string} itemName - The item name.
- * @returns {string} The formatted item name for the URL, or empty string if input is invalid.
+ * Formats an item name for use in Stardew Valley Wiki URLs.
+ * @param {string} itemName - The item name to format
+ * @returns {string} URL-formatted name with underscores
+ * @example formatNameForWikiUrl("Ancient Fruit") // "Ancient_Fruit"
  */
 function formatNameForWikiUrl(itemName) {
-    if (!itemName || typeof itemName !== 'string') return '';
+    if (!itemName || typeof itemName !== 'string') {
+        return '';
+    }
     return itemName.replace(/ /g, '_');
 }
 
 /**
- * Formats a string by removing brackets and their contents, trimming whitespace,
- * converting to lowercase, and replacing spaces with hyphens.
- * @param {string} input - The input string to format.
- * @returns {string} The formatted string.
- * */
+ * Formats a string for analytics tracking.
+ * Removes brackets, converts to lowercase, replaces spaces with hyphens.
+ * @param {string} input - The input string to format
+ * @returns {string} Formatted tracking string
+ * @example formatItemNameForTracking("Sailor Shirt [Shirt]") // "sailor-shirt"
+ */
 function formatItemNameForTracking(input) {
     return input
-      .replace(/\[.*?\]/g, '')     
-      .trim()                      
-      .toLowerCase()               
-      .replace(/\s+/g, '-');       
-  }
+        .replace(/\[.*?\]/g, '')
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, '-');
+}
 
 /**
- * Debounce function: Limits the rate at which a function can fire.
- * Useful for event listeners like search input to prevent excessive calls.
- * @param {Function} func - The function to debounce.
- * @param {number} delay - The delay in milliseconds.
- * @returns {Function} A debounced version of the function.
+ * Creates a debounced version of a function that delays execution.
+ * Useful for rate-limiting search input handlers.
+ * @param {Function} func - The function to debounce
+ * @param {number} delay - Delay in milliseconds
+ * @returns {Function} Debounced function
  */
 function debounce(func, delay) {
-    let timeoutId; 
+    let timeoutId;
+
     return function(...args) {
         clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => {
-            func.apply(this, args);
-        }, delay);
+        timeoutId = setTimeout(() => func.apply(this, args), delay);
     };
 }
 
-console.log("Utils loaded."); 
+console.log('Utils loaded.'); 

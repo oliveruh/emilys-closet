@@ -1,72 +1,124 @@
-// --- Global Data Variables ---
-// These variables store the processed data used throughout the application.
+// =============================================================================
+// Application State Management
+// =============================================================================
 
-// Raw data loaded from JSON files
-let allClothingData = {}; // Stores raw clothing data by cloth_id
-let allSpoolData = {};    // Stores raw spool data by spool_id
-let allDyeData = {};      // Stores raw dye info by dye_id
+// -----------------------------------------------------------------------------
+// Raw Data Storage (loaded from JSON files)
+// -----------------------------------------------------------------------------
+let allClothingData = {};
+let allSpoolData = {};
+let allDyeData = {};
 
-// Processed data structures for easier access
-let tailoringRecipes = {}; 
+// -----------------------------------------------------------------------------
+// Processed Data Structures
+// -----------------------------------------------------------------------------
+let tailoringRecipes = {};
 let clothingToSpoolMap = {};
 let sortedClothingItems = [];
-let allSpoolItems = []; 
-let spoolItemImages = {}; 
-let clothingItemImages = {}; 
-let clothingTypes = new Set(); 
-let favorites = []; 
-let dyeItems = []; 
-let dyeColors = new Set(); 
+let allSpoolItems = [];
+let spoolItemImages = {};
+let clothingItemImages = {};
+let clothingTypes = new Set();
+let favorites = [];
+let dyeItems = [];
+let dyeColors = new Set();
 
-// --- DOM Elements ---
-// Cache frequently accessed DOM elements for performance.
-const loadingIndicator = document.getElementById('loading-indicator');
-const gameCard = document.querySelector('.game-card');
+// -----------------------------------------------------------------------------
+// DOM Element References (cached for performance)
+// -----------------------------------------------------------------------------
+const DOM = {
+    // Main containers
+    loadingIndicator: document.getElementById('loading-indicator'),
+    gameCard: document.querySelector('.game-card'),
 
-// Columns & Modes Containers
-const leftColMode1 = document.getElementById('left-col-mode1');
-const leftColMode2 = document.getElementById('left-col-mode2');
-const rightColMode1 = document.getElementById('right-col-mode1');
-const rightColMode2 = document.getElementById('right-col-mode2');
+    // Layout columns (mode-specific)
+    columns: {
+        leftMode1: document.getElementById('left-col-mode1'),
+        leftMode2: document.getElementById('left-col-mode2'),
+        rightMode1: document.getElementById('right-col-mode1'),
+        rightMode2: document.getElementById('right-col-mode2')
+    },
 
-// Display Areas for items and results
-const selectedSpoolDisplay = document.getElementById('selected-spool-display');
-const spoolItemGrid = document.getElementById('spool-item-grid');
-const clothingItemGrid = document.getElementById('clothing-item-grid');
-const resultDisplay = document.getElementById('result-display');
-const requiredSpoolList = document.getElementById('required-spool-list');
-const featuredContainer = document.getElementById('featured-combinations');
-const favoritesPanel = document.getElementById('favorites-panel');
-const dyeItemsGrid = document.getElementById('dye-items-grid');
+    // Display areas
+    displays: {
+        selectedSpool: document.getElementById('selected-spool-display'),
+        result: document.getElementById('result-display'),
+        featured: document.getElementById('featured-combinations'),
+        favorites: document.getElementById('favorites-panel')
+    },
 
-// Main Content Area Containers
-const mainContentArea = document.getElementById('main-content-area');
-const simulatorContent = document.getElementById('tailoring-simulator-content');
-const favoritesContent = document.getElementById('favorites-content');
-const dyeingInfoContent = document.getElementById('dyeing-info-content');
+    // Item grids
+    grids: {
+        spool: document.getElementById('spool-item-grid'),
+        clothing: document.getElementById('clothing-item-grid'),
+        dye: document.getElementById('dye-items-grid'),
+        requiredSpool: document.getElementById('required-spool-list')
+    },
 
-// Tab Buttons
-const tabSpoolToResult = document.getElementById('tab-spool-to-result');
-const tabResultToSpool = document.getElementById('tab-result-to-spool');
-const tabFavorites = document.getElementById('tab-favorites');
-const tabDyeingInfo = document.getElementById('tab-dyeing-info');
+    // Content sections
+    content: {
+        main: document.getElementById('main-content-area'),
+        simulator: document.getElementById('tailoring-simulator-content'),
+        favorites: document.getElementById('favorites-content'),
+        dyeing: document.getElementById('dyeing-info-content')
+    },
 
-// Search & Filter Input Elements
-const spoolSearchBar = document.getElementById('spool-search-bar');
-const clothingSearchBar = document.getElementById('clothing-search-bar');
-const clothingFilterType = document.getElementById('clothing-filter-type');
-const clothingSortOrder = document.getElementById('clothing-sort-order');
+    // Tab buttons
+    tabs: {
+        spoolToResult: document.getElementById('tab-spool-to-result'),
+        resultToSpool: document.getElementById('tab-result-to-spool'),
+        favorites: document.getElementById('tab-favorites'),
+        dyeingInfo: document.getElementById('tab-dyeing-info')
+    },
 
-// --- State Variables ---
-// These variables track the current state of the UI (selections, filters, mode).
-let selectedSpoolItemElement = null; 
+    // Search and filter inputs
+    inputs: {
+        spoolSearch: document.getElementById('spool-search-bar'),
+        clothingSearch: document.getElementById('clothing-search-bar'),
+        clothingFilter: document.getElementById('clothing-filter-type'),
+        clothingSort: document.getElementById('clothing-sort-order')
+    }
+};
+
+// Legacy DOM element aliases for backward compatibility
+const loadingIndicator = DOM.loadingIndicator;
+const gameCard = DOM.gameCard;
+const leftColMode1 = DOM.columns.leftMode1;
+const leftColMode2 = DOM.columns.leftMode2;
+const rightColMode1 = DOM.columns.rightMode1;
+const rightColMode2 = DOM.columns.rightMode2;
+const selectedSpoolDisplay = DOM.displays.selectedSpool;
+const spoolItemGrid = DOM.grids.spool;
+const clothingItemGrid = DOM.grids.clothing;
+const resultDisplay = DOM.displays.result;
+const requiredSpoolList = DOM.grids.requiredSpool;
+const featuredContainer = DOM.displays.featured;
+const favoritesPanel = DOM.displays.favorites;
+const dyeItemsGrid = DOM.grids.dye;
+const mainContentArea = DOM.content.main;
+const simulatorContent = DOM.content.simulator;
+const favoritesContent = DOM.content.favorites;
+const dyeingInfoContent = DOM.content.dyeing;
+const tabSpoolToResult = DOM.tabs.spoolToResult;
+const tabResultToSpool = DOM.tabs.resultToSpool;
+const tabFavorites = DOM.tabs.favorites;
+const tabDyeingInfo = DOM.tabs.dyeingInfo;
+const spoolSearchBar = DOM.inputs.spoolSearch;
+const clothingSearchBar = DOM.inputs.clothingSearch;
+const clothingFilterType = DOM.inputs.clothingFilter;
+const clothingSortOrder = DOM.inputs.clothingSort;
+
+// -----------------------------------------------------------------------------
+// UI State Variables
+// -----------------------------------------------------------------------------
+let selectedSpoolItemElement = null;
 let selectedClothingItemElement = null;
-let currentMode = 'spoolToResult'; 
+let currentMode = 'spoolToResult';
 let currentClothingFilter = 'all';
 let currentClothingSort = 'az';
-let currentDyeSearch = ''; 
+let currentDyeSearch = '';
 let currentDyeColor = 'all';
 let currentDyeStrength = 'all';
 let currentDyeSort = 'az';
 
-console.log("State initialized."); 
+console.log('State initialized.'); 

@@ -1,138 +1,149 @@
-// --- Favorites Functions ---
+// =============================================================================
+// Favorites Management
+// =============================================================================
 
 /**
- * Loads the list of favorited items from the localStorage.
+ * Loads favorites from localStorage into the favorites array.
  */
 function loadFavorites() {
-    const storedFavorites = localStorage.getItem(FAVORITES_KEY);
+    const storedData = localStorage.getItem(FAVORITES_KEY);
+
+    if (!storedData) {
+        favorites = [];
+        console.log('Favorites loaded: 0');
+        return;
+    }
 
     try {
-        favorites = storedFavorites ? JSON.parse(storedFavorites) : [];
+        const parsed = JSON.parse(storedData);
+        favorites = Array.isArray(parsed) ? parsed : [];
 
-        if (!Array.isArray(favorites)) {
-            console.warn("Stored favorites data was not an array. Resetting.");
-            favorites = [];
+        if (!Array.isArray(parsed)) {
+            console.warn('Stored favorites data was not an array. Resetting.');
         }
-    } catch (e) {
-         console.error("Error parsing favorites from localStorage:", e);
-         favorites = [];
+    } catch (error) {
+        console.error('Error parsing favorites from localStorage:', error);
+        favorites = [];
     }
-    console.log("Favorites loaded:", favorites.length); 
-}
 
-/** Saves the current `favorites` array to localStorage. */
-function saveFavorites() {
-     try {
-         localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
-     } catch (e) {
-         console.error("Error saving favorites to localStorage:", e);
-     }
+    console.log('Favorites loaded:', favorites.length);
 }
 
 /**
- * Checks if a specific clothing item (by key) is in the favorites list.
- * @param {string} clothingKey - The unique key ("Name [Type]") of the clothing item.
- * @returns {boolean} True if the item is favorited, false if not.
+ * Saves the current favorites array to localStorage.
+ */
+function saveFavorites() {
+    try {
+        localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    } catch (error) {
+        console.error('Error saving favorites to localStorage:', error);
+    }
+}
+
+/**
+ * Checks if a clothing item is in the favorites list.
+ * @param {string} clothingKey - The item key (format: "Name [Type]")
+ * @returns {boolean} True if favorited
  */
 function isFavorite(clothingKey) {
     return favorites.includes(clothingKey);
 }
 
 /**
- * Adds a clothing item to the favorites list if it's not already present.
- * @param {string} clothingKey - The unique key ("Name [Type]") of the clothing item.
- * @returns {boolean} True if the item was successfully added, false if not.
+ * Adds a clothing item to favorites.
+ * @param {string} clothingKey - The item key to add
+ * @returns {boolean} True if successfully added
  */
 function addFavorite(clothingKey) {
-    if (typeof clothingKey === 'string' && !isFavorite(clothingKey)) {
-        favorites.push(clothingKey); 
-        saveFavorites(); 
-        console.log(`Added favorite: ${clothingKey}`);
-        return true; 
+    if (typeof clothingKey !== 'string' || isFavorite(clothingKey)) {
+        return false;
     }
-    return false; 
+
+    favorites.push(clothingKey);
+    saveFavorites();
+    console.log(`Added favorite: ${clothingKey}`);
+    return true;
 }
 
 /**
- * Removes a clothing item from the favorites list if it exists.
- * @param {string} clothingKey - The unique key ("Name [Type]") of the clothing item.
- * @returns {boolean} True if the item was successfully removed, false otherwise.
+ * Removes a clothing item from favorites.
+ * @param {string} clothingKey - The item key to remove
+ * @returns {boolean} True if successfully removed
  */
 function removeFavorite(clothingKey) {
     const index = favorites.indexOf(clothingKey);
-    if (index > -1) {
-        favorites.splice(index, 1); 
-        saveFavorites();
-         console.log(`Removed favorite: ${clothingKey}`);
-        return true; 
+
+    if (index === -1) {
+        return false;
     }
-    return false;
+
+    favorites.splice(index, 1);
+    saveFavorites();
+    console.log(`Removed favorite: ${clothingKey}`);
+    return true;
 }
 
 /**
- * Toggles the favorite status of an item (adds if not favorite, removes if favorite).
- * Updates the UI of the clicked button and potentially other related buttons.
- * @param {string} clothingKey - The key of the item to toggle.
- * @param {HTMLButtonElement} buttonElement - The favorite button element that was clicked.
+ * Toggles the favorite status of an item and updates UI.
+ * @param {string} clothingKey - The item key to toggle
+ * @param {HTMLButtonElement} buttonElement - The clicked button element
  */
 function toggleFavorite(clothingKey, buttonElement) {
-     if (!clothingKey || typeof clothingKey !== 'string') {
-         console.warn("Attempted to toggle favorite with invalid key:", clothingKey);
-         return;
-     }
+    if (!clothingKey || typeof clothingKey !== 'string') {
+        console.warn('Attempted to toggle favorite with invalid key:', clothingKey);
+        return;
+    }
 
-     const wasFavorite = isFavorite(clothingKey); 
-     let success = false; 
+    const wasFavorite = isFavorite(clothingKey);
+    const success = wasFavorite ? removeFavorite(clothingKey) : addFavorite(clothingKey);
 
-     if (wasFavorite) {
-         success = removeFavorite(clothingKey);
-     } else {
-         success = addFavorite(clothingKey);
-     }
+    if (!success) {
+        return;
+    }
 
-     if (success) {
-         if (buttonElement) {
-            syncFavoriteButtonState(buttonElement, clothingKey);
-         }
+    // Update UI
+    if (buttonElement) {
+        syncFavoriteButtonState(buttonElement, clothingKey);
+    }
 
-         syncOtherFavoriteButtons(clothingKey, buttonElement);
+    syncOtherFavoriteButtons(clothingKey, buttonElement);
 
-         if (currentMode === 'favorites') {
-             displayFavoritesList();
-         }
-     }
+    if (currentMode === 'favorites') {
+        displayFavoritesList();
+    }
 }
 
 /**
- * Updates the visual appearance (star icon, title attribute) of a favorite button
- * based on whether the associated item is currently favorited.
- * @param {HTMLButtonElement} buttonElement - The button element to update.
- * @param {string} clothingKey - The item key associated with the button.
+ * Updates a favorite button's visual state based on favorite status.
+ * @param {HTMLButtonElement} buttonElement - The button to update
+ * @param {string} clothingKey - The associated item key
  */
 function syncFavoriteButtonState(buttonElement, clothingKey) {
-    if (!buttonElement) return;
-    const favoriteStatus = isFavorite(clothingKey); 
+    if (!buttonElement) {
+        return;
+    }
 
-    buttonElement.classList.toggle('is-favorite', favoriteStatus);
+    const isFav = isFavorite(clothingKey);
 
-    buttonElement.textContent = favoriteStatus ? '★' : '☆';
-
-    buttonElement.title = favoriteStatus ? 'Remove from Favorites' : 'Add to Favorites';
+    buttonElement.classList.toggle('is-favorite', isFav);
+    buttonElement.textContent = isFav ? '★' : '☆';
+    buttonElement.title = isFav ? 'Remove from Favorites' : 'Add to Favorites';
 }
 
 /**
- * Finds and updates the visual state of all favorite buttons associated with a specific item key,
- * excluding the button that might have triggered the initial toggle event.
- * @param {string} clothingKey - The item key whose buttons need syncing.
- * @param {HTMLButtonElement | null} excludeButton - The button to exclude from the update (optional).
+ * Syncs all favorite buttons for a specific item (excluding the trigger button).
+ * @param {string} clothingKey - The item key
+ * @param {HTMLButtonElement|null} excludeButton - Button to exclude from sync
  */
 function syncOtherFavoriteButtons(clothingKey, excludeButton) {
-    const otherButtons = document.querySelectorAll(`.favorite-button[data-item-key="${CSS.escape(clothingKey)}"]`);
-    otherButtons.forEach(btn => {
+    const selector = `.favorite-button[data-item-key="${CSS.escape(clothingKey)}"]`;
+    const buttons = document.querySelectorAll(selector);
+
+    buttons.forEach(btn => {
         if (btn !== excludeButton) {
             syncFavoriteButtonState(btn, clothingKey);
         }
     });
 }
 
-console.log("Favorites module loaded."); 
+console.log('Favorites module loaded.'); 

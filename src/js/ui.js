@@ -1,4 +1,10 @@
-// --- UI Update Functions ---
+// =============================================================================
+// UI Module - User Interface Components and Interactions
+// =============================================================================
+
+// =============================================================================
+// Grid Population Functions
+// =============================================================================
 
 /**
  * Populates a grid element (spool, clothing, or dye items) with items
@@ -111,6 +117,10 @@ function populateGrid(gridElement, items, filterText, clickHandler, itemDataExtr
     });
 }
 
+// =============================================================================
+// Favorite Button Functions
+// =============================================================================
+
 /**
  * Creates a favorite button element (star icon) for a clothing item.
  * @param {string} clothingKey - The item key ("Name (Type)") associated with this button.
@@ -130,6 +140,10 @@ function createFavoriteButton(clothingKey) {
      });
      return favButton;
 }
+
+// =============================================================================
+// Selection Handlers
+// =============================================================================
 
 /**
  * Handles clicking on a spool item in the grid (Mode 1).
@@ -189,6 +203,10 @@ function handleClothingItemClick(clothingKey, gridElement) {
     displayRequiredSpoolsConfirmation(clothingKey);
     populateRequiredSpoolPanel(clothingKey);
 }
+
+// =============================================================================
+// Result Display Functions (Mode 1 - Spool to Result)
+// =============================================================================
 
 /**
  * Displays the result of tailoring with a selected spool item in the main result panel (Mode 1).
@@ -309,6 +327,10 @@ function displaySpoolResult(spoolItemName) {
     resultDisplay.classList.add('animate-result-pulse');
 }
 
+// =============================================================================
+// Clothing Result Display (Mode 2 - Result to Spool)
+// =============================================================================
+
 /**
  * Displays the selected clothing item in the result panel (Mode 2).
  * Includes details like dye status, description, and notes if available.
@@ -419,6 +441,10 @@ function displayRequiredSpoolsConfirmation(clothingKey) {
      resultDisplay.classList.add('animate-result-pulse');
 }
 
+// =============================================================================
+// Required Spool Panel (Mode 2)
+// =============================================================================
+
 /**
  * Populates the left panel (Mode 2) with the list of spool items required
  * to craft the selected clothing item. Adds a wiki link button to each item.
@@ -487,6 +513,10 @@ function populateRequiredSpoolPanel(clothingKey) {
         requiredSpoolList.appendChild(li);
     });
 }
+
+// =============================================================================
+// Favorites Panel
+// =============================================================================
 
 /** Displays the list of favorited items in the Favorites tab panel. */
 function displayFavoritesList() {
@@ -559,6 +589,10 @@ function displayFavoritesList() {
         favoritesPanel.appendChild(div);
     });
 }
+
+// =============================================================================
+// UI Mode Management
+// =============================================================================
 
 /**
  * Updates the UI to reflect the selected mode (tab).
@@ -637,6 +671,10 @@ function updateUIMode(mode) {
      console.log("Simulator state reset.");
  }
 
+// =============================================================================
+// Featured Combinations
+// =============================================================================
+
 /** Displays a few random featured tailoring combinations in the dedicated panel. */
 function displayFeaturedCombinations(count = 4) {
      featuredContainer.innerHTML = ''; 
@@ -706,6 +744,10 @@ function displayFeaturedCombinations(count = 4) {
      });
      console.log("Featured combinations displayed.");
 }
+
+// =============================================================================
+// App Initialization
+// =============================================================================
 
 /**
  * Initializes the main application UI after data has been loaded and processed.
